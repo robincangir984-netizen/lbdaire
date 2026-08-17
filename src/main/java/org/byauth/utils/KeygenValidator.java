@@ -54,8 +54,8 @@ public class KeygenValidator {
                         return;
                     }
 
-                    // 2. ADIM: Makine henüz kayıtlı değilse (NO_MACHINE hatası) otomatik kaydet
-                    if (response.body().contains("\"code\":\"NO_MACHINE\"")) {
+                    // 2. ADIM: Makine henüz kayıtlı değilse (NO_MACHINE / NO_MACHINES hatası) otomatik kaydet
+                    if (response.body().contains("NO_MACHINE")) {
                         plugin.getLogger().info("[LBDaire] İlk kullanım tespit edildi. Makine Keygen'e otomatik kaydediliyor...");
 
                         String licenseId = extractLicenseId(response.body());
