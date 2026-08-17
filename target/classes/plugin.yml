@@ -1,7 +1,7 @@
 name: LbDaire
 version: '2.1'
 main: org.byauth.ByCircleGame
-api-version: '1.18'
+api-version: '1.21'
 softdepend: [PlaceholderAPI, LuckPerms]
 
 commands:

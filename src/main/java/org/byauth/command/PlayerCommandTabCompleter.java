@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class PlayerCommandTabCompleter implements TabCompleter {
 
     private final ByCircleGame plugin;
-    private final List<String> subCommands = Arrays.asList("leave", "join");
+    private final List<String> subCommands = Arrays.asList("ayril", "katil", "leave", "join");
 
     public PlayerCommandTabCompleter(ByCircleGame plugin) {
         this.plugin = plugin;
@@ -27,7 +27,7 @@ public class PlayerCommandTabCompleter implements TabCompleter {
                     .collect(Collectors.toList());
         }
 
-        if (args.length == 2 && args[0].equalsIgnoreCase("join")) {
+        if (args.length == 2 && (args[0].equalsIgnoreCase("join") || args[0].equalsIgnoreCase("katil"))) {
             return plugin.getArenaController().getArenas().keySet().stream()
                     .filter(name -> name.toLowerCase().startsWith(args[1].toLowerCase()))
                     .collect(Collectors.toList());

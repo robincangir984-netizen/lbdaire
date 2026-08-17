@@ -42,7 +42,7 @@ public class AdminCommand implements CommandExecutor {
 
         if (args[0].equalsIgnoreCase("reload")) {
             plugin.reloadPlugin();
-            sender.sendMessage(settings.PREFIX + ChatColor.GREEN + "Eklenti yeniden yüklendi!");
+            sender.sendMessage(settings.PREFIX + ChatColor.GREEN + "Eklenti başarıyla yeniden yüklendi!");
             return true;
         }
 
@@ -54,7 +54,7 @@ public class AdminCommand implements CommandExecutor {
             String arenaNameToReset = args[1];
             Arena arenaToReset = arenaController.getArenas().get(arenaNameToReset);
             if (arenaToReset == null) {
-                sender.sendMessage(settings.PREFIX + ChatColor.RED + "'" + arenaNameToReset + "' isminde bir arena bulunamadı.");
+                sender.sendMessage(settings.PREFIX + ChatColor.RED + "'" + arenaNameToReset + "' adında bir arena bulunamadı.");
                 return true;
             }
 
@@ -254,18 +254,18 @@ public class AdminCommand implements CommandExecutor {
             switch (action) {
                 case "givepoints":
                     playerDataManager.addPoints(target, amount);
-                    sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.points-given").replace("%player%", target.getName()).replace("%amount%", String.valueOf(amount)));
-                    target.sendMessage(settings.PREFIX + settings.getMessage("commands.player.points-received").replace("%amount%", String.valueOf(amount)));
+                    sender.sendMessage(settings.PREFIX + ChatColor.GREEN + target.getName() + " adlı oyuncuya " + amount + " puan verildi.");
+                    target.sendMessage(settings.PREFIX + ChatColor.GREEN + "Hesabınıza " + amount + " puan eklendi!");
                     break;
                 case "takepoints":
                     playerDataManager.addPoints(target, -amount);
-                    sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.points-taken").replace("%player%", target.getName()).replace("%amount%", String.valueOf(amount)));
-                    target.sendMessage(settings.PREFIX + settings.getMessage("commands.player.points-lost").replace("%amount%", String.valueOf(amount)));
+                    sender.sendMessage(settings.PREFIX + ChatColor.RED + target.getName() + " adlı oyuncudan " + amount + " puan silindi.");
+                    target.sendMessage(settings.PREFIX + ChatColor.RED + "Hesabınızdan " + amount + " puan düşürüldü.");
                     break;
                 case "setpoints":
                     playerDataManager.setPoints(target, amount);
-                    sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.points-set").replace("%player%", target.getName()).replace("%amount%", String.valueOf(amount)));
-                    target.sendMessage(settings.PREFIX + settings.getMessage("commands.player.points-has-set").replace("%amount%", String.valueOf(amount)));
+                    sender.sendMessage(settings.PREFIX + ChatColor.GREEN + target.getName() + " adlı oyuncunun puanı " + amount + " olarak ayarlandı.");
+                    target.sendMessage(settings.PREFIX + ChatColor.GREEN + "Puanınız " + amount + " olarak güncellendi.");
                     break;
             }
         } catch (NumberFormatException e) {
@@ -286,21 +286,22 @@ public class AdminCommand implements CommandExecutor {
         try {
             int amount = Integer.parseInt(args[2]);
             String action = args[0].toLowerCase();
+            String coinName = settings.COIN_SYSTEM_NAME;
             switch (action) {
                 case "givecoin":
                     playerDataManager.addBCoin(target, amount);
-                    sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.coins-given").replace("%player%", target.getName()).replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
-                    target.sendMessage(settings.PREFIX + settings.getMessage("commands.player.coins-received").replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
+                    sender.sendMessage(settings.PREFIX + ChatColor.GREEN + target.getName() + " adlı oyuncuya " + amount + " " + coinName + " verildi.");
+                    target.sendMessage(settings.PREFIX + ChatColor.GREEN + "Hesabınıza " + amount + " " + coinName + " eklendi!");
                     break;
                 case "takecoin":
                     playerDataManager.addBCoin(target, -amount);
-                    sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.coins-taken").replace("%player%", target.getName()).replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
-                    target.sendMessage(settings.PREFIX + settings.getMessage("commands.player.coins-lost").replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
+                    sender.sendMessage(settings.PREFIX + ChatColor.RED + target.getName() + " adlı oyuncudan " + amount + " " + coinName + " silindi.");
+                    target.sendMessage(settings.PREFIX + ChatColor.RED + "Hesabınızdan " + amount + " " + coinName + " düşürüldü.");
                     break;
                 case "setcoin":
                     playerDataManager.setBCoin(target, amount);
-                    sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.coins-set").replace("%player%", target.getName()).replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
-                    target.sendMessage(settings.PREFIX + settings.getMessage("commands.player.coins-has-set").replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
+                    sender.sendMessage(settings.PREFIX + ChatColor.GREEN + target.getName() + " adlı oyuncunun " + coinName + " miktarı " + amount + " olarak ayarlandı.");
+                    target.sendMessage(settings.PREFIX + ChatColor.GREEN + coinName + " miktarınız " + amount + " olarak güncellendi.");
                     break;
             }
         } catch (NumberFormatException e) {
@@ -316,19 +317,20 @@ public class AdminCommand implements CommandExecutor {
         try {
             int amount = Integer.parseInt(args[1]);
             String action = args[0].toLowerCase();
+            String coinName = settings.COIN_SYSTEM_NAME;
             for (Player p : Bukkit.getOnlinePlayers()) {
                 if (action.equals("giveallpoints")) {
                     playerDataManager.addPoints(p, amount);
-                    p.sendMessage(settings.PREFIX + settings.getMessage("commands.player.points-received").replace("%amount%", String.valueOf(amount)));
+                    p.sendMessage(settings.PREFIX + ChatColor.GREEN + "Hesabınıza " + amount + " puan eklendi!");
                 } else if (action.equals("giveallcoin")) {
                     playerDataManager.addBCoin(p, amount);
-                    p.sendMessage(settings.PREFIX + settings.getMessage("commands.player.coins-received").replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
+                    p.sendMessage(settings.PREFIX + ChatColor.GREEN + "Hesabınıza " + amount + " " + coinName + " eklendi!");
                 }
             }
             if (action.equals("giveallpoints")) {
-                sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.points-given-all").replace("%amount%", String.valueOf(amount)));
+                sender.sendMessage(settings.PREFIX + ChatColor.GREEN + "Çevrim içi olan tüm oyunculara " + amount + " puan dağıtıldı.");
             } else if (action.equals("giveallcoin")) {
-                sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.coins-given-all").replace("%amount%", String.valueOf(amount)).replace("%coin_name%", settings.COIN_SYSTEM_NAME));
+                sender.sendMessage(settings.PREFIX + ChatColor.GREEN + "Çevrim içi olan tüm oyunculara " + amount + " " + coinName + " dağıtıldı.");
             }
         } catch (NumberFormatException e) {
             sender.sendMessage(settings.PREFIX + settings.getMessage("errors.invalid-number"));
@@ -383,9 +385,8 @@ public class AdminCommand implements CommandExecutor {
                 VictoryEffects.playWardensWrath(target, plugin);
                 break;
         }
-        sender.sendMessage(settings.PREFIX + settings.getMessage("commands.admin.test-effect-played").replace("%effect%", effect.getDisplayName()).replace("%player%", target.getName()));
+        sender.sendMessage(settings.PREFIX + ChatColor.GREEN + "'" + effect.getDisplayName() + "' efekti " + target.getName() + " üzerinde başarıyla oynatıldı.");
     }
-
 
     private void sendHelpMessage(CommandSender sender) {
         for (String line : settings.getMessageList("commands.admin-help")) {

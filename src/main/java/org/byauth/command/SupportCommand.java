@@ -24,7 +24,7 @@ public class SupportCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage("Bu komutu sadece oyuncular kullanabilir.");
+            sender.sendMessage(settings.format(settings.getMessage("errors.players-only")));
             return true;
         }
 

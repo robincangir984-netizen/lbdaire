@@ -67,7 +67,7 @@ public class AdminCommandTabCompleter implements TabCompleter {
                         .collect(Collectors.toList());
             }
             List<String> amountCommands = Arrays.asList("givepoints", "takepoints", "setpoints", "givecoin", "takecoin", "setcoin", "giveallpoints", "giveallcoin");
-            if(amountCommands.contains(subCommand)) {
+            if (amountCommands.contains(subCommand)) {
                 return Arrays.asList("10", "100", "1000");
             }
             if (subCommand.equals("setteam_size")) {

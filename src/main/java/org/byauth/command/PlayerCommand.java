@@ -3,7 +3,6 @@ package org.byauth.command;
 import org.byauth.ByCircleGame;
 import org.byauth.controller.ArenaController;
 import org.byauth.utils.SettingsManager;
-import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -24,7 +23,7 @@ public class PlayerCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage(settings.getMessage("errors.players-only"));
+            sender.sendMessage(settings.format(settings.getMessage("errors.players-only")));
             return true;
         }
 
@@ -42,7 +41,7 @@ public class PlayerCommand implements CommandExecutor {
             return true;
         }
 
-        if (args[0].equalsIgnoreCase("leave")) {
+        if (args[0].equalsIgnoreCase("ayril") || args[0].equalsIgnoreCase("leave")) {
             if (arenaController.getArenaByPlayerIncludingSpectators(player) == null) {
                 player.sendMessage(settings.PREFIX + settings.getMessage("errors.not-in-any-arena"));
                 return true;
@@ -57,7 +56,7 @@ public class PlayerCommand implements CommandExecutor {
 
     private void sendHelpMessage(CommandSender sender) {
         for (String line : settings.getMessageList("commands.player-help")) {
-            sender.sendMessage(line);
+            sender.sendMessage(settings.format(line));
         }
     }
 }
