@@ -3,7 +3,7 @@
 <!--
   yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
 
-  Logfile created on Mon Aug 17 18:01:35 UTC 2026
+  Logfile created on Mon Aug 17 19:36:38 UTC 2026
 
   Jar file to be obfuscated:           ByCircleGame-1.0.jar
   Target Jar file for obfuscated code: ByCircleGame-1.0.jar
@@ -204,8 +204,8 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!--
-  Memory in use after class data structure built: 36783576 bytes
-  Total memory available                        : 122683392 bytes
+  Memory in use after class data structure built: 31923064 bytes
+  Total memory available                        : 109051904 bytes
 -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
