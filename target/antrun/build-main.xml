@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <taskdef classname="com.yworks.yguard.YGuardTask" name="yguard" classpathref="maven.runtime.classpath" />
+    <yguard>
+      <inoutpair in="/workspaces/lbdaire/target/ByCircleGame-1.0.jar" out="/workspaces/lbdaire/target/ByCircleGame-1.0.jar" />
+      <rename mainclass="org.byauth.ByCircleGame">
+        <keep>
+          <class methods="public" classes="public" fields="public">
+            <patternset>
+              <include name="org.byauth.ByCircleGame" />
+            </patternset>
+          </class>
+        </keep>
+      </rename>
+    </yguard>
+  </target>
+</project>

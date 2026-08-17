@@ -1,0 +1,173 @@
+# LbDaire Mesaj Ayarları
+# %player%: Oyuncu adı
+# %arena%: Arena adı
+# %displayname%: Arenanın görünen adı
+# %amount%: Miktar (puan, coin vb.)
+# %current%: Mevcut oyuncu sayısı
+# %max%: Maksimum oyuncu sayısı
+# %time%: Süre (saniye)
+# %size%: Takım boyutu
+# %team_name%: Takım adı
+# %team_color%: Takım rengi
+# %coin_name%: Coin sistemi adı
+# %effect%: Efekt adı
+# %killer%: Öldüren oyuncu adı
+# %points%: Puan miktarı
+# %coins%: Coin miktarı
+# %spawner%: Doğacak oyuncu adı
+# %waiter%: Bekleyecek oyuncu adı
+# %spawners%: Doğacak oyuncular listesi
+# %duration%: Süre (saniye)
+# %buff_name%: Buff/Güçlendirme adı
+# %rounds%: Round süreleri
+# %times%: Shulker despawn süreleri
+# %world%: Dünya adı
+# %rank%: Rank adı
+# %target%: Hedef oyuncu adı
+# %item%: Eşya adı
+# %price%: Fiyat
+
+errors:
+  players-only: "&cBu komutu sadece oyuncular kullanabilir."
+  player-not-found: "&c'%player%' adında bir oyuncu bulunamadı."
+  arena-not-found: "&cArena bulunamadı."
+  arena-in-game: "&cBu arena zaten oyunda."
+  arena-full: "&cBu arena dolu."
+  arena-not-ready: "&cBu arena henüz hazır değil."
+  arena-resetting: "&cBu arena şu anda sıfırlanıyor, lütfen bekleyin."
+  arena-force-reset: "&cArena yönetici tarafından sıfırlandığı için oyundan atıldın."
+  already-in-arena: "&cZaten bir arenadasın."
+  not-in-any-arena: "&cHerhangi bir arenada değilsin."
+  team-full: "&cBu takım dolu."
+  not-in-a-team: "&cZaten bir takımda değilsin."
+  already-in-team: "&cZaten bu takımdasın."
+  team-size-too-small: "&cTakım boyutu en az 1 olmalıdır."
+  invalid-number: "&cGeçersiz bir sayı girdiniz."
+  world-not-found: "&c'%world%' dünyası bulunamadı, eklenti hazır değil."
+  game-interrupted: "&cDevam eden bir oyuna bağlanmaya çalıştığın için lobiye gönderildin."
+  cannot-place-on-border: "&cBu bloğu sınırların üzerine koyamazsın."
+  cannot-change-gamemode-spectator: "&cİzleyiciyken oyun modunu değiştiremezsin."
+  cannot-change-gamemode-player: "&cOyundayken oyun modunu değiştiremezsin."
+  team-already-has-buff: "&cTakımının zaten aktif bir güçlendirmesi var."
+  effect-not-found: "&c'%effect%' ID'li bir efekt bulunamadı."
+  special-item-disabled: "&cBu özel eşya şu anda devre dışı."
+
+lobby:
+  player-join: "&e%player% &7oyuna katıldı! (&a%current%&7/&c%max%&7)"
+  player-leave: "&e%player% &7oyundan ayrıldı! (&a%current%&7/&c%max%&7)"
+  countdown-starting: "&aOyun &e%time% &asaniye içinde başlıyor..."
+  countdown-cancelled-players: "&cOyuncu sayısı yetersiz olduğu için geri sayım iptal edildi."
+  countdown-cancelled-teams: "&cOyunu başlatmak için yeterli takım yok! (En az %min_teams% takım gerekli)"
+  team-select: "&7Sen artık %team_color%%team_name% &7takımındasın!"
+  team-unselect: "&7Takım seçimini iptal ettin."
+
+game:
+  win-message: "&aOyunu %team_color%%team_name% &atakımı kazandı!"
+  draw-message: "&eOyun berabere bitti!"
+  elimination-broadcast: "&c%player% elendi!"
+  elimination-by-player-broadcast: "&c%player%&e, &c%killer% &etarafından elendi!"
+  loot-despawned: "&eOrtadaki sandıklar kayboldu!"
+  cobweb-elimination: "&cÖrümcek ağında çok uzun süre kaldığın için elendin!"
+  team-buff-activated: "%team_color%%team_name% &atakımı &e%duration% &asaniyeliğine &b%buff_name% &aetkisi kazandı!"
+  team-buff-expired: "%team_color%%team_name% &atakımının &b%buff_name% &eetkisi sona erdi."
+  inter-round-countdown: "&aYeni tur &e%time% &asaniye içinde başlıyor."
+
+titles:
+  inter-round-selecting-title: "&aYeni Tur Başlıyor"
+  inter-round-selecting-subtitle: "&fKalan Süre: &e%time%"
+  spawner-selected-title: "&aTakımın Doğuyor!"
+  spawner-selected-subtitle-solo: "&e%spawner% &fdoğacak!"
+  spawner-selected-subtitle: "&e%spawner% &fdoğacak, &e%waiter% &fbekleyecek!"
+  spawner-selected-subtitle-multi: "&e%spawners% &fdoğacak!"
+  sudden-death-title: "&4ANI ÖLÜM"
+  sudden-death-subtitle: "&cHayatta kalmak için savaş!"
+  winner-title: "&6&lKAZANAN"
+
+commands:
+  player:
+    gui-opened: "&aArena seçim menüsü açıldı."
+    points-received: "&a+&e%amount% &apuan aldın!"
+    points-lost: "&c-%e%amount% &cpuan kaybettin!"
+    points-has-set: "&ePuanın &a%amount% &eolarak ayarlandı!"
+    coins-received: "&a+&e%amount% %coin_name% &aaldın!"
+    coins-lost: "&c-%e%amount% %coin_name% &ckaybettin!"
+    coins-has-set: "&e%coin_name% miktarın &a%amount% &eolarak ayarlandı!"
+  player-help:
+    - "&6/circlegame &7- Arena seçim menüsünü açar."
+    - "&6/circlegame leave &7- Bulunduğun arenadan ayrılırsın."
+  admin:
+    set-main-spawn: "&aAna lobi başarıyla ayarlandı."
+    set-lobby: "&a%arena% arenasının lobisi ayarlandı."
+    set-center-generated: "&a%arena% arenası oluşturuldu ve merkezi ayarlandı."
+    set-display-name: "&a%arena% arenasının görünen adı '%displayname%&a' olarak ayarlandı."
+    set-team-size: "&a%arena% arenasının takım boyutu &e%size% &aolarak ayarlandı."
+    set-rounds: "&a%arena% arenasının tur süreleri &e%rounds% &aolarak ayarlandı."
+    set-shulker-timers: "&a%arena% arenasının sandık kaybolma süreleri &e%times% &aolarak ayarlandı."
+    points-given: "&a%player% adlı oyuncuya &e%amount% &apuan verildi."
+    points-taken: "&c%player% adlı oyuncudan &e%amount% &cpuan alındı."
+    points-set: "&e%player% adlı oyuncunun puanı &a%amount% &eolarak ayarlandı."
+    coins-given: "&a%player% adlı oyuncuya &e%amount% %coin_name% &averildi."
+    coins-taken: "&c%player% adlı oyuncudan &e%amount% %coin_name% &calındı."
+    coins-set: "&e%player% adlı oyuncunun %coin_name% miktarı &a%amount% &eolarak ayarlandı."
+    points-given-all: "&aTüm oyunculara &e%amount% &apuan verildi."
+    coins-given-all: "&aTüm oyunculara &e%amount% %coin_name% &averildi."
+    test-effect-played: "&a%effect% &aefekti &e%player% &aüzerinde oynatıldı."
+  admin-help:
+    - "&6&lByCircleGame Admin Komutları"
+    - "&e/cga reload &7- Eklenti ayarlarını yeniden yükler."
+    - "&e/cga setmainspawn &7- Ana bekleme lobisini ayarlar."
+    - "&e/cga resetarena <arena> &7- Bir arenayı zorla sıfırlar."
+    - "&e/cga setlobby <arena> &7- Arenanın bekleme lobisini ayarlar."
+    - "&e/cga setcenter <arena> &7- Arenanın merkezini ayarlar ve oluşturur."
+    - "&e/cga setdisplayname <arena> <isim> &7- Arenanın görünen adını ayarlar."
+    - "&e/cga setteam_size <arena> <sayı> &7- Takım başına oyuncu sayısını ayarlar."
+    - "&e/cga setrounds <arena> <süre1> <süre2>... &7- Tur sürelerini ayarlar."
+    - "&e/cga setshulkertimers <arena> <süre1>... &7- Sandık kaybolma sürelerini ayarlar."
+    - "&e/cga give/take/set/giveall points <oyuncu> <miktar> &7- Puan işlemleri."
+    - "&e/cga give/take/set/giveall coin <oyuncu> <miktar> &7- Coin işlemleri."
+    - "&e/cga testeffect <efekt_id> [oyuncu] &7- Bir zafer efektini test eder."
+
+points:
+  on-kill: "&a+&e%points% &apuan (Oyuncu Öldürme)"
+  on-win: "&a+&e%points% &apuan (Zafer!)"
+  on-round-survive: "&a+&e%points% &apuan (Turda Hayatta Kalma)"
+
+coin:
+  on-kill: "&a+&e%coins% %coin_name% &a(Oyuncu Öldürme)"
+  on-win: "&a+&e%coins% %coin_name% &a(Zafer!)"
+  on-round-survive: "&a+&e%coins% %coin_name% &a(Turda Hayatta Kalma)"
+
+gui:
+  lobby-title: "&8Arena Seçimi"
+  team-select-title: "&8Takımını Seç"
+  arena-item:
+    status-waiting: "&aDurum: Bekleniyor"
+    status-inprogress: "&eDurum: Oyunda"
+    status-resetting: "&cDurum: Sıfırlanıyor"
+    click-to-join: "&bKatılmak için tıkla!"
+    click-to-spectate: "&bİzlemek için tıkla!"
+    please-wait: "&eLütfen bekleyin..."
+    players: "&7Oyuncular: &a%current%/%max%"
+    team-size: "&7Takım Boyutu: &e%size%"
+  team-item:
+    click-to-join: "&bBu takıma katılmak için tıkla."
+    players: "&7Oyuncular: &a%current%/%max%"
+  unselect-item-name: "&cTakımdan Ayrıl"
+  unselect-item-lore: "&7Seçtiğin takımdan ayrılmak için tıkla."
+
+spectator:
+  start-spectating: "&a%arena% &aarenasını izlemeye başladın."
+  leave-spectating: "&c%arena% &carenasını izlemeyi bıraktın."
+  help: "&7Takım arkadaşlarına yardım etmek için &e/destekle &7komutunu kullan."
+
+support:
+  not-a-spectator: "&cBu komutu kullanmak için bir takım arkadaşını izliyor olmalısın."
+  no-living-teammates: "&cDestek olabileceğin hayatta takım arkadaşın yok."
+  gui-teammate-title: "&8Kime Destek Olacaksın?"
+  gui-shop-title: "&8Destek Dükkanı: &a%player%"
+  purchase-success-spectator: "&a%target% &aadlı oyuncuya başarıyla &e%item% &agönderdin."
+  purchase-notification-teammate: "&a%spectator% &aadlı izleyici sana &e%item% &agönderdi!"
+  insufficient-currency: "&cBu eşyayı almak için yeterli %coin_name% yok! (&e%coins%&c)"
+
+rank:
+  rank-up-broadcast: "&b%player% &aadlı oyuncu &e%rank% &arütbesine ulaştı! Tebrikler!"

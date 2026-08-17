@@ -1,0 +1,258 @@
+# ByCircleGame Kozmetik Ayarları
+
+# Ana kozmetik menüsünün başlığı
+main-menu-title: "&8Kozmetik Menüsü"
+
+# Zafer Efektleri Menüsü
+victory-effects:
+  gui-title: "&8Zafer Efektleri"
+  items:
+    - id: 'yildirim_firtinasi'
+      display-name: "&bYıldırım Fırtınası"
+      material: 'BEACON'
+      slot: 20
+      price: 2500
+      lore-available:
+        - "&7Etrafında yıldırımlar çaktırarak"
+        - "&7zaferini kutla!"
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - ""
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu muhteşem efekti kullan."
+        - ""
+        - "&eSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&a✔ SEÇİLDİ"
+
+    - id: 'melek_inisi'
+      display-name: "&eMelek İnişi"
+      material: 'FEATHER'
+      slot: 22
+      price: 3500
+      lore-available:
+        - "&7Gökyüzünden yavaşça süzülerek"
+        - "&7kutsal bir zafer sergile."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - ""
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu kutsal efekti kullan."
+        - ""
+        - "&eSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&a✔ SEÇİLDİ"
+
+    - id: 'ejderha_kukremesi'
+      display-name: "&cEjderha Kükremesi"
+      material: 'DRAGON_HEAD'
+      slot: 24
+      price: 5000
+      lore-available:
+        - "&7Güçlü bir kükremeyle etrafına"
+        - "&7ateş ve duman saç."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - ""
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu efsanevi efekti kullan."
+        - ""
+        - "&eSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&a✔ SEÇİLDİ"
+
+    - id: 'cehennem_lordu'
+      display-name: "&4Cehennem Lordu"
+      material: 'WITHER_SKELETON_SKULL'
+      slot: 29
+      price: 6000
+      lore-available:
+        - "&7Nether'in gücünü çağırarak"
+        - "&7düşmanlarına korku sal."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - ""
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu şeytani efekti kullan."
+        - ""
+        - "&eSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&a✔ SEÇİLDİ"
+
+    - id: 'kozmik_hukumdarr'
+      display-name: "&5Kozmik Hükümdar"
+      material: 'END_CRYSTAL'
+      slot: 31
+      price: 7500
+      lore-available:
+        - "&7Evrenin kontrolünü eline al ve"
+        - "&7gezegenleri etrafında döndür."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - ""
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu kozmik efekti kullan."
+        - ""
+        - "&eSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&a✔ SEÇİLDİ"
+
+    - id: 'gardiyanin_gazabi'
+      display-name: "&9Gardiyan'ın Gazabı"
+      material: 'SCULK_SHRIEKER'
+      slot: 33
+      price: 8500
+      lore-available:
+        - "&7Derinliklerin karanlığını çağır ve"
+        - "&7bir Warden'ın gazabını serbest bırak."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - ""
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu korkutucu efekti kullan."
+        - ""
+        - "&eSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&a✔ SEÇİLDİ"
+
+# Öldürme Efektleri Menüsü
+kill-effects:
+  gui-title: "&8Öldürme Efektleri"
+  items:
+    - id: "kan_girdabi"
+      display-name: "&cKan Girdabı"
+      material: REDSTONE
+      slot: 10
+      price: 300
+      lore-available:
+        - "&7Bir oyuncu öldürdüğünde"
+        - "&7kurbanın etrafında kan efekti çıkar."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu efekte sahipsin."
+        - ""
+        - "&aSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&e&lSEÇİLİ"
+    - id: "totem_patlamasi"
+      display-name: "&eTotem Patlaması"
+      material: TOTEM_OF_UNDYING
+      slot: 11
+      price: 350
+      lore-available:
+        - "&7Bir oyuncu öldürdüğünde"
+        - "&7kurbanın olduğu yerden totem parçacıkları fırlar."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu efekte sahipsin."
+        - ""
+        - "&aSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&e&lSEÇİLİ"
+    - id: "ruh_emici"
+      display-name: "&7Ruh Emici"
+      material: SOUL_LANTERN
+      slot: 12
+      price: 400
+      lore-available:
+        - "&7Bir oyuncu öldürdüğünde"
+        - "&7kurbanın ruhu gökyüzüne yükselir."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu efekte sahipsin."
+        - ""
+        - "&aSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&e&lSEÇİLİ"
+
+# Ok İzi Efektleri Menüsü
+arrow-effects:
+  gui-title: "&8Ok İzi Efektleri"
+  items:
+    - id: "alev_izi"
+      display-name: "&6Alev İzi"
+      material: BLAZE_POWDER
+      slot: 10
+      price: 250
+      lore-available:
+        - "&7Attığın okların arkasından"
+        - "&7alev parçacıkları çıkar."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu efekte sahipsin."
+        - ""
+        - "&aSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&e&lSEÇİLİ"
+    - id: "kalp_izi"
+      display-name: "&dKalp İzi"
+      material: POPPY
+      slot: 11
+      price: 200
+      lore-available:
+        - "&7Attığın okların arkasından"
+        - "&7sevgi dolu kalpler çıkar."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu efekte sahipsin."
+        - ""
+        - "&aSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&e&lSEÇİLİ"
+    - id: "muzik_notalari"
+      display-name: "&bMüzik Notaları"
+      material: JUKEBOX
+      slot: 12
+      price: 300
+      lore-available:
+        - "&7Attığın oklar arkasında"
+        - "&7renkli notalar bırakır."
+        - ""
+        - "&7Fiyat: &e%price% %coin_name%"
+        - "&aSatın almak için tıkla!"
+      lore-owned:
+        - "&7Bu efekte sahipsin."
+        - ""
+        - "&aSeçmek için tıkla!"
+      lore-selected:
+        - "&7Bu efekt şu anda seçili."
+        - ""
+        - "&e&lSEÇİLİ"

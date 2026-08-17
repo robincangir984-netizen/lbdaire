@@ -1,0 +1,70 @@
+# ByCircleGame Eşya ve Ganimet Ayarları
+
+# İsmi, açıklaması, büyüsü olan özel eşyaları burada tanımlayın.
+# Bu eşyaları aşağıdaki loot-tiers bölümünde 'special:ID' şeklinde kullanabilirsiniz.
+special-items:
+  beyazlatici-kartopu:
+    material: SNOWBALL
+    name: "&fBeyazlatıcı Kartopu"
+    lore:
+      - "&7Düşman takımın bloğuna isabet ederse"
+      - "&7o bloğu beyaza boyar."
+  hiz-mumu:
+    material: LIME_CANDLE
+    name: "&aTakım Hızlandırma Mumu"
+    lore:
+      - "&7Yere konulduğunda 30 saniyeliğine"
+      - "&7tüm takım arkadaşlarına Hız II verir."
+  kuvvet-mumu:
+    material: RED_CANDLE
+    name: "&cTakım Kuvvet Mumu"
+    lore:
+      - "&7Yere konulduğunda 15 saniyeliğine"
+      - "&7tüm takım arkadaşlarına Kuvvet I verir."
+  yenilenme-mumu:
+    material: PINK_CANDLE
+    name: "&dTakım Yenilenme Mumu"
+    lore:
+      - "&7Yere konulduğunda 10 saniyeliğine"
+      - "&7tüm takım arkadaşlarına Yenilenme II verir."
+
+# Her tur için Shulker kutularından çıkabilecek eşyalar.
+# Format: 'MATERYAL_ADI,MIKTAR,ŞANS_AĞIRLIĞI'
+# ŞANS_AĞIRLIĞI: Yüksek sayı, çıkma ihtimalini arttırır. Örneğin 100 şanslı bir item, 10 şanslı bir itemden 10 kat daha sık çıkar.
+# Özel eşyalar için: 'special:eşya_id,MIKTAR,ŞANS_AĞIRLIĞI'
+loot-tiers:
+  tier-1:
+    - 'STONE_SWORD,1,100'
+    - 'STONE_AXE,1,80'
+    - 'LEATHER_HELMET,1,70'
+    - 'LEATHER_CHESTPLATE,1,60'
+    - 'OAK_PLANKS,24,100'
+    - 'COBBLESTONE,32,100'
+    - 'COOKED_BEEF,8,100'
+    - 'ARROW,12,90'
+    - 'SNOWBALL,8,50'
+
+  tier-2:
+    - 'IRON_SWORD,1,100'
+    - 'IRON_AXE,1,80'
+    - 'BOW,1,90'
+    - 'SHIELD,1,60'
+    - 'CHAINMAIL_CHESTPLATE,1,70'
+    - 'IRON_HELMET,1,70'
+    - 'IRON_BOOTS,1,70'
+    - 'ARROW,24,100'
+    - 'GOLDEN_APPLE,1,50'
+    - 'TNT,2,40'
+    - 'special:beyazlatici-kartopu,16,30'
+
+  tier-3:
+    - 'DIAMOND_SWORD,1,80'
+    - 'IRON_AXE,1,100'
+    - 'BOW,1,100'
+    - 'SPECTRAL_ARROW,8,60'
+    - 'DIAMOND_HELMET,1,50'
+    - 'DIAMOND_BOOTS,1,50'
+    - 'IRON_CHESTPLATE,1,90'
+    - 'TOTEM_OF_UNDYING,1,10'
+    - 'ENCHANTED_GOLDEN_APPLE,1,15'
+    - 'ENDER_PEARL,4,60'

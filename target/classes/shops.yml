@@ -1,0 +1,76 @@
+# İzleyici Destek Mağazası Ayarları
+
+shop-items:
+  # Her bir '-' bir eşyayı temsil eder.
+  # id: Eşyanın benzersiz kimliği (sadece kod için, boşluksuz ve Türkçe karakter olmadan yazın).
+  # material: Eşyanın Minecraft materyal adı.
+  # quantity: Satın alındığında oyuncuya verilecek miktar.
+  # price: Eşyanın puan cinsinden fiyatı.
+  # display-name: Mağaza menüsünde görünecek ad.
+  # lore: Mağaza menüsünde görünecek açıklama.
+  # special-item-id: Eğer bu items.yml'deki özel bir eşya ise, onun ID'sini buraya yazın.
+
+  - id: 'destek_kartopu'
+    material: SNOWBALL
+    quantity: 5
+    price: 75
+    display-name: "&fBeyazlatıcı Kartopu (x5)"
+    lore:
+      - "&7Takım arkadaşına 5 adet Beyazlatıcı Kartopu gönder."
+      - "&7Fiyat: &e%price% Puan"
+    special-item-id: 'beyazlatici-kartopu'
+
+  - id: 'altin_elma'
+    material: GOLDEN_APPLE
+    quantity: 2
+    price: 100
+    display-name: "&6Altın Elma (x2)"
+    lore:
+      - "&7Takım arkadaşına 2 adet Altın Elma gönder."
+      - "&7Fiyat: &e%price% Puan"
+
+  - id: 'ok_paketi'
+    material: ARROW
+    quantity: 16
+    price: 50
+    display-name: "&7Ok Paketi (x16)"
+    lore:
+      - "&7Takım arkadaşına 16 adet Ok gönder."
+      - "&7Fiyat: &e%price% Puan"
+
+  - id: 'demir_kilic'
+    material: IRON_SWORD
+    quantity: 1
+    price: 150
+    display-name: "&7Demir Kılıç"
+    lore:
+      - "&7Takım arkadaşına bir Demir Kılıç gönder."
+      - "&7Fiyat: &e%price% Puan"
+
+  - id: 'elmas_kilic'
+    material: DIAMOND_SWORD
+    quantity: 1
+    price: 300
+    display-name: "&bElmas Kılıç"
+    lore:
+      - "&7Takım arkadaşına bir Elmas Kılıç gönder."
+      - "&7Fiyat: &e%price% Puan"
+
+  - id: 'cekimbombasi'
+    material: OBSIDIAN
+    quantity: 1
+    price: 400
+    display-name: "&8Çekim Bombası"
+    lore:
+      - "&7Takım arkadaşına bir Çekim Bombası gönder."
+      - "&7Fiyat: &e%price% Puan"
+    special-item-id: 'cekim-bombasi'
+
+  - id: 'olumsuzluk_totemi'
+    material: TOTEM_OF_UNDYING
+    quantity: 1
+    price: 1000
+    display-name: "&eÖlümsüzlük Totemi"
+    lore:
+      - "&7Takım arkadaşına bir Ölümsüzlük Totemi gönder."
+      - "&7Fiyat: &e%price% Puan"

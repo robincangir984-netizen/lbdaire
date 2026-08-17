@@ -1,0 +1,100 @@
+# ByCircleGame Genel Ayarlar
+
+# Mesajların başında görünecek olan eklenti ön eki.
+plugin-prefix: "&6[DaireOyunu] &r"
+
+# Puan Sistemi Ayarları (Sıralama sistemi için kullanılıyor)
+points-system:
+  # Sistemi tamamen açıp kapatır.
+  enabled: true
+  # Bir oyuncu öldürüldüğünde katile verilecek puan.
+  on-kill: 10
+  # Maçı kazanan takımdaki her oyuncuya verilecek puan.
+  on-win: 50
+  # Bir turu hayatta kalarak tamamlayan her oyuncuya verilecek puan.
+  on-round-survive: 5
+
+# Coin Sistemi Ayarları (Mağaza sistemi için)
+coin-system:
+  enabled: true
+  # Para biriminin oyun içindeki adı.
+  name: "BCoin"
+  # Bir oyuncu öldürüldüğünde katile verilecek coin miktarı.
+  on-kill: 5
+  # Maçı kazanan takımdaki her oyuncuya verilecek coin miktarı.
+  on-win: 25
+  # Bir turu hayatta kalarak tamamlayan her oyuncuya verilecek coin miktarı.
+  on-round-survive: 2
+
+game-rules:
+  # Geri sayımın başlaması için gereken minimum oyuncu sayısı.
+  min-players-to-start: 2
+  # Geri sayımın başlaması için gereken minimum farklı takım sayısı.
+  min-teams-to-start: 2
+  # Lobideki ana geri sayım süresi (saniye).
+  lobby-countdown-seconds: 15
+  # Turlar arasındaki bekleme süresi (saniye).
+  inter-round-countdown-seconds: 10
+  # Oyuna başlarken süzülme efektinin süresi (tick olarak, 20 tick = 1 saniye).
+  slow-fall-duration-ticks: 200
+  # Oyuna başlarken düşme hasarı korumasının süresi (saniye).
+  fall-damage-immunity-seconds: 10
+  # Örümcek ağında takılı kalınca elenme süresi (saniye).
+  cobweb-elimination-seconds: 15
+  # Oyun bittikten sonra arenanın 'Yenileniyor' modunda kalma süresi (saniye).
+  resetting-duration-seconds: 10
+  # Son tur bittiğinde başlayacak olan ani ölüm (sudden death) sınırının daralma süresi (saniye).
+  sudden-death-duration-seconds: 60
+  # Kartopu hasarı miktarı.
+  snowball-damage: 1.0
+  # Anlık patlayan TNT süresi (saniye).
+  instant-tnt-fuse-seconds: 3
+  # Maç sonu kutlama süresi (saniye).
+  celebration-duration-seconds: 5
+
+lobby:
+  team-selector-item:
+    material: "BARREL"
+    slot: 4
+    name: "&aTakım Seç (Sağ Tıkla)"
+    lore:
+      - "&7Oynamak istediğin takımı seçmek için tıkla."
+  leave-lobby-item:
+    material: "OAK_DOOR"
+    slot: 8
+    name: "&cLobiden Ayrıl (Sağ Tıkla)"
+    lore:
+      - "&7Ana lobiye geri dönmek için tıkla."
+  # Ana adanın etrafındaki koruma yarıçapı.
+  main-island-radius: 10
+  # Takım adaları arasındaki mesafe.
+  team-island-distance: 15.0
+  # Takım adasının yarıçapı.
+  team-island-radius: 4
+  # Ana doğma (spawn) alanı koruma yarıçapı.
+  main-spawn-protection-radius: 30
+
+arena:
+  # Oynanabilir alanın merkezden yarıçapı.
+  radius: 24
+  # Ortadaki tarafsız bölgenin yarıçapı.
+  center-radius: 3
+  # Arena zemininin Y yüksekliği.
+  y-level: 150
+  # Lav seviyesinin Y yüksekliği (oyuncular buraya değerse elenir).
+  lava-y-level: 130
+  # Başlangıç kapsüllerinin arenanın kenarından ne kadar içeride olacağı.
+  pod-radius-offset: 2.0
+  # Başlangıç kapsüllerinin arena zemininden ne kadar yüksekte olacağı.
+  pod-y-offset: 15
+
+sounds:
+  # Sesler için Bukkit Sound isimlerini kullanın.
+  # Format: 'SES_ADI,SES_GUCU,SES_TONU'
+  player-join: 'ENTITY_EXPERIENCE_ORB_PICKUP,1.0,1.2'
+  player-leave: 'ENTITY_ITEM_PICKUP,1.0,0.8'
+  lobby-countdown-tick: 'BLOCK_NOTE_BLOCK_HAT,1.0,1.0'
+  lobby-countdown-start: 'ENTITY_PLAYER_LEVELUP,1.0,1.2'
+  game-start: 'ENTITY_ENDER_DRAGON_GROWL,1.0,1.5'
+  # Bir takım dolduğunda çıkan ses (hata sesi).
+  team-select-full: 'ENTITY_VILLAGER_NO,1.0,1.0'

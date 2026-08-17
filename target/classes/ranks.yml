@@ -1,0 +1,36 @@
+# LbDaire Rank Sistemi
+# Bu dosya, oyuncuların belirli puanlara ulaştığında hangi rütbeye terfi edeceğini ve
+# terfi sırasında hangi komutların çalıştırılacağını belirler.
+
+# Rank sistemini tamamen açıp kapatır.
+enabled: true
+
+# Ranklar, gereken puana göre küçükten büyüğe doğru sıralanmalıdır.
+# %player% yer tutucusu, oyuncunun adıyla değiştirilecektir.
+ranks:
+  # --- Acemi Rankı ---
+  - points: 0
+    # Oyuncuya ve duyuruda gösterilecek rank adı (renk kodları kullanılabilir).
+    name: "&7Acemi"
+    # Bu rank'a ulaşıldığında çalıştırılacak komutlar.
+    # Genellikle eski rank'ı silip yenisini eklemek en iyisidir.
+    commands:
+      - "lp user %player% parent set default"
+
+  # --- Asker Rankı ---
+  - points: 250
+    name: "&aAsker"
+    commands:
+      - "lp user %player% parent set asker"
+
+  # --- Usta Rankı ---
+  - points: 1000
+    name: "&eUsta"
+    commands:
+      - "lp user %player% parent set usta"
+
+  # --- Efsane Rankı ---
+  - points: 5000
+    name: "&cEfsane"
+    commands:
+      - "lp user %player% parent set efsane"
