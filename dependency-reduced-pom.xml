@@ -55,6 +55,11 @@
                           <include />
                         </patternset>
                       </class>
+                      <annotation>
+                        <patternset>
+                          <include />
+                        </patternset>
+                      </annotation>
                     </keep>
                   </rename>
                 </yguard>

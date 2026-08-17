@@ -8,9 +8,14 @@
         <keep>
           <class methods="public" classes="public" fields="public">
             <patternset>
-              <include name="org.byauth.ByCircleGame" />
+              <include name="org.byauth.**" />
             </patternset>
           </class>
+          <annotation classes="friendly">
+            <patternset>
+              <include name="org.bukkit.event.EventHandler" />
+            </patternset>
+          </annotation>
         </keep>
       </rename>
     </yguard>

@@ -1,30 +1,27 @@
 name: LbDaire
 version: '2.1'
 main: org.byauth.ByCircleGame
-api-version: '1.21'
+api-version: '1.18'
 softdepend: [PlaceholderAPI, LuckPerms]
 
 commands:
-  lbdaire:
-    description: LbDaire ana komutu.
+  circlegame:
+    description: Oyuncular için LbDaire komutları.
     usage: /<command>
-    aliases: [cg, daire]
-    
-  lbdaireadmin:
-    description: LbDaire yönetici komutları.
-    usage: /<command> [alt-komut]
-    permission: lbdaire.admin
-    aliases: [cga, daireadmin]
-    
+    aliases: [cg, lbdaire]
+  circlegameadmin:
+    description: Yöneticiler için LbDaire komutları.
+    usage: /<command> <args>
+    permission: bycirclegame.admin
+    aliases: [cga, lbdaireadmin]
   destekle:
-    description: İzleyiciyken takım arkadaşlarına destek olmanı sağlar.
+    description: İzleyiciyken takım arkadaşlarına yardım etmeni sağlar.
     usage: /destekle
     aliases: [destek]
-    
   kozmetik:
     description: Kazanma efektleri menüsünü açar.
     usage: /kozmetik
-    aliases: [efekt]
+    aliases: [cosmetic]
 
 libraries:
   - org.xerial:sqlite-jdbc:3.41.2.2

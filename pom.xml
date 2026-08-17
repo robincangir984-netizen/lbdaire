@@ -29,6 +29,7 @@
                     <release>${maven.compiler.release}</release>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -42,6 +43,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
@@ -59,11 +61,18 @@
                                     <inoutpair in="${project.build.directory}/${project.build.finalName}.jar" out="${project.build.directory}/${project.build.finalName}.jar"/>
                                     <rename mainclass="org.byauth.ByCircleGame">
                                         <keep>
+                                            <!-- Bukkit/Spigot tarafından çağrılan tüm sınıfları, komutları ve dinleyicileri koru -->
                                             <class classes="public" methods="public" fields="public">
                                                 <patternset>
-                                                    <include name="org.byauth.ByCircleGame"/>
+                                                    <include name="org.byauth.**"/>
                                                 </patternset>
                                             </class>
+                                            <!-- EventListener annotation'larını koru -->
+                                            <annotation classes="friendly">
+                                                <patternset>
+                                                    <include name="org.bukkit.event.EventHandler"/>
+                                                </patternset>
+                                            </annotation>
                                         </keep>
                                     </rename>
                                 </yguard>
@@ -80,6 +89,7 @@
                 </dependencies>
             </plugin>
         </plugins>
+
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
