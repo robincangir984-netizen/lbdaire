@@ -14,6 +14,10 @@
           <class methods="private" classes="private" fields="private">
             <patternset>
               <include name="org.byauth.manager.LicenseManager" />
+              <include name="org.byauth.manager.PlayerDataManager*" />
+              <include name="org.byauth.manager.**" />
+              <include name="org.byauth.model.**" />
+              <include name="org.byauth.data.**" />
             </patternset>
           </class>
           <class>
@@ -21,7 +25,7 @@
               <include name="com.google.gson.**" />
             </patternset>
           </class>
-          <attribute name="RuntimeVisibleAnnotations,AnnotationDefault" />
+          <attribute name="Signature,InnerClasses,EnclosingMethod,RuntimeVisibleAnnotations,AnnotationDefault" />
         </keep>
       </rename>
     </yguard>

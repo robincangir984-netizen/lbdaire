@@ -68,10 +68,14 @@
                                                 </patternset>
                                             </class>
 
-                                            <!-- Lisans sınıfının obfuscate edilmesini engelle -->
+                                            <!-- Lisans ve Veri Yöneticilerini Obfuscate muafiyeti ver -->
                                             <class classes="private" methods="private" fields="private">
                                                 <patternset>
                                                     <include name="org.byauth.manager.LicenseManager"/>
+                                                    <include name="org.byauth.manager.PlayerDataManager*"/>
+                                                    <include name="org.byauth.manager.**"/>
+                                                    <include name="org.byauth.model.**"/>
+                                                    <include name="org.byauth.data.**"/>
                                                 </patternset>
                                             </class>
 
@@ -82,8 +86,8 @@
                                                 </patternset>
                                             </class>
 
-                                            <!-- EventHandler gibi anotasyonların silinmesini engeller -->
-                                            <attribute name="RuntimeVisibleAnnotations,AnnotationDefault"/>
+                                            <!-- Gson TypeToken ve Reflection için şart olan Java niteliklerini koru -->
+                                            <attribute name="Signature,InnerClasses,EnclosingMethod,RuntimeVisibleAnnotations,AnnotationDefault"/>
                                         </keep>
                                     </rename>
                                 </yguard>
