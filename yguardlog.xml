@@ -3,7 +3,7 @@
 <!--
   yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
 
-  Logfile created on Mon Aug 17 20:50:49 UTC 2026
+  Logfile created on Mon Aug 17 22:11:04 UTC 2026
 
   Jar file to be obfuscated:           LBDaire.jar
   Target Jar file for obfuscated code: LBDaire.jar
@@ -204,7 +204,7 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!--
-  Memory in use after class data structure built: 32738152 bytes
+  Memory in use after class data structure built: 32857960 bytes
   Total memory available                        : 112197632 bytes
 -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
@@ -2705,6 +2705,7 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: net.luckperms.api.LuckPerms not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
 <!-- WARNING: No mapping found: org.bukkit.plugin.java.JavaPlugin -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!-- WARNING: No mapping found: org.bukkit.Bukkit -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
 <!-- WARNING: No mapping found: org.bukkit.plugin.PluginManager -->
@@ -3014,7 +3015,137 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.inventory.meta.SkullMeta not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.java.JavaPlugin -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.configuration.file.FileConfiguration not found! -->
+<!-- WARNING: No mapping found: org.bukkit.configuration.file.FileConfiguration -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitScheduler not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scheduler.BukkitScheduler -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.Plugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.java.JavaPlugin -->
+<!-- WARNING: No mapping found: org.bukkit.scheduler.BukkitScheduler -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.Plugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.PluginManager -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.Plugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.configuration.file.FileConfiguration not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Bukkit not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitScheduler not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
 <expose>
+  <class name="com.google.gson.internal.reflect.ReflectionHelper$RecordSupportedHelper"/>
+  <class name="com.google.gson.internal.reflect.ReflectionHelper$RecordNotSupportedHelper"/>
+  <class name="com.google.gson.internal.reflect.ReflectionHelper$RecordHelper"/>
+  <class name="com.google.gson.internal.reflect.ReflectionHelper"/>
+  <class name="com.google.gson.internal.sql.SqlTimeTypeAdapter"/>
+  <class name="com.google.gson.internal.sql.SqlTimestampTypeAdapter"/>
+  <class name="com.google.gson.internal.sql.SqlTypesSupport"/>
+  <class name="com.google.gson.internal.sql.SqlDateTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.util.ISO8601Utils"/>
+  <class name="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType"/>
+  <class name="com.google.gson.internal.bind.DefaultDateTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter"/>
+  <class name="com.google.gson.internal.bind.CollectionTypeAdapterFactory"/>
+  <class name="com.google.gson.internal.bind.NumberTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper"/>
+  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter"/>
+  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter"/>
+  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField"/>
+  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter"/>
+  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory"/>
+  <class name="com.google.gson.internal.bind.DateTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.JsonTreeWriter"/>
+  <class name="com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl"/>
+  <class name="com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory"/>
+  <class name="com.google.gson.internal.bind.TreeTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.SerializationDelegatingTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.JsonTreeReader"/>
+  <class name="com.google.gson.internal.bind.ArrayTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter"/>
+  <class name="com.google.gson.internal.bind.TypeAdapters"/>
+  <class name="com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory"/>
+  <class name="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter"/>
+  <class name="com.google.gson.internal.bind.MapTypeAdapterFactory"/>
+  <class name="com.google.gson.internal.bind.ObjectTypeAdapter"/>
+  <class name="com.google.gson.internal.LinkedTreeMap$KeySet"/>
+  <class name="com.google.gson.internal.LinkedTreeMap$Node"/>
+  <class name="com.google.gson.internal.LinkedTreeMap$EntrySet"/>
+  <class name="com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator"/>
+  <class name="com.google.gson.internal.LinkedTreeMap"/>
+  <class name="com.google.gson.internal.PreJava9DateFormatProvider"/>
+  <class name="com.google.gson.internal.GsonBuildConfig"/>
+  <class name="com.google.gson.internal.NonNullElementWrapperList"/>
+  <class name="com.google.gson.internal.JavaVersion"/>
+  <class name="com.google.gson.internal.JsonReaderInternalAccess"/>
+  <class name="com.google.gson.internal.ConstructorConstructor"/>
+  <class name="com.google.gson.internal.UnsafeAllocator"/>
+  <class name="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite"/>
+  <class name="com.google.gson.internal.Streams$AppendableWriter"/>
+  <class name="com.google.gson.internal.Streams"/>
+  <class name="com.google.gson.internal.package-info"/>
+  <class name="com.google.gson.internal.LazilyParsedNumber"/>
+  <class name="com.google.gson.internal.Excluder"/>
+  <class name="com.google.gson.internal.Primitives"/>
+  <class name="com.google.gson.internal.ReflectionAccessFilterHelper$AccessChecker"/>
+  <class name="com.google.gson.internal.ReflectionAccessFilterHelper"/>
+  <class name="com.google.gson.internal.$Gson$$Preconditions"/>
+  <class name="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl"/>
+  <class name="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl"/>
+  <class name="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl"/>
+  <class name="com.google.gson.internal.$Gson$$Types"/>
+  <class name="com.google.gson.internal.$Gson"/>
+  <class name="com.google.gson.internal.ObjectConstructor"/>
+  <class name="com.google.gson.reflect.TypeToken"/>
+  <class name="com.google.gson.reflect.package-info"/>
+  <class name="com.google.gson.annotations.JsonAdapter"/>
+  <class name="com.google.gson.annotations.Since"/>
+  <class name="com.google.gson.annotations.Until"/>
+  <class name="com.google.gson.annotations.SerializedName"/>
+  <class name="com.google.gson.annotations.package-info"/>
+  <class name="com.google.gson.annotations.Expose"/>
+  <class name="com.google.gson.stream.JsonToken"/>
+  <class name="com.google.gson.stream.JsonScope"/>
+  <class name="com.google.gson.stream.JsonWriter"/>
+  <class name="com.google.gson.stream.package-info"/>
+  <class name="com.google.gson.stream.MalformedJsonException"/>
+  <class name="com.google.gson.stream.JsonReader"/>
+  <class name="com.google.gson.JsonSyntaxException"/>
+  <class name="com.google.gson.TypeAdapterFactory"/>
+  <class name="com.google.gson.GsonBuilder"/>
+  <class name="com.google.gson.JsonStreamParser"/>
+  <class name="com.google.gson.ToNumberStrategy"/>
+  <class name="com.google.gson.FieldNamingStrategy"/>
+  <class name="com.google.gson.JsonPrimitive"/>
+  <class name="com.google.gson.FieldAttributes"/>
+  <class name="com.google.gson.ExclusionStrategy"/>
+  <class name="com.google.gson.FieldNamingPolicy"/>
+  <class name="com.google.gson.JsonDeserializationContext"/>
+  <class name="com.google.gson.JsonSerializer"/>
+  <class name="com.google.gson.ToNumberPolicy"/>
+  <class name="com.google.gson.JsonDeserializer"/>
+  <class name="com.google.gson.JsonSerializationContext"/>
+  <class name="com.google.gson.JsonElement"/>
+  <class name="com.google.gson.package-info"/>
+  <class name="com.google.gson.Gson$FutureTypeAdapter"/>
+  <class name="com.google.gson.Gson"/>
+  <class name="com.google.gson.JsonIOException"/>
+  <class name="com.google.gson.JsonObject"/>
+  <class name="com.google.gson.JsonParseException"/>
+  <class name="com.google.gson.JsonNull"/>
+  <class name="com.google.gson.TypeAdapter"/>
+  <class name="com.google.gson.ReflectionAccessFilter$FilterResult"/>
+  <class name="com.google.gson.ReflectionAccessFilter"/>
+  <class name="com.google.gson.JsonArray"/>
+  <class name="com.google.gson.JsonParser"/>
+  <class name="com.google.gson.LongSerializationPolicy"/>
+  <class name="com.google.gson.InstanceCreator"/>
   <class name="org.byauth.utils.ItemBuilder"/>
   <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setLore(java.lang.String[])"/>
   <method class="org.byauth.utils.ItemBuilder" name="org.bukkit.inventory.ItemStack build()"/>
@@ -3099,6 +3230,8 @@ to act on classes which have been obfuscated.
   <method class="org.byauth.utils.SettingsManager" name="void reload()"/>
   <method class="org.byauth.utils.SettingsManager" name="java.lang.String getMessage(java.lang.String)"/>
   <method class="org.byauth.utils.SettingsManager" name="void sendMessage(org.bukkit.entity.Player, java.lang.String)"/>
+  <class name="org.byauth.utils.KeygenValidator"/>
+  <method class="org.byauth.utils.KeygenValidator" name="void validate()"/>
   <class name="org.byauth.controller.ArenaController"/>
   <method class="org.byauth.controller.ArenaController" name="void openLobbyGui(org.bukkit.entity.Player)"/>
   <method class="org.byauth.controller.ArenaController" name="org.bukkit.entity.Player getSupportTarget(org.bukkit.entity.Player)"/>
@@ -3373,9 +3506,10 @@ to act on classes which have been obfuscated.
   <method class="org.byauth.command.AdminCommandTabCompleter" name="java.util.List onTabComplete(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])"/>
   <class name="org.byauth.ByCircleGame"/>
   <method class="org.byauth.ByCircleGame" name="void onEnable()"/>
+  <method class="org.byauth.ByCircleGame" name="org.byauth.manager.CosmeticManager getCosmeticManager()"/>
   <method class="org.byauth.ByCircleGame" name="org.byauth.manager.LootManager getLootManager()"/>
   <method class="org.byauth.ByCircleGame" name="void reloadPlugin()"/>
-  <method class="org.byauth.ByCircleGame" name="org.byauth.manager.CosmeticManager getCosmeticManager()"/>
+  <method class="org.byauth.ByCircleGame" name="void initializePlugin()"/>
   <method class="org.byauth.ByCircleGame" name="boolean isLicensed()"/>
   <method class="org.byauth.ByCircleGame" name="org.byauth.manager.PlayerDataManager getPlayerDataManager()"/>
   <method class="org.byauth.ByCircleGame" name="org.bukkit.World getGameWorld(java.lang.String)"/>
@@ -3384,15 +3518,10 @@ to act on classes which have been obfuscated.
   <method class="org.byauth.ByCircleGame" name="org.byauth.manager.ShopManager getShopManager()"/>
   <method class="org.byauth.ByCircleGame" name="org.byauth.controller.ArenaController getArenaController()"/>
   <method class="org.byauth.ByCircleGame" name="boolean isReady()"/>
+  <method class="org.byauth.ByCircleGame" name="void setLicensed(boolean)"/>
   <method class="org.byauth.ByCircleGame" name="org.byauth.manager.RankManager getRankManager()"/>
 </expose>
 <map>
-  <package name="com" map="A"/>
-  <package name="com.google" map="A"/>
-  <package name="com.google.gson" map="A"/>
-  <package name="com.google.gson.internal" map="A"/>
-  <package name="com.google.gson.internal.reflect" map="A"/>
-  <class name="com.google.gson.internal.reflect.ReflectionHelper$RecordSupportedHelper" map="_A"/>
   <field class="com.google.gson.internal.reflect.ReflectionHelper$RecordSupportedHelper" name="getRecordComponents" map="A"/>
   <field class="com.google.gson.internal.reflect.ReflectionHelper$RecordSupportedHelper" name="getName" map="B"/>
   <field class="com.google.gson.internal.reflect.ReflectionHelper$RecordSupportedHelper" name="getType" map="C"/>
@@ -3402,17 +3531,14 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordSupportedHelper" name="java.lang.reflect.Constructor getCanonicalRecordConstructor(java.lang.Class)" map="B"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordSupportedHelper" name="boolean isRecord(java.lang.Class)" map="C"/>
   <class name="com.google.gson.internal.reflect.ReflectionHelper$1" map="1"/>
-  <class name="com.google.gson.internal.reflect.ReflectionHelper$RecordNotSupportedHelper" map="_B"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordNotSupportedHelper" name="java.lang.reflect.Method getAccessor(java.lang.Class, java.lang.reflect.Field)" map="A"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordNotSupportedHelper" name="java.lang.String[] getRecordComponentNames(java.lang.Class)" map="A"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordNotSupportedHelper" name="java.lang.reflect.Constructor getCanonicalRecordConstructor(java.lang.Class)" map="B"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordNotSupportedHelper" name="boolean isRecord(java.lang.Class)" map="C"/>
-  <class name="com.google.gson.internal.reflect.ReflectionHelper$RecordHelper" map="_C"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordHelper" name="java.lang.reflect.Method getAccessor(java.lang.Class, java.lang.reflect.Field)" map="A"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordHelper" name="java.lang.String[] getRecordComponentNames(java.lang.Class)" map="A"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordHelper" name="java.lang.reflect.Constructor getCanonicalRecordConstructor(java.lang.Class)" map="B"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper$RecordHelper" name="boolean isRecord(java.lang.Class)" map="C"/>
-  <class name="com.google.gson.internal.reflect.ReflectionHelper" map="A"/>
   <field class="com.google.gson.internal.reflect.ReflectionHelper" name="RECORD_HELPER" map="A"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper" name="java.lang.String fieldToString(java.lang.reflect.Field)" map="A"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper" name="java.lang.RuntimeException access$300(java.lang.ReflectiveOperationException)" map="A"/>
@@ -3427,10 +3553,8 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.reflect.ReflectionHelper" name="java.lang.reflect.Constructor getCanonicalRecordConstructor(java.lang.Class)" map="C"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper" name="void appendExecutableParameters(java.lang.reflect.AccessibleObject, java.lang.StringBuilder)" map="A"/>
   <method class="com.google.gson.internal.reflect.ReflectionHelper" name="java.lang.String constructorToString(java.lang.reflect.Constructor)" map="B"/>
-  <package name="com.google.gson.internal.sql" map="B"/>
   <class name="com.google.gson.internal.sql.SqlTimeTypeAdapter$1" map="1"/>
   <method class="com.google.gson.internal.sql.SqlTimeTypeAdapter$1" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.sql.SqlTimeTypeAdapter" map="A"/>
   <field class="com.google.gson.internal.sql.SqlTimeTypeAdapter" name="format" map="&#x00c3;"/>
   <field class="com.google.gson.internal.sql.SqlTimeTypeAdapter" name="FACTORY" map="&#x00c4;"/>
   <method class="com.google.gson.internal.sql.SqlTimeTypeAdapter" name="java.sql.Time read(com.google.gson.stream.JsonReader)" map="r"/>
@@ -3439,7 +3563,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.sql.SqlTimeTypeAdapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <class name="com.google.gson.internal.sql.SqlTimestampTypeAdapter$1" map="1"/>
   <method class="com.google.gson.internal.sql.SqlTimestampTypeAdapter$1" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.sql.SqlTimestampTypeAdapter" map="B"/>
   <field class="com.google.gson.internal.sql.SqlTimestampTypeAdapter" name="FACTORY" map="A"/>
   <field class="com.google.gson.internal.sql.SqlTimestampTypeAdapter" name="dateTypeAdapter" map="B"/>
   <method class="com.google.gson.internal.sql.SqlTimestampTypeAdapter" name="java.sql.Timestamp read(com.google.gson.stream.JsonReader)" map="B"/>
@@ -3452,7 +3575,6 @@ to act on classes which have been obfuscated.
   <class name="com.google.gson.internal.sql.SqlTypesSupport$1" map="1"/>
   <method class="com.google.gson.internal.sql.SqlTypesSupport$1" name="java.util.Date deserialize(java.util.Date)" map="A"/>
   <method class="com.google.gson.internal.sql.SqlTypesSupport$1" name="java.sql.Date deserialize(java.util.Date)" map="B"/>
-  <class name="com.google.gson.internal.sql.SqlTypesSupport" map="C"/>
   <field class="com.google.gson.internal.sql.SqlTypesSupport" name="TIMESTAMP_FACTORY" map="A"/>
   <field class="com.google.gson.internal.sql.SqlTypesSupport" name="TIMESTAMP_DATE_TYPE" map="B"/>
   <field class="com.google.gson.internal.sql.SqlTypesSupport" name="TIME_FACTORY" map="C"/>
@@ -3461,16 +3583,12 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.internal.sql.SqlTypesSupport" name="DATE_DATE_TYPE" map="F"/>
   <class name="com.google.gson.internal.sql.SqlDateTypeAdapter$1" map="1"/>
   <method class="com.google.gson.internal.sql.SqlDateTypeAdapter$1" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.sql.SqlDateTypeAdapter" map="D"/>
   <field class="com.google.gson.internal.sql.SqlDateTypeAdapter" name="format" map="C"/>
   <field class="com.google.gson.internal.sql.SqlDateTypeAdapter" name="FACTORY" map="D"/>
   <method class="com.google.gson.internal.sql.SqlDateTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.sql.SqlDateTypeAdapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.internal.sql.SqlDateTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.sql.Date)" map="A"/>
   <method class="com.google.gson.internal.sql.SqlDateTypeAdapter" name="java.sql.Date read(com.google.gson.stream.JsonReader)" map="C"/>
-  <package name="com.google.gson.internal.bind" map="C"/>
-  <package name="com.google.gson.internal.bind.util" map="A"/>
-  <class name="com.google.gson.internal.bind.util.ISO8601Utils" map="A"/>
   <field class="com.google.gson.internal.bind.util.ISO8601Utils" name="TIMEZONE_UTC" map="A"/>
   <field class="com.google.gson.internal.bind.util.ISO8601Utils" name="UTC_ID" map="B"/>
   <method class="com.google.gson.internal.bind.util.ISO8601Utils" name="java.util.Date parse(java.lang.String, java.text.ParsePosition)" map="A"/>
@@ -3483,7 +3601,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.util.ISO8601Utils" name="java.lang.String format(java.util.Date, boolean, java.util.TimeZone)" map="A"/>
   <class name="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType$1" map="1"/>
   <method class="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType$1" name="java.util.Date deserialize(java.util.Date)" map="A"/>
-  <class name="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType" map="_A"/>
   <field class="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType" name="dateClass" map="A"/>
   <field class="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType" name="DATE" map="B"/>
   <method class="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType" name="java.util.Date deserialize(java.util.Date)" map="A"/>
@@ -3493,7 +3610,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType" name="com.google.gson.TypeAdapterFactory createAdapterFactory(java.lang.String)" map="A"/>
   <method class="com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType" name="com.google.gson.TypeAdapterFactory createDefaultsAdapterFactory()" map="A"/>
   <class name="com.google.gson.internal.bind.DefaultDateTypeAdapter$1" map="1"/>
-  <class name="com.google.gson.internal.bind.DefaultDateTypeAdapter" map="A"/>
   <field class="com.google.gson.internal.bind.DefaultDateTypeAdapter" name="dateType" map="E"/>
   <field class="com.google.gson.internal.bind.DefaultDateTypeAdapter" name="dateFormats" map="F"/>
   <field class="com.google.gson.internal.bind.DefaultDateTypeAdapter" name="SIMPLE_NAME" map="G"/>
@@ -3503,14 +3619,12 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.DefaultDateTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.DefaultDateTypeAdapter" name="java.lang.String toString()" map="toString"/>
   <method class="com.google.gson.internal.bind.DefaultDateTypeAdapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
-  <class name="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" map="_A"/>
   <field class="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" name="constructor" map="H"/>
   <field class="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" name="elementTypeAdapter" map="I"/>
   <method class="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" name="java.util.Collection read(com.google.gson.stream.JsonReader)" map="F"/>
   <method class="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" name="void write(com.google.gson.stream.JsonWriter, java.util.Collection)" map="A"/>
   <method class="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
-  <class name="com.google.gson.internal.bind.CollectionTypeAdapterFactory" map="B"/>
   <field class="com.google.gson.internal.bind.CollectionTypeAdapterFactory" name="constructorConstructor" map="A"/>
   <method class="com.google.gson.internal.bind.CollectionTypeAdapterFactory" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
   <class name="com.google.gson.internal.bind.NumberTypeAdapter$2" map="2"/>
@@ -3518,7 +3632,6 @@ to act on classes which have been obfuscated.
   <class name="com.google.gson.internal.bind.NumberTypeAdapter$1" map="1"/>
   <field class="com.google.gson.internal.bind.NumberTypeAdapter$1" name="val$adapter" map="B"/>
   <method class="com.google.gson.internal.bind.NumberTypeAdapter$1" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.bind.NumberTypeAdapter" map="C"/>
   <field class="com.google.gson.internal.bind.NumberTypeAdapter" name="toNumberStrategy" map="J"/>
   <field class="com.google.gson.internal.bind.NumberTypeAdapter" name="LAZILY_PARSED_NUMBER_FACTORY" map="K"/>
   <method class="com.google.gson.internal.bind.NumberTypeAdapter" name="java.lang.Number read(com.google.gson.stream.JsonReader)" map="G"/>
@@ -3527,7 +3640,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.NumberTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.NumberTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Number)" map="A"/>
   <method class="com.google.gson.internal.bind.NumberTypeAdapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
-  <class name="com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper" map="D"/>
   <field class="com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper" name="context" map="L"/>
   <field class="com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper" name="type" map="M"/>
   <field class="com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper" name="delegate" map="N"/>
@@ -3548,7 +3660,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1" name="void readIntoArray(com.google.gson.stream.JsonReader, int, java.lang.Object[])" map="A"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1" name="void readIntoField(com.google.gson.stream.JsonReader, java.lang.Object)" map="A"/>
-  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter" map="_A"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter" name="PRIMITIVE_DEFAULTS" map="P"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter" name="constructor" map="Q"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter" name="componentIndices" map="R"/>
@@ -3560,12 +3671,10 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter" name="void readField(java.lang.Object[], com.google.gson.stream.JsonReader, com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField)" map="A"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter" name="java.util.Map primitiveDefaults()" map="D"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$RecordAdapter" name="void readField(java.lang.Object, com.google.gson.stream.JsonReader, com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField)" map="A"/>
-  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter" map="_B"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter" name="constructor" map="T"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter" name="java.lang.Object finalize(java.lang.Object)" map="C"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter" name="java.lang.Object createAccumulator()" map="B"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter" name="void readField(java.lang.Object, com.google.gson.stream.JsonReader, com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField)" map="A"/>
-  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" map="_C"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" name="name" map="A"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" name="serialized" map="B"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" name="field" map="C"/>
@@ -3574,14 +3683,12 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" name="void readIntoArray(com.google.gson.stream.JsonReader, int, java.lang.Object[])" map="A"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" name="void readIntoField(com.google.gson.stream.JsonReader, java.lang.Object)" map="A"/>
-  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" map="_D"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" name="boundFields" map="O"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" name="java.lang.Object finalize(java.lang.Object)" map="C"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" name="java.lang.Object createAccumulator()" map="B"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" name="void readField(java.lang.Object, com.google.gson.stream.JsonReader, com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField)" map="A"/>
-  <class name="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory" map="E"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory" name="excluder" map="C"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory" name="jsonAdapterFactory" map="D"/>
   <field class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory" name="constructorConstructor" map="E"/>
@@ -3596,7 +3703,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory" name="boolean includeField(java.lang.reflect.Field, boolean)" map="A"/>
   <class name="com.google.gson.internal.bind.DateTypeAdapter$1" map="1"/>
   <method class="com.google.gson.internal.bind.DateTypeAdapter$1" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.bind.DateTypeAdapter" map="F"/>
   <field class="com.google.gson.internal.bind.DateTypeAdapter" name="dateFormats" map="U"/>
   <field class="com.google.gson.internal.bind.DateTypeAdapter" name="FACTORY" map="V"/>
   <method class="com.google.gson.internal.bind.DateTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.util.Date)" map="B"/>
@@ -3608,7 +3714,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.JsonTreeWriter$1" name="void write(char[], int, int)" map="write"/>
   <method class="com.google.gson.internal.bind.JsonTreeWriter$1" name="void flush()" map="flush"/>
   <method class="com.google.gson.internal.bind.JsonTreeWriter$1" name="void close()" map="close"/>
-  <class name="com.google.gson.internal.bind.JsonTreeWriter" map="G"/>
   <field class="com.google.gson.internal.bind.JsonTreeWriter" name="stack" map="M"/>
   <field class="com.google.gson.internal.bind.JsonTreeWriter" name="SENTINEL_CLOSED" map="N"/>
   <field class="com.google.gson.internal.bind.JsonTreeWriter" name="pendingName" map="O"/>
@@ -3633,12 +3738,10 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.JsonTreeWriter" name="com.google.gson.stream.JsonWriter value(java.lang.String)" map="E"/>
   <method class="com.google.gson.internal.bind.JsonTreeWriter" name="com.google.gson.stream.JsonWriter beginObject()" map="J"/>
   <method class="com.google.gson.internal.bind.JsonTreeWriter" name="void put(com.google.gson.JsonElement)" map="A"/>
-  <class name="com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl" map="_A"/>
   <field class="com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl" name="this$0" map="A"/>
   <method class="com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl" name="com.google.gson.JsonElement serialize(java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl" name="java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type)" map="A"/>
   <method class="com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl" name="com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type)" map="A"/>
-  <class name="com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory" map="_B"/>
   <field class="com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory" name="exactType" map="H"/>
   <field class="com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory" name="hierarchyType" map="I"/>
   <field class="com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory" name="serializer" map="J"/>
@@ -3646,7 +3749,6 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory" name="matchRawType" map="L"/>
   <method class="com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
   <class name="com.google.gson.internal.bind.TreeTypeAdapter$1" map="1"/>
-  <class name="com.google.gson.internal.bind.TreeTypeAdapter" map="H"/>
   <field class="com.google.gson.internal.bind.TreeTypeAdapter" name="nullSafe" map="W"/>
   <field class="com.google.gson.internal.bind.TreeTypeAdapter" name="gson" map="X"/>
   <field class="com.google.gson.internal.bind.TreeTypeAdapter" name="context" map="Y"/>
@@ -3662,14 +3764,12 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.TreeTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.bind.TreeTypeAdapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.internal.bind.TreeTypeAdapter" name="com.google.gson.TypeAdapter delegate()" map="F"/>
-  <class name="com.google.gson.internal.bind.SerializationDelegatingTypeAdapter" map="I"/>
   <method class="com.google.gson.internal.bind.SerializationDelegatingTypeAdapter" name="com.google.gson.TypeAdapter getSerializationDelegate()" map="E"/>
   <class name="com.google.gson.internal.bind.JsonTreeReader$2" map="2"/>
   <field class="com.google.gson.internal.bind.JsonTreeReader$2" name="$SwitchMap$com$google$gson$stream$JsonToken" map="A"/>
   <class name="com.google.gson.internal.bind.JsonTreeReader$1" map="1"/>
   <method class="com.google.gson.internal.bind.JsonTreeReader$1" name="int read(char[], int, int)" map="read"/>
   <method class="com.google.gson.internal.bind.JsonTreeReader$1" name="void close()" map="close"/>
-  <class name="com.google.gson.internal.bind.JsonTreeReader" map="J"/>
   <field class="com.google.gson.internal.bind.JsonTreeReader" name="stack" map="q"/>
   <field class="com.google.gson.internal.bind.JsonTreeReader" name="UNREADABLE_READER" map="r"/>
   <field class="com.google.gson.internal.bind.JsonTreeReader" name="stackSize" map="s"/>
@@ -3705,7 +3805,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.JsonTreeReader" name="int nextInt()" map="Z"/>
   <class name="com.google.gson.internal.bind.ArrayTypeAdapter$1" map="1"/>
   <method class="com.google.gson.internal.bind.ArrayTypeAdapter$1" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.bind.ArrayTypeAdapter" map="K"/>
   <field class="com.google.gson.internal.bind.ArrayTypeAdapter" name="componentTypeAdapter" map="e"/>
   <field class="com.google.gson.internal.bind.ArrayTypeAdapter" name="componentType" map="f"/>
   <field class="com.google.gson.internal.bind.ArrayTypeAdapter" name="FACTORY" map="g"/>
@@ -3771,7 +3870,6 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter$1" name="val$classOfT" map="B"/>
   <method class="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter$1" name="java.lang.Object run()" map="run"/>
   <method class="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter$1" name="java.lang.reflect.Field[] run()" map="A"/>
-  <class name="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter" map="_A"/>
   <field class="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter" name="stringToConstant" map="n"/>
   <field class="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter" name="constantToName" map="o"/>
   <field class="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter" name="nameToConstant" map="p"/>
@@ -3907,7 +4005,6 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.internal.bind.TypeAdapters$30" name="val$typeAdapter" map="W"/>
   <field class="com.google.gson.internal.bind.TypeAdapters$30" name="val$type" map="X"/>
   <method class="com.google.gson.internal.bind.TypeAdapters$30" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.bind.TypeAdapters" map="L"/>
   <field class="com.google.gson.internal.bind.TypeAdapters" name="SHORT" map="A"/>
   <field class="com.google.gson.internal.bind.TypeAdapters" name="LOCALE" map="B"/>
   <field class="com.google.gson.internal.bind.TypeAdapters" name="ATOMIC_BOOLEAN" map="C"/>
@@ -3963,11 +4060,9 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.TypeAdapters" name="com.google.gson.TypeAdapterFactory newFactory(com.google.gson.reflect.TypeToken, com.google.gson.TypeAdapter)" map="A"/>
   <method class="com.google.gson.internal.bind.TypeAdapters" name="com.google.gson.TypeAdapterFactory newTypeHierarchyFactory(java.lang.Class, com.google.gson.TypeAdapter)" map="A"/>
   <method class="com.google.gson.internal.bind.TypeAdapters" name="com.google.gson.TypeAdapterFactory newFactory(java.lang.Class, com.google.gson.TypeAdapter)" map="B"/>
-  <class name="com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory" map="M"/>
   <field class="com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory" name="constructorConstructor" map="Y"/>
   <method class="com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
   <method class="com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory" name="com.google.gson.TypeAdapter getTypeAdapter(com.google.gson.internal.ConstructorConstructor, com.google.gson.Gson, com.google.gson.reflect.TypeToken, com.google.gson.annotations.JsonAdapter)" map="A"/>
-  <class name="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" map="_A"/>
   <field class="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" name="this$0" map="s"/>
   <field class="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" name="valueTypeAdapter" map="t"/>
   <field class="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" name="keyTypeAdapter" map="u"/>
@@ -3977,7 +4072,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" name="void write(com.google.gson.stream.JsonWriter, java.util.Map)" map="A"/>
   <method class="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" name="java.lang.String keyToString(com.google.gson.JsonElement)" map="B"/>
-  <class name="com.google.gson.internal.bind.MapTypeAdapterFactory" map="N"/>
   <field class="com.google.gson.internal.bind.MapTypeAdapterFactory" name="complexMapKeySerialization" map="Z"/>
   <field class="com.google.gson.internal.bind.MapTypeAdapterFactory" name="constructorConstructor" map="_"/>
   <method class="com.google.gson.internal.bind.MapTypeAdapterFactory" name="com.google.gson.TypeAdapter getKeyAdapter(com.google.gson.Gson, java.lang.reflect.Type)" map="A"/>
@@ -3987,7 +4081,6 @@ to act on classes which have been obfuscated.
   <class name="com.google.gson.internal.bind.ObjectTypeAdapter$1" map="1"/>
   <field class="com.google.gson.internal.bind.ObjectTypeAdapter$1" name="val$toNumberStrategy" map="a"/>
   <method class="com.google.gson.internal.bind.ObjectTypeAdapter$1" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.internal.bind.ObjectTypeAdapter" map="O"/>
   <field class="com.google.gson.internal.bind.ObjectTypeAdapter" name="DOUBLE_FACTORY" map="w"/>
   <field class="com.google.gson.internal.bind.ObjectTypeAdapter" name="gson" map="x"/>
   <field class="com.google.gson.internal.bind.ObjectTypeAdapter" name="toNumberStrategy" map="y"/>
@@ -4000,14 +4093,12 @@ to act on classes which have been obfuscated.
   <class name="com.google.gson.internal.LinkedTreeMap$KeySet$1" map="1"/>
   <field class="com.google.gson.internal.LinkedTreeMap$KeySet$1" name="this$1" map="F"/>
   <method class="com.google.gson.internal.LinkedTreeMap$KeySet$1" name="java.lang.Object next()" map="next"/>
-  <class name="com.google.gson.internal.LinkedTreeMap$KeySet" map="_A"/>
   <field class="com.google.gson.internal.LinkedTreeMap$KeySet" name="this$0" map="A"/>
   <method class="com.google.gson.internal.LinkedTreeMap$KeySet" name="java.util.Iterator iterator()" map="iterator"/>
   <method class="com.google.gson.internal.LinkedTreeMap$KeySet" name="void clear()" map="clear"/>
   <method class="com.google.gson.internal.LinkedTreeMap$KeySet" name="int size()" map="size"/>
   <method class="com.google.gson.internal.LinkedTreeMap$KeySet" name="boolean remove(java.lang.Object)" map="remove"/>
   <method class="com.google.gson.internal.LinkedTreeMap$KeySet" name="boolean contains(java.lang.Object)" map="contains"/>
-  <class name="com.google.gson.internal.LinkedTreeMap$Node" map="_B"/>
   <field class="com.google.gson.internal.LinkedTreeMap$Node" name="left" map="A"/>
   <field class="com.google.gson.internal.LinkedTreeMap$Node" name="allowNullValue" map="B"/>
   <field class="com.google.gson.internal.LinkedTreeMap$Node" name="prev" map="C"/>
@@ -4029,14 +4120,12 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.internal.LinkedTreeMap$EntrySet$1" name="this$1" map="E"/>
   <method class="com.google.gson.internal.LinkedTreeMap$EntrySet$1" name="java.util.Map$Entry next()" map="B"/>
   <method class="com.google.gson.internal.LinkedTreeMap$EntrySet$1" name="java.lang.Object next()" map="next"/>
-  <class name="com.google.gson.internal.LinkedTreeMap$EntrySet" map="_C"/>
   <field class="com.google.gson.internal.LinkedTreeMap$EntrySet" name="this$0" map="A"/>
   <method class="com.google.gson.internal.LinkedTreeMap$EntrySet" name="java.util.Iterator iterator()" map="iterator"/>
   <method class="com.google.gson.internal.LinkedTreeMap$EntrySet" name="void clear()" map="clear"/>
   <method class="com.google.gson.internal.LinkedTreeMap$EntrySet" name="int size()" map="size"/>
   <method class="com.google.gson.internal.LinkedTreeMap$EntrySet" name="boolean remove(java.lang.Object)" map="remove"/>
   <method class="com.google.gson.internal.LinkedTreeMap$EntrySet" name="boolean contains(java.lang.Object)" map="contains"/>
-  <class name="com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator" map="_D"/>
   <field class="com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator" name="this$0" map="A"/>
   <field class="com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator" name="next" map="B"/>
   <field class="com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator" name="expectedModCount" map="C"/>
@@ -4047,7 +4136,6 @@ to act on classes which have been obfuscated.
   <class name="com.google.gson.internal.LinkedTreeMap$1" map="1"/>
   <method class="com.google.gson.internal.LinkedTreeMap$1" name="int compare(java.lang.Object, java.lang.Object)" map="compare"/>
   <method class="com.google.gson.internal.LinkedTreeMap$1" name="int compare(java.lang.Comparable, java.lang.Comparable)" map="A"/>
-  <class name="com.google.gson.internal.LinkedTreeMap" map="A"/>
   <field class="com.google.gson.internal.LinkedTreeMap" name="$assertionsDisabled" map="A"/>
   <field class="com.google.gson.internal.LinkedTreeMap" name="comparator" map="B"/>
   <field class="com.google.gson.internal.LinkedTreeMap" name="NATURAL_ORDER" map="C"/>
@@ -4078,15 +4166,12 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.LinkedTreeMap" name="void removeInternal(com.google.gson.internal.LinkedTreeMap$Node, boolean)" map="B"/>
   <method class="com.google.gson.internal.LinkedTreeMap" name="void clear()" map="clear"/>
   <method class="com.google.gson.internal.LinkedTreeMap" name="void rotateRight(com.google.gson.internal.LinkedTreeMap$Node)" map="B"/>
-  <class name="com.google.gson.internal.PreJava9DateFormatProvider" map="B"/>
   <method class="com.google.gson.internal.PreJava9DateFormatProvider" name="java.lang.String getDatePartOfDateTimePattern(int)" map="A"/>
   <method class="com.google.gson.internal.PreJava9DateFormatProvider" name="java.lang.String getDateFormatPattern(int)" map="B"/>
   <method class="com.google.gson.internal.PreJava9DateFormatProvider" name="java.text.DateFormat getUSDateTimeFormat(int, int)" map="A"/>
   <method class="com.google.gson.internal.PreJava9DateFormatProvider" name="java.lang.String getTimePartOfDateTimePattern(int)" map="C"/>
   <method class="com.google.gson.internal.PreJava9DateFormatProvider" name="java.text.DateFormat getUSDateFormat(int)" map="D"/>
-  <class name="com.google.gson.internal.GsonBuildConfig" map="C"/>
   <field class="com.google.gson.internal.GsonBuildConfig" name="VERSION" map="A"/>
-  <class name="com.google.gson.internal.NonNullElementWrapperList" map="D"/>
   <field class="com.google.gson.internal.NonNullElementWrapperList" name="delegate" map="A"/>
   <method class="com.google.gson.internal.NonNullElementWrapperList" name="int lastIndexOf(java.lang.Object)" map="lastIndexOf"/>
   <method class="com.google.gson.internal.NonNullElementWrapperList" name="java.lang.Object remove(int)" map="remove"/>
@@ -4105,7 +4190,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.NonNullElementWrapperList" name="int size()" map="size"/>
   <method class="com.google.gson.internal.NonNullElementWrapperList" name="boolean remove(java.lang.Object)" map="remove"/>
   <method class="com.google.gson.internal.NonNullElementWrapperList" name="java.lang.Object set(int, java.lang.Object)" map="set"/>
-  <class name="com.google.gson.internal.JavaVersion" map="E"/>
   <field class="com.google.gson.internal.JavaVersion" name="majorJavaVersion" map="A"/>
   <method class="com.google.gson.internal.JavaVersion" name="int extractBeginningInt(java.lang.String)" map="A"/>
   <method class="com.google.gson.internal.JavaVersion" name="int parseDotted(java.lang.String)" map="B"/>
@@ -4113,7 +4197,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.JavaVersion" name="int determineMajorJavaVersion()" map="A"/>
   <method class="com.google.gson.internal.JavaVersion" name="boolean isJava9OrLater()" map="B"/>
   <method class="com.google.gson.internal.JavaVersion" name="int getMajorJavaVersion()" map="C"/>
-  <class name="com.google.gson.internal.JsonReaderInternalAccess" map="F"/>
   <field class="com.google.gson.internal.JsonReaderInternalAccess" name="INSTANCE" map="A"/>
   <method class="com.google.gson.internal.JsonReaderInternalAccess" name="void promoteNameToValue(com.google.gson.stream.JsonReader)" map="A"/>
   <class name="com.google.gson.internal.ConstructorConstructor$19" map="19"/>
@@ -4175,7 +4258,6 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.internal.ConstructorConstructor$20" name="this$0" map="P"/>
   <field class="com.google.gson.internal.ConstructorConstructor$20" name="val$exceptionMessage" map="Q"/>
   <method class="com.google.gson.internal.ConstructorConstructor$20" name="java.lang.Object construct()" map="A"/>
-  <class name="com.google.gson.internal.ConstructorConstructor" map="G"/>
   <field class="com.google.gson.internal.ConstructorConstructor" name="useJdkUnsafe" map="A"/>
   <field class="com.google.gson.internal.ConstructorConstructor" name="instanceCreators" map="B"/>
   <field class="com.google.gson.internal.ConstructorConstructor" name="reflectionFilters" map="C"/>
@@ -4199,13 +4281,11 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.internal.UnsafeAllocator$1" name="val$unsafe" map="E"/>
   <field class="com.google.gson.internal.UnsafeAllocator$1" name="val$allocateInstance" map="F"/>
   <method class="com.google.gson.internal.UnsafeAllocator$1" name="java.lang.Object newInstance(java.lang.Class)" map="C"/>
-  <class name="com.google.gson.internal.UnsafeAllocator" map="H"/>
   <field class="com.google.gson.internal.UnsafeAllocator" name="INSTANCE" map="A"/>
   <method class="com.google.gson.internal.UnsafeAllocator" name="com.google.gson.internal.UnsafeAllocator create()" map="A"/>
   <method class="com.google.gson.internal.UnsafeAllocator" name="void access$000(java.lang.Class)" map="A"/>
   <method class="com.google.gson.internal.UnsafeAllocator" name="void assertInstantiable(java.lang.Class)" map="B"/>
   <method class="com.google.gson.internal.UnsafeAllocator" name="java.lang.Object newInstance(java.lang.Class)" map="C"/>
-  <class name="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" map="_A"/>
   <field class="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" name="chars" map="A"/>
   <field class="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" name="cachedString" map="B"/>
   <method class="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" name="char charAt(int)" map="charAt"/>
@@ -4213,7 +4293,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" name="void setChars(char[])" map="A"/>
   <method class="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" name="java.lang.CharSequence subSequence(int, int)" map="subSequence"/>
   <method class="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" name="int length()" map="length"/>
-  <class name="com.google.gson.internal.Streams$AppendableWriter" map="_A"/>
   <field class="com.google.gson.internal.Streams$AppendableWriter" name="currentWrite" map="A"/>
   <field class="com.google.gson.internal.Streams$AppendableWriter" name="appendable" map="B"/>
   <method class="com.google.gson.internal.Streams$AppendableWriter" name="java.io.Writer append(java.lang.CharSequence)" map="append"/>
@@ -4226,12 +4305,9 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.Streams$AppendableWriter" name="void write(java.lang.String, int, int)" map="write"/>
   <method class="com.google.gson.internal.Streams$AppendableWriter" name="void flush()" map="flush"/>
   <class name="com.google.gson.internal.Streams$1" map="1"/>
-  <class name="com.google.gson.internal.Streams" map="I"/>
   <method class="com.google.gson.internal.Streams" name="com.google.gson.JsonElement parse(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.internal.Streams" name="void write(com.google.gson.JsonElement, com.google.gson.stream.JsonWriter)" map="A"/>
   <method class="com.google.gson.internal.Streams" name="java.io.Writer writerForAppendable(java.lang.Appendable)" map="A"/>
-  <class name="com.google.gson.internal.package-info" map="package-info"/>
-  <class name="com.google.gson.internal.LazilyParsedNumber" map="J"/>
   <field class="com.google.gson.internal.LazilyParsedNumber" name="value" map="A"/>
   <method class="com.google.gson.internal.LazilyParsedNumber" name="void readObject(java.io.ObjectInputStream)" map="A"/>
   <method class="com.google.gson.internal.LazilyParsedNumber" name="java.lang.Object writeReplace()" map="A"/>
@@ -4252,7 +4328,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.Excluder$1" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.Excluder$1" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.internal.Excluder$1" name="com.google.gson.TypeAdapter delegate()" map="H"/>
-  <class name="com.google.gson.internal.Excluder" map="K"/>
   <field class="com.google.gson.internal.Excluder" name="requireExpose" map="b"/>
   <field class="com.google.gson.internal.Excluder" name="DEFAULT" map="c"/>
   <field class="com.google.gson.internal.Excluder" name="version" map="d"/>
@@ -4279,7 +4354,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.Excluder" name="boolean isInnerClass(java.lang.Class)" map="C"/>
   <method class="com.google.gson.internal.Excluder" name="boolean isAnonymousOrNonStaticLocal(java.lang.Class)" map="D"/>
   <method class="com.google.gson.internal.Excluder" name="boolean excludeClass(java.lang.Class, boolean)" map="B"/>
-  <class name="com.google.gson.internal.Primitives" map="L"/>
   <method class="com.google.gson.internal.Primitives" name="java.lang.Class wrap(java.lang.Class)" map="A"/>
   <method class="com.google.gson.internal.Primitives" name="boolean isPrimitive(java.lang.reflect.Type)" map="A"/>
   <method class="com.google.gson.internal.Primitives" name="boolean isWrapperType(java.lang.reflect.Type)" map="B"/>
@@ -4289,11 +4363,9 @@ to act on classes which have been obfuscated.
   <class name="com.google.gson.internal.ReflectionAccessFilterHelper$AccessChecker$1" map="1"/>
   <field class="com.google.gson.internal.ReflectionAccessFilterHelper$AccessChecker$1" name="val$canAccessMethod" map="B"/>
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper$AccessChecker$1" name="boolean canAccess(java.lang.reflect.AccessibleObject, java.lang.Object)" map="A"/>
-  <class name="com.google.gson.internal.ReflectionAccessFilterHelper$AccessChecker" map="_A"/>
   <field class="com.google.gson.internal.ReflectionAccessFilterHelper$AccessChecker" name="INSTANCE" map="A"/>
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper$AccessChecker" name="boolean canAccess(java.lang.reflect.AccessibleObject, java.lang.Object)" map="A"/>
   <class name="com.google.gson.internal.ReflectionAccessFilterHelper$1" map="1"/>
-  <class name="com.google.gson.internal.ReflectionAccessFilterHelper" map="M"/>
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper" name="boolean isJavaType(java.lang.Class)" map="A"/>
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper" name="boolean isAndroidType(java.lang.String)" map="A"/>
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper" name="boolean isAndroidType(java.lang.Class)" map="B"/>
@@ -4301,10 +4373,8 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper" name="com.google.gson.ReflectionAccessFilter$FilterResult getFilterResult(java.util.List, java.lang.Class)" map="A"/>
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper" name="boolean isAnyPlatformType(java.lang.Class)" map="C"/>
   <method class="com.google.gson.internal.ReflectionAccessFilterHelper" name="boolean isJavaType(java.lang.String)" map="B"/>
-  <class name="com.google.gson.internal.$Gson$$Preconditions" map="_A"/>
   <method class="com.google.gson.internal.$Gson$$Preconditions" name="void checkArgument(boolean)" map="A"/>
   <method class="com.google.gson.internal.$Gson$$Preconditions" name="java.lang.Object checkNotNull(java.lang.Object)" map="A"/>
-  <class name="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl" map="_A"/>
   <field class="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl" name="upperBound" map="A"/>
   <field class="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl" name="lowerBound" map="B"/>
   <field class="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl" name="serialVersionUID" map="C"/>
@@ -4313,14 +4383,12 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl" name="java.lang.String toString()" map="toString"/>
   <method class="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl" name="java.lang.reflect.Type[] getLowerBounds()" map="getLowerBounds"/>
   <method class="com.google.gson.internal.$Gson$$Types$$WildcardTypeImpl" name="java.lang.reflect.Type[] getUpperBounds()" map="getUpperBounds"/>
-  <class name="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl" map="_B"/>
   <field class="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl" name="componentType" map="A"/>
   <field class="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl" name="serialVersionUID" map="B"/>
   <method class="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl" name="java.lang.reflect.Type getGenericComponentType()" map="getGenericComponentType"/>
   <method class="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl" name="boolean equals(java.lang.Object)" map="equals"/>
   <method class="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl" name="int hashCode()" map="hashCode"/>
   <method class="com.google.gson.internal.$Gson$$Types$$GenericArrayTypeImpl" name="java.lang.String toString()" map="toString"/>
-  <class name="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl" map="_C"/>
   <field class="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl" name="typeArguments" map="A"/>
   <field class="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl" name="rawType" map="B"/>
   <field class="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl" name="ownerType" map="C"/>
@@ -4332,7 +4400,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl" name="java.lang.String toString()" map="toString"/>
   <method class="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl" name="int hashCodeOrZero(java.lang.Object)" map="A"/>
   <method class="com.google.gson.internal.$Gson$$Types$$ParameterizedTypeImpl" name="java.lang.reflect.Type getOwnerType()" map="getOwnerType"/>
-  <class name="com.google.gson.internal.$Gson$$Types" map="_B"/>
   <field class="com.google.gson.internal.$Gson$$Types" name="EMPTY_TYPE_ARRAY" map="A"/>
   <field class="com.google.gson.internal.$Gson$$Types" name="$assertionsDisabled" map="B"/>
   <method class="com.google.gson.internal.$Gson$$Types" name="java.lang.reflect.Type resolve(java.lang.reflect.Type, java.lang.Class, java.lang.reflect.Type, java.util.Map)" map="A"/>
@@ -4355,11 +4422,7 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.internal.$Gson$$Types" name="java.lang.reflect.Type getCollectionElementType(java.lang.reflect.Type, java.lang.Class)" map="B"/>
   <method class="com.google.gson.internal.$Gson$$Types" name="java.lang.Class getRawType(java.lang.reflect.Type)" map="G"/>
   <method class="com.google.gson.internal.$Gson$$Types" name="java.lang.reflect.Type canonicalize(java.lang.reflect.Type)" map="H"/>
-  <class name="com.google.gson.internal.$Gson" map="N"/>
-  <class name="com.google.gson.internal.ObjectConstructor" map="O"/>
   <method class="com.google.gson.internal.ObjectConstructor" name="java.lang.Object construct()" map="A"/>
-  <package name="com.google.gson.reflect" map="B"/>
-  <class name="com.google.gson.reflect.TypeToken" map="A"/>
   <field class="com.google.gson.reflect.TypeToken" name="hashCode" map="A"/>
   <field class="com.google.gson.reflect.TypeToken" name="type" map="B"/>
   <field class="com.google.gson.reflect.TypeToken" name="rawType" map="C"/>
@@ -4381,24 +4444,14 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.reflect.TypeToken" name="java.lang.Class getRawType()" map="C"/>
   <method class="com.google.gson.reflect.TypeToken" name="java.lang.AssertionError buildUnexpectedTypeError(java.lang.reflect.Type, java.lang.Class[])" map="A"/>
   <method class="com.google.gson.reflect.TypeToken" name="com.google.gson.reflect.TypeToken get(java.lang.reflect.Type)" map="C"/>
-  <class name="com.google.gson.reflect.package-info" map="package-info"/>
-  <package name="com.google.gson.annotations" map="C"/>
-  <class name="com.google.gson.annotations.JsonAdapter" map="A"/>
   <method class="com.google.gson.annotations.JsonAdapter" name="java.lang.Class value()" map="A"/>
   <method class="com.google.gson.annotations.JsonAdapter" name="boolean nullSafe()" map="B"/>
-  <class name="com.google.gson.annotations.Since" map="B"/>
   <method class="com.google.gson.annotations.Since" name="double value()" map="A"/>
-  <class name="com.google.gson.annotations.Until" map="C"/>
   <method class="com.google.gson.annotations.Until" name="double value()" map="A"/>
-  <class name="com.google.gson.annotations.SerializedName" map="D"/>
   <method class="com.google.gson.annotations.SerializedName" name="java.lang.String value()" map="A"/>
   <method class="com.google.gson.annotations.SerializedName" name="java.lang.String[] alternate()" map="B"/>
-  <class name="com.google.gson.annotations.package-info" map="package-info"/>
-  <class name="com.google.gson.annotations.Expose" map="E"/>
   <method class="com.google.gson.annotations.Expose" name="boolean serialize()" map="A"/>
   <method class="com.google.gson.annotations.Expose" name="boolean deserialize()" map="B"/>
-  <package name="com.google.gson.stream" map="D"/>
-  <class name="com.google.gson.stream.JsonToken" map="A"/>
   <field class="com.google.gson.stream.JsonToken" name="END_ARRAY" map="A"/>
   <field class="com.google.gson.stream.JsonToken" name="NUMBER" map="B"/>
   <field class="com.google.gson.stream.JsonToken" name="BOOLEAN" map="C"/>
@@ -4412,7 +4465,6 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.stream.JsonToken" name="NAME" map="K"/>
   <method class="com.google.gson.stream.JsonToken" name="com.google.gson.stream.JsonToken valueOf(java.lang.String)" map="valueOf"/>
   <method class="com.google.gson.stream.JsonToken" name="com.google.gson.stream.JsonToken[] values()" map="values"/>
-  <class name="com.google.gson.stream.JsonScope" map="B"/>
   <field class="com.google.gson.stream.JsonScope" name="NONEMPTY_OBJECT" map="A"/>
   <field class="com.google.gson.stream.JsonScope" name="EMPTY_ARRAY" map="B"/>
   <field class="com.google.gson.stream.JsonScope" name="NONEMPTY_ARRAY" map="C"/>
@@ -4421,7 +4473,6 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.stream.JsonScope" name="DANGLING_NAME" map="F"/>
   <field class="com.google.gson.stream.JsonScope" name="CLOSED" map="G"/>
   <field class="com.google.gson.stream.JsonScope" name="EMPTY_DOCUMENT" map="H"/>
-  <class name="com.google.gson.stream.JsonWriter" map="C"/>
   <field class="com.google.gson.stream.JsonWriter" name="indent" map="A"/>
   <field class="com.google.gson.stream.JsonWriter" name="lenient" map="B"/>
   <field class="com.google.gson.stream.JsonWriter" name="out" map="C"/>
@@ -4468,12 +4519,9 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.stream.JsonWriter" name="int peek()" map="K"/>
   <method class="com.google.gson.stream.JsonWriter" name="boolean isHtmlSafe()" map="L"/>
   <method class="com.google.gson.stream.JsonWriter" name="void beforeName()" map="M"/>
-  <class name="com.google.gson.stream.package-info" map="package-info"/>
-  <class name="com.google.gson.stream.MalformedJsonException" map="D"/>
   <field class="com.google.gson.stream.MalformedJsonException" name="serialVersionUID" map="A"/>
   <class name="com.google.gson.stream.JsonReader$1" map="1"/>
   <method class="com.google.gson.stream.JsonReader$1" name="void promoteNameToValue(com.google.gson.stream.JsonReader)" map="A"/>
-  <class name="com.google.gson.stream.JsonReader" map="E"/>
   <field class="com.google.gson.stream.JsonReader" name="PEEKED_FALSE" map="A"/>
   <field class="com.google.gson.stream.JsonReader" name="NUMBER_CHAR_EXP_SIGN" map="B"/>
   <field class="com.google.gson.stream.JsonReader" name="PEEKED_EOF" map="C"/>
@@ -4556,11 +4604,8 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.stream.JsonReader" name="java.lang.String nextString()" map="Y"/>
   <method class="com.google.gson.stream.JsonReader" name="int nextInt()" map="Z"/>
   <method class="com.google.gson.stream.JsonReader" name="void endArray()" map="_"/>
-  <class name="com.google.gson.JsonSyntaxException" map="A"/>
   <field class="com.google.gson.JsonSyntaxException" name="serialVersionUID" map="B"/>
-  <class name="com.google.gson.TypeAdapterFactory" map="B"/>
   <method class="com.google.gson.TypeAdapterFactory" name="com.google.gson.TypeAdapter create(com.google.gson.Gson, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.GsonBuilder" map="C"/>
   <field class="com.google.gson.GsonBuilder" name="numberToNumberStrategy" map="A"/>
   <field class="com.google.gson.GsonBuilder" name="serializeNulls" map="B"/>
   <field class="com.google.gson.GsonBuilder" name="generateNonExecutableJson" map="C"/>
@@ -4610,18 +4655,14 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.GsonBuilder" name="com.google.gson.GsonBuilder disableInnerClassSerialization()" map="I"/>
   <method class="com.google.gson.GsonBuilder" name="com.google.gson.GsonBuilder enableComplexMapKeySerialization()" map="J"/>
   <method class="com.google.gson.GsonBuilder" name="com.google.gson.GsonBuilder serializeSpecialFloatingPointValues()" map="K"/>
-  <class name="com.google.gson.JsonStreamParser" map="D"/>
   <field class="com.google.gson.JsonStreamParser" name="lock" map="A"/>
   <field class="com.google.gson.JsonStreamParser" name="parser" map="B"/>
   <method class="com.google.gson.JsonStreamParser" name="boolean hasNext()" map="hasNext"/>
   <method class="com.google.gson.JsonStreamParser" name="void remove()" map="remove"/>
   <method class="com.google.gson.JsonStreamParser" name="com.google.gson.JsonElement next()" map="A"/>
   <method class="com.google.gson.JsonStreamParser" name="java.lang.Object next()" map="next"/>
-  <class name="com.google.gson.ToNumberStrategy" map="E"/>
   <method class="com.google.gson.ToNumberStrategy" name="java.lang.Number readNumber(com.google.gson.stream.JsonReader)" map="A"/>
-  <class name="com.google.gson.FieldNamingStrategy" map="F"/>
   <method class="com.google.gson.FieldNamingStrategy" name="java.lang.String translateName(java.lang.reflect.Field)" map="A"/>
-  <class name="com.google.gson.JsonPrimitive" map="G"/>
   <field class="com.google.gson.JsonPrimitive" name="value" map="D"/>
   <method class="com.google.gson.JsonPrimitive" name="short getAsShort()" map="A"/>
   <method class="com.google.gson.JsonPrimitive" name="float getAsFloat()" map="B"/>
@@ -4643,7 +4684,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.JsonPrimitive" name="boolean getAsBoolean()" map="S"/>
   <method class="com.google.gson.JsonPrimitive" name="boolean isIntegral(com.google.gson.JsonPrimitive)" map="A"/>
   <method class="com.google.gson.JsonPrimitive" name="int getAsInt()" map="U"/>
-  <class name="com.google.gson.FieldAttributes" map="H"/>
   <field class="com.google.gson.FieldAttributes" name="field" map="A"/>
   <method class="com.google.gson.FieldAttributes" name="java.lang.Class getDeclaringClass()" map="A"/>
   <method class="com.google.gson.FieldAttributes" name="java.lang.Class getDeclaredClass()" map="B"/>
@@ -4653,7 +4693,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.FieldAttributes" name="java.lang.annotation.Annotation getAnnotation(java.lang.Class)" map="A"/>
   <method class="com.google.gson.FieldAttributes" name="java.lang.reflect.Type getDeclaredType()" map="E"/>
   <method class="com.google.gson.FieldAttributes" name="boolean hasModifier(int)" map="A"/>
-  <class name="com.google.gson.ExclusionStrategy" map="I"/>
   <method class="com.google.gson.ExclusionStrategy" name="boolean shouldSkipClass(java.lang.Class)" map="A"/>
   <method class="com.google.gson.ExclusionStrategy" name="boolean shouldSkipField(com.google.gson.FieldAttributes)" map="A"/>
   <class name="com.google.gson.FieldNamingPolicy$6" map="6"/>
@@ -4670,7 +4709,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.FieldNamingPolicy$1" name="java.lang.String translateName(java.lang.reflect.Field)" map="A"/>
   <class name="com.google.gson.FieldNamingPolicy$7" map="7"/>
   <method class="com.google.gson.FieldNamingPolicy$7" name="java.lang.String translateName(java.lang.reflect.Field)" map="A"/>
-  <class name="com.google.gson.FieldNamingPolicy" map="J"/>
   <field class="com.google.gson.FieldNamingPolicy" name="IDENTITY" map="A"/>
   <field class="com.google.gson.FieldNamingPolicy" name="LOWER_CASE_WITH_DOTS" map="B"/>
   <field class="com.google.gson.FieldNamingPolicy" name="$VALUES" map="C"/>
@@ -4683,9 +4721,7 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.FieldNamingPolicy" name="java.lang.String separateCamelCase(java.lang.String, char)" map="A"/>
   <method class="com.google.gson.FieldNamingPolicy" name="java.lang.String upperCaseFirstLetter(java.lang.String)" map="A"/>
   <method class="com.google.gson.FieldNamingPolicy" name="com.google.gson.FieldNamingPolicy[] values()" map="values"/>
-  <class name="com.google.gson.JsonDeserializationContext" map="K"/>
   <method class="com.google.gson.JsonDeserializationContext" name="java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type)" map="A"/>
-  <class name="com.google.gson.JsonSerializer" map="L"/>
   <method class="com.google.gson.JsonSerializer" name="com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)" map="A"/>
   <class name="com.google.gson.ToNumberPolicy$4" map="4"/>
   <method class="com.google.gson.ToNumberPolicy$4" name="java.lang.Number readNumber(com.google.gson.stream.JsonReader)" map="A"/>
@@ -4697,7 +4733,6 @@ to act on classes which have been obfuscated.
   <class name="com.google.gson.ToNumberPolicy$1" map="1"/>
   <method class="com.google.gson.ToNumberPolicy$1" name="java.lang.Number readNumber(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.ToNumberPolicy$1" name="java.lang.Double readNumber(com.google.gson.stream.JsonReader)" map="C"/>
-  <class name="com.google.gson.ToNumberPolicy" map="M"/>
   <field class="com.google.gson.ToNumberPolicy" name="DOUBLE" map="A"/>
   <field class="com.google.gson.ToNumberPolicy" name="LAZILY_PARSED_NUMBER" map="B"/>
   <field class="com.google.gson.ToNumberPolicy" name="$VALUES" map="C"/>
@@ -4705,12 +4740,9 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.ToNumberPolicy" name="LONG_OR_DOUBLE" map="E"/>
   <method class="com.google.gson.ToNumberPolicy" name="com.google.gson.ToNumberPolicy valueOf(java.lang.String)" map="valueOf"/>
   <method class="com.google.gson.ToNumberPolicy" name="com.google.gson.ToNumberPolicy[] values()" map="values"/>
-  <class name="com.google.gson.JsonDeserializer" map="N"/>
   <method class="com.google.gson.JsonDeserializer" name="java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)" map="A"/>
-  <class name="com.google.gson.JsonSerializationContext" map="O"/>
   <method class="com.google.gson.JsonSerializationContext" name="com.google.gson.JsonElement serialize(java.lang.Object)" map="A"/>
   <method class="com.google.gson.JsonSerializationContext" name="com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type)" map="A"/>
-  <class name="com.google.gson.JsonElement" map="P"/>
   <method class="com.google.gson.JsonElement" name="short getAsShort()" map="A"/>
   <method class="com.google.gson.JsonElement" name="float getAsFloat()" map="B"/>
   <method class="com.google.gson.JsonElement" name="boolean isJsonPrimitive()" map="C"/>
@@ -4733,7 +4765,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.JsonElement" name="boolean getAsBoolean()" map="S"/>
   <method class="com.google.gson.JsonElement" name="com.google.gson.JsonArray getAsJsonArray()" map="T"/>
   <method class="com.google.gson.JsonElement" name="int getAsInt()" map="U"/>
-  <class name="com.google.gson.package-info" map="package-info"/>
   <class name="com.google.gson.Gson$5" map="5"/>
   <field class="com.google.gson.Gson$5" name="val$longAdapter" map="&#x00b5;"/>
   <method class="com.google.gson.Gson$5" name="void write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicLongArray)" map="A"/>
@@ -4763,14 +4794,12 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.Gson$1" name="void write(com.google.gson.stream.JsonWriter, java.lang.Number)" map="J"/>
   <method class="com.google.gson.Gson$1" name="java.lang.Double read(com.google.gson.stream.JsonReader)" map="q"/>
   <method class="com.google.gson.Gson$1" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
-  <class name="com.google.gson.Gson$FutureTypeAdapter" map="_A"/>
   <field class="com.google.gson.Gson$FutureTypeAdapter" name="delegate" map="d"/>
   <method class="com.google.gson.Gson$FutureTypeAdapter" name="void setDelegate(com.google.gson.TypeAdapter)" map="B"/>
   <method class="com.google.gson.Gson$FutureTypeAdapter" name="com.google.gson.TypeAdapter getSerializationDelegate()" map="E"/>
   <method class="com.google.gson.Gson$FutureTypeAdapter" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.Gson$FutureTypeAdapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.Gson$FutureTypeAdapter" name="com.google.gson.TypeAdapter delegate()" map="G"/>
-  <class name="com.google.gson.Gson" map="Q"/>
   <field class="com.google.gson.Gson" name="DEFAULT_PRETTY_PRINT" map="A"/>
   <field class="com.google.gson.Gson" name="complexMapKeySerialization" map="B"/>
   <field class="com.google.gson.Gson" name="excluder" map="C"/>
@@ -4848,9 +4877,7 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.Gson" name="java.lang.Object fromJson(com.google.gson.stream.JsonReader, com.google.gson.reflect.TypeToken)" map="A"/>
   <method class="com.google.gson.Gson" name="void toJson(java.lang.Object, java.lang.reflect.Type, java.lang.Appendable)" map="A"/>
   <method class="com.google.gson.Gson" name="com.google.gson.TypeAdapter getDelegateAdapter(com.google.gson.TypeAdapterFactory, com.google.gson.reflect.TypeToken)" map="A"/>
-  <class name="com.google.gson.JsonIOException" map="R"/>
   <field class="com.google.gson.JsonIOException" name="serialVersionUID" map="A"/>
-  <class name="com.google.gson.JsonObject" map="S"/>
   <field class="com.google.gson.JsonObject" name="members" map="A"/>
   <method class="com.google.gson.JsonObject" name="void add(java.lang.String, com.google.gson.JsonElement)" map="A"/>
   <method class="com.google.gson.JsonObject" name="java.util.Map asMap()" map="V"/>
@@ -4872,9 +4899,7 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.JsonObject" name="java.util.Set entrySet()" map="_"/>
   <method class="com.google.gson.JsonObject" name="boolean has(java.lang.String)" map="E"/>
   <method class="com.google.gson.JsonObject" name="com.google.gson.JsonElement get(java.lang.String)" map="F"/>
-  <class name="com.google.gson.JsonParseException" map="T"/>
   <field class="com.google.gson.JsonParseException" name="serialVersionUID" map="serialVersionUID"/>
-  <class name="com.google.gson.JsonNull" map="U"/>
   <field class="com.google.gson.JsonNull" name="INSTANCE" map="B"/>
   <method class="com.google.gson.JsonNull" name="boolean equals(java.lang.Object)" map="equals"/>
   <method class="com.google.gson.JsonNull" name="com.google.gson.JsonNull deepCopy()" map="a"/>
@@ -4884,7 +4909,6 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.TypeAdapter$1" name="this$0" map="&#x00c2;"/>
   <method class="com.google.gson.TypeAdapter$1" name="void write(com.google.gson.stream.JsonWriter, java.lang.Object)" map="A"/>
   <method class="com.google.gson.TypeAdapter$1" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
-  <class name="com.google.gson.TypeAdapter" map="V"/>
   <method class="com.google.gson.TypeAdapter" name="java.lang.Object read(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.TypeAdapter" name="java.lang.Object fromJson(java.lang.String)" map="A"/>
   <method class="com.google.gson.TypeAdapter" name="void toJson(java.io.Writer, java.lang.Object)" map="A"/>
@@ -4902,7 +4926,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.ReflectionAccessFilter$2" name="com.google.gson.ReflectionAccessFilter$FilterResult check(java.lang.Class)" map="A"/>
   <class name="com.google.gson.ReflectionAccessFilter$1" map="1"/>
   <method class="com.google.gson.ReflectionAccessFilter$1" name="com.google.gson.ReflectionAccessFilter$FilterResult check(java.lang.Class)" map="A"/>
-  <class name="com.google.gson.ReflectionAccessFilter$FilterResult" map="_A"/>
   <field class="com.google.gson.ReflectionAccessFilter$FilterResult" name="BLOCK_INACCESSIBLE" map="A"/>
   <field class="com.google.gson.ReflectionAccessFilter$FilterResult" name="$VALUES" map="B"/>
   <field class="com.google.gson.ReflectionAccessFilter$FilterResult" name="ALLOW" map="C"/>
@@ -4910,13 +4933,11 @@ to act on classes which have been obfuscated.
   <field class="com.google.gson.ReflectionAccessFilter$FilterResult" name="INDECISIVE" map="E"/>
   <method class="com.google.gson.ReflectionAccessFilter$FilterResult" name="com.google.gson.ReflectionAccessFilter$FilterResult valueOf(java.lang.String)" map="valueOf"/>
   <method class="com.google.gson.ReflectionAccessFilter$FilterResult" name="com.google.gson.ReflectionAccessFilter$FilterResult[] values()" map="values"/>
-  <class name="com.google.gson.ReflectionAccessFilter" map="W"/>
   <field class="com.google.gson.ReflectionAccessFilter" name="BLOCK_ALL_ANDROID" map="A"/>
   <field class="com.google.gson.ReflectionAccessFilter" name="BLOCK_INACCESSIBLE_JAVA" map="B"/>
   <field class="com.google.gson.ReflectionAccessFilter" name="BLOCK_ALL_JAVA" map="C"/>
   <field class="com.google.gson.ReflectionAccessFilter" name="BLOCK_ALL_PLATFORM" map="D"/>
   <method class="com.google.gson.ReflectionAccessFilter" name="com.google.gson.ReflectionAccessFilter$FilterResult check(java.lang.Class)" map="A"/>
-  <class name="com.google.gson.JsonArray" map="X"/>
   <field class="com.google.gson.JsonArray" name="elements" map="C"/>
   <method class="com.google.gson.JsonArray" name="short getAsShort()" map="A"/>
   <method class="com.google.gson.JsonArray" name="float getAsFloat()" map="B"/>
@@ -4950,7 +4971,6 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.JsonArray" name="int size()" map="f"/>
   <method class="com.google.gson.JsonArray" name="int getAsInt()" map="U"/>
   <method class="com.google.gson.JsonArray" name="void addAll(com.google.gson.JsonArray)" map="A"/>
-  <class name="com.google.gson.JsonParser" map="Y"/>
   <method class="com.google.gson.JsonParser" name="com.google.gson.JsonElement parse(com.google.gson.stream.JsonReader)" map="A"/>
   <method class="com.google.gson.JsonParser" name="com.google.gson.JsonElement parseReader(java.io.Reader)" map="A"/>
   <method class="com.google.gson.JsonParser" name="com.google.gson.JsonElement parseString(java.lang.String)" map="A"/>
@@ -4961,16 +4981,14 @@ to act on classes which have been obfuscated.
   <method class="com.google.gson.LongSerializationPolicy$2" name="com.google.gson.JsonElement serialize(java.lang.Long)" map="A"/>
   <class name="com.google.gson.LongSerializationPolicy$1" map="1"/>
   <method class="com.google.gson.LongSerializationPolicy$1" name="com.google.gson.JsonElement serialize(java.lang.Long)" map="A"/>
-  <class name="com.google.gson.LongSerializationPolicy" map="Z"/>
   <field class="com.google.gson.LongSerializationPolicy" name="DEFAULT" map="A"/>
   <field class="com.google.gson.LongSerializationPolicy" name="STRING" map="B"/>
   <field class="com.google.gson.LongSerializationPolicy" name="$VALUES" map="C"/>
   <method class="com.google.gson.LongSerializationPolicy" name="com.google.gson.JsonElement serialize(java.lang.Long)" map="A"/>
   <method class="com.google.gson.LongSerializationPolicy" name="com.google.gson.LongSerializationPolicy valueOf(java.lang.String)" map="valueOf"/>
   <method class="com.google.gson.LongSerializationPolicy" name="com.google.gson.LongSerializationPolicy[] values()" map="values"/>
-  <class name="com.google.gson.InstanceCreator" map="_"/>
   <method class="com.google.gson.InstanceCreator" name="java.lang.Object createInstance(java.lang.reflect.Type)" map="A"/>
-  <package name="com.yworks" map="B"/>
+  <package name="com.yworks" map="A"/>
   <package name="com.yworks.util" map="A"/>
   <package name="com.yworks.util.annotation" map="A"/>
   <class name="com.yworks.util.annotation.Obfuscation" map="A"/>
@@ -25620,6 +25638,18 @@ to act on classes which have been obfuscated.
   <method class="org.byauth.utils.SettingsManager" name="void loadValues()" map="B"/>
   <method class="org.byauth.utils.SettingsManager" name="void loadSound(java.lang.String, org.bukkit.Sound, float, float)" map="A"/>
   <method class="org.byauth.utils.SettingsManager" name="void saveWorldsFile()" map="C"/>
+  <field class="org.byauth.utils.KeygenValidator" name="ACCOUNT_ID" map="A"/>
+  <field class="org.byauth.utils.KeygenValidator" name="PRODUCT_TOKEN" map="B"/>
+  <field class="org.byauth.utils.KeygenValidator" name="plugin" map="C"/>
+  <method class="org.byauth.utils.KeygenValidator" name="void shutdown(java.lang.String)" map="A"/>
+  <method class="org.byauth.utils.KeygenValidator" name="boolean registerMachine(java.net.http.HttpClient, java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.byauth.utils.KeygenValidator" name="java.lang.String extractLicenseId(java.lang.String)" map="B"/>
+  <method class="org.byauth.utils.KeygenValidator" name="java.lang.String generateHWID()" map="A"/>
+  <method class="org.byauth.utils.KeygenValidator" name="void lambda$shutdown$0(java.lang.String)" map="C"/>
+  <method class="org.byauth.utils.KeygenValidator" name="void onSuccess()" map="B"/>
+  <method class="org.byauth.utils.KeygenValidator" name="void lambda$onSuccess$0()" map="C"/>
+  <method class="org.byauth.utils.KeygenValidator" name="void lambda$validate$0(java.lang.String)" map="D"/>
+  <method class="org.byauth.utils.KeygenValidator" name="java.net.http.HttpResponse validateKey(java.net.http.HttpClient, java.lang.String, java.lang.String)" map="B"/>
   <class name="org.byauth.controller.ArenaController$1" map="1"/>
   <field class="org.byauth.controller.ArenaController$1" name="this$0" map="this$0"/>
   <field class="org.byauth.controller.ArenaController$1" name="val$arena" map="val$arena"/>
@@ -26042,13 +26072,13 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.ByCircleGame" name="databaseManager" map="G"/>
   <field class="org.byauth.ByCircleGame" name="isReady" map="H"/>
   <field class="org.byauth.ByCircleGame" name="cosmeticManager" map="I"/>
-  <field class="org.byauth.ByCircleGame" name="luckPerms" map="J"/>
-  <field class="org.byauth.ByCircleGame" name="arenaController" map="K"/>
-  <method class="org.byauth.ByCircleGame" name="void initializePlugin()" map="A"/>
-  <method class="org.byauth.ByCircleGame" name="void startArenaStuckCheckTask()" map="B"/>
-  <method class="org.byauth.ByCircleGame" name="void registerListeners()" map="C"/>
-  <method class="org.byauth.ByCircleGame" name="void setupLuckPerms()" map="D"/>
-  <method class="org.byauth.ByCircleGame" name="void scheduleSequentialArenaReset()" map="E"/>
-  <method class="org.byauth.ByCircleGame" name="void startEmptyArenaCheckTask()" map="F"/>
+  <field class="org.byauth.ByCircleGame" name="isLicensed" map="J"/>
+  <field class="org.byauth.ByCircleGame" name="luckPerms" map="K"/>
+  <field class="org.byauth.ByCircleGame" name="arenaController" map="L"/>
+  <method class="org.byauth.ByCircleGame" name="void startArenaStuckCheckTask()" map="A"/>
+  <method class="org.byauth.ByCircleGame" name="void registerListeners()" map="B"/>
+  <method class="org.byauth.ByCircleGame" name="void setupLuckPerms()" map="C"/>
+  <method class="org.byauth.ByCircleGame" name="void scheduleSequentialArenaReset()" map="D"/>
+  <method class="org.byauth.ByCircleGame" name="void startEmptyArenaCheckTask()" map="E"/>
 </map>
 </yguard>

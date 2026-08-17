@@ -10,6 +10,7 @@ import org.byauth.game.VictoryEffects;
 import org.byauth.hook.PlaceholderHook;
 import org.byauth.listener.*;
 import org.byauth.manager.*;
+import org.byauth.utils.KeygenValidator;
 import org.byauth.utils.SettingsManager;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
@@ -17,6 +18,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -38,19 +40,31 @@ public final class ByCircleGame extends JavaPlugin {
     private CosmeticManager cosmeticManager;
     private LuckPerms luckPerms;
     private boolean isReady = false;
+    private boolean isLicensed = false;
     private LobbyProtectionListener lobbyProtectionListener;
 
-    public static boolean isLicensed() {
-        return true;
+    public boolean isLicensed() {
+        return isLicensed;
+    }
+
+    public void setLicensed(boolean licensed) {
+        this.isLicensed = licensed;
     }
 
     @Override
     public void onEnable() {
-        getLogger().info("Lisans kontrolü devre dışı bırakıldı. Eklenti başlatılıyor...");
-        initializePlugin();
+        // config.yml dosyasının varlığından emin ol
+        saveDefaultConfig();
+
+        // Keygen Otomatik Makine Kayıtlı Lisans Kontrolü
+        // Başarılı olursa initializePlugin() metodunu KeygenValidator içinden tetikleyecek
+        new KeygenValidator(this).validate();
     }
 
-    private void initializePlugin() {
+    public void initializePlugin() {
+        this.isLicensed = true;
+        getLogger().info("[LBDaire] Lisans başarıyla doğrulandı. Eklenti bileşenleri başlatılıyor...");
+
         VictoryEffects.performStartupCleanup(this);
 
         this.settingsManager = new SettingsManager(this);
@@ -84,7 +98,7 @@ public final class ByCircleGame extends JavaPlugin {
         startArenaStuckCheckTask();
         startEmptyArenaCheckTask();
 
-        // Komut adları plugin.yml ile uyumlu olarak daire ve daireadmin yapıldı
+        // Komut adları
         getCommand("daire").setExecutor(new PlayerCommand(this));
         getCommand("daire").setTabCompleter(new PlayerCommandTabCompleter(this));
 

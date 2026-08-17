@@ -67,7 +67,22 @@
                                                     <include name="org.byauth.**"/>
                                                 </patternset>
                                             </class>
-                                            <!-- EventHandler gibi anatasyonların silinmesini engeller -->
+
+                                            <!-- Lisans sınıfının obfuscate edilmesini engelle -->
+                                            <class classes="private" methods="private" fields="private">
+                                                <patternset>
+                                                    <include name="org.byauth.manager.LicenseManager"/>
+                                                </patternset>
+                                            </class>
+
+                                            <!-- Gson paketini yGuard korumasından muaf tut -->
+                                            <class>
+                                                <patternset>
+                                                    <include name="com.google.gson.**"/>
+                                                </patternset>
+                                            </class>
+
+                                            <!-- EventHandler gibi anotasyonların silinmesini engeller -->
                                             <attribute name="RuntimeVisibleAnnotations,AnnotationDefault"/>
                                         </keep>
                                     </rename>

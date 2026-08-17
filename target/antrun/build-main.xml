@@ -11,6 +11,16 @@
               <include name="org.byauth.**" />
             </patternset>
           </class>
+          <class methods="private" classes="private" fields="private">
+            <patternset>
+              <include name="org.byauth.manager.LicenseManager" />
+            </patternset>
+          </class>
+          <class>
+            <patternset>
+              <include name="com.google.gson.**" />
+            </patternset>
+          </class>
           <attribute name="RuntimeVisibleAnnotations,AnnotationDefault" />
         </keep>
       </rename>

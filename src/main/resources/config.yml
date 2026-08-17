@@ -1,4 +1,10 @@
-# ByCircleGame Genel Ayarlar
+# ====================================================
+#          LB-Daire (ByCircleGame) Yapılandırması
+# ====================================================
+
+# Keygen.sh Lisans Anahtarı
+# Size verilen lisans anahtarını tırnak işaretlerinin arasına yazın.
+license-key: "LISANS-ANAHTARINIZI-BURAYA-GIRIN"
 
 # Mesajların başında görünecek olan eklenti ön eki.
 plugin-prefix: "&6[DaireOyunu] &r"
@@ -98,3 +104,12 @@ sounds:
   game-start: 'ENTITY_ENDER_DRAGON_GROWL,1.0,1.5'
   # Bir takım dolduğunda çıkan ses (hata sesi).
   team-select-full: 'ENTITY_VILLAGER_NO,1.0,1.0'
+
+# Veritabanı Ayarları
+database:
+  type: "SQLITE" # SQLITE veya MYSQL
+  host: "localhost"
+  port: 3306
+  database: "lbdaire"
+  username: "root"
+  password: ""

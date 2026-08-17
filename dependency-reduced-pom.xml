@@ -55,6 +55,16 @@
                           <include />
                         </patternset>
                       </class>
+                      <class>
+                        <patternset>
+                          <include />
+                        </patternset>
+                      </class>
+                      <class>
+                        <patternset>
+                          <include />
+                        </patternset>
+                      </class>
                       <attribute />
                     </keep>
                   </rename>

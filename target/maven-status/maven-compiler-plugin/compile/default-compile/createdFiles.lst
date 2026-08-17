@@ -61,6 +61,7 @@ org/byauth/listener/BlockFormListener.class
 org/byauth/game/VictoryEffects$3.class
 org/byauth/manager/SpecialItemManager.class
 org/byauth/manager/GameManager$8.class
+org/byauth/utils/KeygenValidator.class
 org/byauth/manager/RankManager.class
 org/byauth/manager/GameManager$1.class
 org/byauth/manager/DatabaseManager.class
