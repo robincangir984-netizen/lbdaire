@@ -48,7 +48,7 @@ public class AdminCommand implements CommandExecutor {
 
         if (args[0].equalsIgnoreCase("resetarena")) {
             if (args.length < 2) {
-                sender.sendMessage(settings.PREFIX + ChatColor.RED + "Kullanım: /cga resetarena <arena_ismi>");
+                sender.sendMessage(settings.PREFIX + ChatColor.RED + "Kullanım: /daireadmin resetarena <arena_ismi>");
                 return true;
             }
             String arenaNameToReset = args[1];
