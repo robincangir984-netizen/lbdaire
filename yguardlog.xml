@@ -3,7 +3,7 @@
 <!--
   yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
 
-  Logfile created on Mon Aug 17 19:52:17 UTC 2026
+  Logfile created on Mon Aug 17 20:01:26 UTC 2026
 
   Jar file to be obfuscated:           LBDaire.jar
   Target Jar file for obfuscated code: LBDaire.jar
@@ -204,7 +204,7 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!--
-  Memory in use after class data structure built: 31938840 bytes
+  Memory in use after class data structure built: 32748776 bytes
   Total memory available                        : 109051904 bytes
 -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
@@ -3014,6 +3014,362 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.inventory.meta.SkullMeta not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
 <expose>
+  <class name="org.byauth.utils.ItemBuilder"/>
+  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setLore(java.lang.String[])"/>
+  <method class="org.byauth.utils.ItemBuilder" name="org.bukkit.inventory.ItemStack build()"/>
+  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setName(java.lang.String)"/>
+  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setLore(java.util.List)"/>
+  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setSkullOwner(org.bukkit.entity.Player)"/>
+  <class name="org.byauth.utils.SettingsManager"/>
+  <field class="org.byauth.utils.SettingsManager" name="COIN_SYSTEM_NAME"/>
+  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_MATERIAL"/>
+  <field class="org.byauth.utils.SettingsManager" name="POINTS_ENABLED"/>
+  <field class="org.byauth.utils.SettingsManager" name="SUDDEN_DEATH_DURATION_SECONDS"/>
+  <field class="org.byauth.utils.SettingsManager" name="COBWEB_ELIMINATION_SECONDS"/>
+  <field class="org.byauth.utils.SettingsManager" name="ARENA_RADIUS"/>
+  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_LORE"/>
+  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_SLOT"/>
+  <field class="org.byauth.utils.SettingsManager" name="MAIN_SPAWN_PROTECTION_RADIUS"/>
+  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_NAME"/>
+  <field class="org.byauth.utils.SettingsManager" name="COUNTDOWN_TICK_VOLUME"/>
+  <field class="org.byauth.utils.SettingsManager" name="LOBBY_TEAM_ISLAND_RADIUS"/>
+  <field class="org.byauth.utils.SettingsManager" name="PLAYER_JOIN_VOLUME"/>
+  <field class="org.byauth.utils.SettingsManager" name="SNOWBALL_DAMAGE"/>
+  <field class="org.byauth.utils.SettingsManager" name="LOBBY_MAIN_ISLAND_RADIUS"/>
+  <field class="org.byauth.utils.SettingsManager" name="RESETTING_DURATION_SECONDS"/>
+  <field class="org.byauth.utils.SettingsManager" name="PREFIX"/>
+  <field class="org.byauth.utils.SettingsManager" name="COINS_ON_ROUND_SURVIVE"/>
+  <field class="org.byauth.utils.SettingsManager" name="POINTS_ON_ROUND_SURVIVE"/>
+  <field class="org.byauth.utils.SettingsManager" name="GAME_START_VOLUME"/>
+  <field class="org.byauth.utils.SettingsManager" name="CELEBRATION_DURATION_SECONDS"/>
+  <field class="org.byauth.utils.SettingsManager" name="GAME_START_SOUND"/>
+  <field class="org.byauth.utils.SettingsManager" name="COINS_ON_WIN"/>
+  <field class="org.byauth.utils.SettingsManager" name="GAME_START_PITCH"/>
+  <field class="org.byauth.utils.SettingsManager" name="COIN_SYSTEM_ENABLED"/>
+  <field class="org.byauth.utils.SettingsManager" name="PLAYER_JOIN_SOUND"/>
+  <field class="org.byauth.utils.SettingsManager" name="PLAYER_JOIN_PITCH"/>
+  <field class="org.byauth.utils.SettingsManager" name="POD_RADIUS_OFFSET"/>
+  <field class="org.byauth.utils.SettingsManager" name="SLOW_FALL_DURATION_TICKS"/>
+  <field class="org.byauth.utils.SettingsManager" name="POINTS_ON_KILL"/>
+  <field class="org.byauth.utils.SettingsManager" name="TEAM_FULL_VOLUME"/>
+  <field class="org.byauth.utils.SettingsManager" name="COINS_ON_KILL"/>
+  <field class="org.byauth.utils.SettingsManager" name="LOBBY_START_SOUND"/>
+  <field class="org.byauth.utils.SettingsManager" name="LOBBY_START_PITCH"/>
+  <field class="org.byauth.utils.SettingsManager" name="INSTANT_TNT_FUSE_TICKS"/>
+  <field class="org.byauth.utils.SettingsManager" name="PLAYER_LEAVE_SOUND"/>
+  <field class="org.byauth.utils.SettingsManager" name="ARENA_Y_LEVEL"/>
+  <field class="org.byauth.utils.SettingsManager" name="PLAYER_LEAVE_PITCH"/>
+  <field class="org.byauth.utils.SettingsManager" name="MIN_TEAMS_TO_START"/>
+  <field class="org.byauth.utils.SettingsManager" name="INTER_ROUND_COUNTDOWN_SECONDS"/>
+  <field class="org.byauth.utils.SettingsManager" name="POD_Y_OFFSET"/>
+  <field class="org.byauth.utils.SettingsManager" name="LOBBY_START_VOLUME"/>
+  <field class="org.byauth.utils.SettingsManager" name="LAVA_Y_LEVEL"/>
+  <field class="org.byauth.utils.SettingsManager" name="LOBBY_COUNTDOWN_SECONDS"/>
+  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_LORE"/>
+  <field class="org.byauth.utils.SettingsManager" name="TEAM_FULL_SOUND"/>
+  <field class="org.byauth.utils.SettingsManager" name="MIN_PLAYERS_TO_START"/>
+  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_MATERIAL"/>
+  <field class="org.byauth.utils.SettingsManager" name="TEAM_FULL_PITCH"/>
+  <field class="org.byauth.utils.SettingsManager" name="ARENA_CENTER_RADIUS"/>
+  <field class="org.byauth.utils.SettingsManager" name="LOBBY_TEAM_ISLAND_DISTANCE"/>
+  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_SLOT"/>
+  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_NAME"/>
+  <field class="org.byauth.utils.SettingsManager" name="POINTS_ON_WIN"/>
+  <field class="org.byauth.utils.SettingsManager" name="PLAYER_LEAVE_VOLUME"/>
+  <field class="org.byauth.utils.SettingsManager" name="COUNTDOWN_TICK_SOUND"/>
+  <field class="org.byauth.utils.SettingsManager" name="FALL_DAMAGE_IMMUNITY_SECONDS"/>
+  <field class="org.byauth.utils.SettingsManager" name="COUNTDOWN_TICK_PITCH"/>
+  <method class="org.byauth.utils.SettingsManager" name="void saveRoundDurations(java.lang.String, java.util.List)"/>
+  <method class="org.byauth.utils.SettingsManager" name="void saveTeamSize(java.lang.String, int)"/>
+  <method class="org.byauth.utils.SettingsManager" name="int getTeamSize(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="void saveShulkerDespawnTimers(java.lang.String, java.util.List)"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.util.List getMessageList(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.util.Set getArenaNames()"/>
+  <method class="org.byauth.utils.SettingsManager" name="void saveMainSpawnLocation(org.bukkit.Location)"/>
+  <method class="org.byauth.utils.SettingsManager" name="org.bukkit.Location getArenaLocation(java.lang.String, java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.lang.String getDisplayName(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.util.List getRoundDurations(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.lang.String getArenaWorldName(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="org.bukkit.Location getMainSpawnLocation()"/>
+  <method class="org.byauth.utils.SettingsManager" name="void saveArenaLocation(java.lang.String, java.lang.String, org.bukkit.Location)"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.lang.String format(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="void saveDisplayName(java.lang.String, java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.util.List getShulkerDespawnTimers(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="void reload()"/>
+  <method class="org.byauth.utils.SettingsManager" name="java.lang.String getMessage(java.lang.String)"/>
+  <method class="org.byauth.utils.SettingsManager" name="void sendMessage(org.bukkit.entity.Player, java.lang.String)"/>
+  <class name="org.byauth.controller.ArenaController"/>
+  <method class="org.byauth.controller.ArenaController" name="void openLobbyGui(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="org.bukkit.entity.Player getSupportTarget(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena getOrCreateArena(java.lang.String)"/>
+  <method class="org.byauth.controller.ArenaController" name="void loadArenas()"/>
+  <method class="org.byauth.controller.ArenaController" name="org.byauth.utils.SettingsManager getSettingsManager()"/>
+  <method class="org.byauth.controller.ArenaController" name="org.bukkit.Location getTeamPlatformLocation(org.byauth.game.Arena, org.byauth.game.Team)"/>
+  <method class="org.byauth.controller.ArenaController" name="java.util.Map getPlayerArenasMap()"/>
+  <method class="org.byauth.controller.ArenaController" name="void openTeamSelectionGUI(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void buildLobby(org.byauth.game.Arena)"/>
+  <method class="org.byauth.controller.ArenaController" name="void selectTeam(org.bukkit.entity.Player, org.byauth.game.Team)"/>
+  <method class="org.byauth.controller.ArenaController" name="void shutdown()"/>
+  <method class="org.byauth.controller.ArenaController" name="void openTeammateSupportGui(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void teleportToMainSpawn(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void unselectTeam(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void checkAndStartCountdown(org.byauth.game.Arena)"/>
+  <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena getArenaByPlayer(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void removePlayer(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void spectateArena(org.bukkit.entity.Player, java.lang.String)"/>
+  <method class="org.byauth.controller.ArenaController" name="java.util.Map getSpectatorsMap()"/>
+  <method class="org.byauth.controller.ArenaController" name="org.bukkit.Location getPrimaryLobbyLocation()"/>
+  <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena getArenaByPlayerIncludingSpectators(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void updatePlayerVisibility(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.controller.ArenaController" name="void addSpectator(org.bukkit.entity.Player, org.byauth.game.Arena)"/>
+  <method class="org.byauth.controller.ArenaController" name="java.util.Map getArenas()"/>
+  <method class="org.byauth.controller.ArenaController" name="void broadcastArenaMessage(org.byauth.game.Arena, java.lang.String)"/>
+  <method class="org.byauth.controller.ArenaController" name="void addPlayer(org.bukkit.entity.Player, java.lang.String)"/>
+  <method class="org.byauth.controller.ArenaController" name="void openSupportShopGui(org.bukkit.entity.Player, org.bukkit.entity.Player)"/>
+  <class name="org.byauth.game.VictoryEffects"/>
+  <method class="org.byauth.game.VictoryEffects" name="void playNetherLord(org.bukkit.entity.Player, org.byauth.ByCircleGame)"/>
+  <method class="org.byauth.game.VictoryEffects" name="void playWardensWrath(org.bukkit.entity.Player, org.byauth.ByCircleGame)"/>
+  <method class="org.byauth.game.VictoryEffects" name="void performStartupCleanup(org.byauth.ByCircleGame)"/>
+  <method class="org.byauth.game.VictoryEffects" name="void playLightningStorm(org.bukkit.entity.Player, org.byauth.ByCircleGame)"/>
+  <method class="org.byauth.game.VictoryEffects" name="void playCosmicSovereign(org.bukkit.entity.Player, org.byauth.ByCircleGame)"/>
+  <method class="org.byauth.game.VictoryEffects" name="void playDragonRoar(org.bukkit.entity.Player, org.byauth.ByCircleGame)"/>
+  <method class="org.byauth.game.VictoryEffects" name="void playAngelicDescent(org.bukkit.entity.Player, org.byauth.ByCircleGame)"/>
+  <class name="org.byauth.game.Team"/>
+  <field class="org.byauth.game.Team" name="GREEN"/>
+  <field class="org.byauth.game.Team" name="AQUA"/>
+  <field class="org.byauth.game.Team" name="ORANGE"/>
+  <field class="org.byauth.game.Team" name="PINK"/>
+  <field class="org.byauth.game.Team" name="YELLOW"/>
+  <field class="org.byauth.game.Team" name="PURPLE"/>
+  <field class="org.byauth.game.Team" name="GRAY"/>
+  <method class="org.byauth.game.Team" name="org.bukkit.ChatColor getChatColor()"/>
+  <method class="org.byauth.game.Team" name="org.bukkit.Material getBannerMaterial()"/>
+  <method class="org.byauth.game.Team" name="org.byauth.game.Team valueOf(java.lang.String)"/>
+  <method class="org.byauth.game.Team" name="org.bukkit.Material getConcreteMaterial()"/>
+  <method class="org.byauth.game.Team" name="java.lang.String getDisplayName()"/>
+  <method class="org.byauth.game.Team" name="org.byauth.game.Team[] values()"/>
+  <method class="org.byauth.game.Team" name="org.bukkit.Material getTerracottaMaterial()"/>
+  <method class="org.byauth.game.Team" name="org.bukkit.Material getGlassMaterial()"/>
+  <class name="org.byauth.game.ArenaState"/>
+  <field class="org.byauth.game.ArenaState" name="COUNTDOWN"/>
+  <field class="org.byauth.game.ArenaState" name="ACTIVE"/>
+  <field class="org.byauth.game.ArenaState" name="WAITING"/>
+  <field class="org.byauth.game.ArenaState" name="RESETTING"/>
+  <field class="org.byauth.game.ArenaState" name="STARTING"/>
+  <field class="org.byauth.game.ArenaState" name="ENDING"/>
+  <method class="org.byauth.game.ArenaState" name="org.byauth.game.ArenaState[] values()"/>
+  <method class="org.byauth.game.ArenaState" name="org.byauth.game.ArenaState valueOf(java.lang.String)"/>
+  <class name="org.byauth.game.EffectPlayer"/>
+  <method class="org.byauth.game.EffectPlayer" name="void playArrowTrail(org.bukkit.entity.Arrow, java.lang.String, org.byauth.ByCircleGame)"/>
+  <method class="org.byauth.game.EffectPlayer" name="void playKillEffect(org.bukkit.Location, java.lang.String)"/>
+  <class name="org.byauth.game.Arena"/>
+  <method class="org.byauth.game.Arena" name="long getLastStateChangeTime()"/>
+  <method class="org.byauth.game.Arena" name="void setTeamSize(int)"/>
+  <method class="org.byauth.game.Arena" name="org.bukkit.Location getLobbyLocation()"/>
+  <method class="org.byauth.game.Arena" name="int getTeamSize()"/>
+  <method class="org.byauth.game.Arena" name="org.byauth.game.ArenaState getState()"/>
+  <method class="org.byauth.game.Arena" name="org.byauth.manager.ArenaManager getArenaManager()"/>
+  <method class="org.byauth.game.Arena" name="void setDisplayName(java.lang.String)"/>
+  <method class="org.byauth.game.Arena" name="java.util.List getShulkerDespawnTimers()"/>
+  <method class="org.byauth.game.Arena" name="void setLobbyLocation(org.bukkit.Location)"/>
+  <method class="org.byauth.game.Arena" name="java.util.Set getPlayers()"/>
+  <method class="org.byauth.game.Arena" name="java.lang.String getName()"/>
+  <method class="org.byauth.game.Arena" name="void setState(org.byauth.game.ArenaState)"/>
+  <method class="org.byauth.game.Arena" name="java.util.Set getSpectators()"/>
+  <method class="org.byauth.game.Arena" name="org.byauth.manager.GameManager getGameManager()"/>
+  <method class="org.byauth.game.Arena" name="void setCenterLocation(org.bukkit.Location)"/>
+  <method class="org.byauth.game.Arena" name="void setShulkerDespawnTimers(java.util.List)"/>
+  <method class="org.byauth.game.Arena" name="java.util.List getRoundDurations()"/>
+  <method class="org.byauth.game.Arena" name="org.bukkit.Location getCenterLocation()"/>
+  <method class="org.byauth.game.Arena" name="void setRoundDurations(java.util.List)"/>
+  <method class="org.byauth.game.Arena" name="java.lang.String getDisplayName()"/>
+  <class name="org.byauth.manager.CosmeticManager"/>
+  <field class="org.byauth.manager.CosmeticManager" name="mainMenuTitle"/>
+  <field class="org.byauth.manager.CosmeticManager" name="arrowGuiTitle"/>
+  <field class="org.byauth.manager.CosmeticManager" name="killGuiTitle"/>
+  <field class="org.byauth.manager.CosmeticManager" name="victoryGuiTitle"/>
+  <method class="org.byauth.manager.CosmeticManager" name="void openCosmeticGui(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.CosmeticManager" name="java.util.List getVictoryEffects()"/>
+  <method class="org.byauth.manager.CosmeticManager" name="void openCategoryGui(org.bukkit.entity.Player, java.lang.String)"/>
+  <method class="org.byauth.manager.CosmeticManager" name="org.byauth.data.VictoryEffect getEffectById(java.lang.String)"/>
+  <method class="org.byauth.manager.CosmeticManager" name="void loadCosmetics()"/>
+  <class name="org.byauth.manager.DatabaseManager"/>
+  <method class="org.byauth.manager.DatabaseManager" name="void closeConnection()"/>
+  <method class="org.byauth.manager.DatabaseManager" name="void connect()"/>
+  <method class="org.byauth.manager.DatabaseManager" name="void unlock()"/>
+  <method class="org.byauth.manager.DatabaseManager" name="void lock()"/>
+  <method class="org.byauth.manager.DatabaseManager" name="java.sql.Connection getConnection()"/>
+  <class name="org.byauth.manager.PlayerDataManager"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void addBCoin(org.bukkit.entity.Player, int)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="org.byauth.data.PlayerStats getStats(java.util.UUID)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void addPoints(org.bukkit.entity.Player, int)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void processWinStats(org.bukkit.entity.Player, int, int)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void incrementDeaths(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void setPoints(org.bukkit.entity.Player, int)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void savePlayerData(org.bukkit.entity.Player, boolean)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void processRoundSurvivedStats(org.bukkit.entity.Player, int, int)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void processKillStats(org.bukkit.entity.Player, int, int)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void incrementLosses(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void setBCoin(org.bukkit.entity.Player, int)"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void loadPlayerData(org.bukkit.entity.Player)"/>
+  <class name="org.byauth.manager.ArenaManager"/>
+  <method class="org.byauth.manager.ArenaManager" name="void clearWaitingPods()"/>
+  <method class="org.byauth.manager.ArenaManager" name="org.bukkit.Location getPodLocation(org.byauth.game.Team)"/>
+  <method class="org.byauth.manager.ArenaManager" name="void clearLootContainers()"/>
+  <method class="org.byauth.manager.ArenaManager" name="org.bukkit.Location getCenter()"/>
+  <method class="org.byauth.manager.ArenaManager" name="int getArenaY()"/>
+  <method class="org.byauth.manager.ArenaManager" name="void setAllSlicesToWhite()"/>
+  <method class="org.byauth.manager.ArenaManager" name="void placeCenterLootContainers()"/>
+  <method class="org.byauth.manager.ArenaManager" name="void resetArena(java.util.List)"/>
+  <method class="org.byauth.manager.ArenaManager" name="void generateWaitingPods(java.util.List)"/>
+  <method class="org.byauth.manager.ArenaManager" name="void convertTeamSliceToWhite(org.byauth.game.Team)"/>
+  <method class="org.byauth.manager.ArenaManager" name="void fillLootContainers(int)"/>
+  <method class="org.byauth.manager.ArenaManager" name="int getLavaY()"/>
+  <method class="org.byauth.manager.ArenaManager" name="void destroyArena()"/>
+  <method class="org.byauth.manager.ArenaManager" name="org.byauth.game.Team getTeamFromLocation(org.bukkit.Location)"/>
+  <method class="org.byauth.manager.ArenaManager" name="void generateArena(org.bukkit.Location, java.util.List)"/>
+  <class name="org.byauth.manager.GameManager"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.Map getActiveAoETraps()"/>
+  <method class="org.byauth.manager.GameManager" name="boolean isPlayerWaiting(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.GameManager" name="void unassignPlayerFromTeam(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.GameManager" name="void assignPlayerToTeam(org.bukkit.entity.Player, org.byauth.game.Team)"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.Set getInvinciblePlayers()"/>
+  <method class="org.byauth.manager.GameManager" name="org.byauth.manager.SpecialItemManager getSpecialItemManager()"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.Map getPlayerPlacedBlocks()"/>
+  <method class="org.byauth.manager.GameManager" name="boolean isTeamAlive(org.byauth.game.Team)"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.Map getTeams()"/>
+  <method class="org.byauth.manager.GameManager" name="org.byauth.game.Team getTeamOfPlayerByUUID(java.util.UUID)"/>
+  <method class="org.byauth.manager.GameManager" name="org.byauth.game.Arena getArena()"/>
+  <method class="org.byauth.manager.GameManager" name="void stopGame(boolean)"/>
+  <method class="org.byauth.manager.GameManager" name="boolean checkWinCondition()"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.Map getActiveGravityBombs()"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.Map getSnowballCooldown()"/>
+  <method class="org.byauth.manager.GameManager" name="boolean hasFallDamageImmunity(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.GameManager" name="org.byauth.game.Team getTeamOfPlayer(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.GameManager" name="boolean isSuddenDeath()"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.Map getPlayerTeams()"/>
+  <method class="org.byauth.manager.GameManager" name="void removePlayerFromGame(org.bukkit.entity.Player)"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.List getPlayersInTeam(org.byauth.game.Team)"/>
+  <method class="org.byauth.manager.GameManager" name="void startGame(org.bukkit.Location)"/>
+  <class name="org.byauth.manager.RankManager"/>
+  <method class="org.byauth.manager.RankManager" name="void reload()"/>
+  <method class="org.byauth.manager.RankManager" name="void checkAndPromote(org.bukkit.entity.Player)"/>
+  <class name="org.byauth.manager.SpecialItemManager"/>
+  <method class="org.byauth.manager.SpecialItemManager" name="void cancelAllEffects()"/>
+  <method class="org.byauth.manager.SpecialItemManager" name="void handleCandlePlace(org.bukkit.entity.Player, org.byauth.game.Team, org.bukkit.Material)"/>
+  <class name="org.byauth.manager.ShopManager"/>
+  <method class="org.byauth.manager.ShopManager" name="org.byauth.data.ShopItem getShopItemById(java.lang.String)"/>
+  <method class="org.byauth.manager.ShopManager" name="java.util.List getShopItems()"/>
+  <class name="org.byauth.manager.LootManager"/>
+  <method class="org.byauth.manager.LootManager" name="void reload()"/>
+  <method class="org.byauth.manager.LootManager" name="org.bukkit.inventory.ItemStack getSpecialItem(java.lang.String)"/>
+  <method class="org.byauth.manager.LootManager" name="java.util.List getLootForRound(int)"/>
+  <class name="org.byauth.hook.PlaceholderHook"/>
+  <method class="org.byauth.hook.PlaceholderHook" name="boolean persist()"/>
+  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String getAuthor()"/>
+  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)"/>
+  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String getVersion()"/>
+  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String getIdentifier()"/>
+  <class name="org.byauth.data.VictoryEffect"/>
+  <method class="org.byauth.data.VictoryEffect" name="java.util.List getLoreSelected()"/>
+  <method class="org.byauth.data.VictoryEffect" name="int getSlot()"/>
+  <method class="org.byauth.data.VictoryEffect" name="int getPrice()"/>
+  <method class="org.byauth.data.VictoryEffect" name="org.bukkit.Material getMaterial()"/>
+  <method class="org.byauth.data.VictoryEffect" name="java.lang.String getDisplayName()"/>
+  <method class="org.byauth.data.VictoryEffect" name="java.lang.String getId()"/>
+  <method class="org.byauth.data.VictoryEffect" name="java.util.List getLoreAvailable()"/>
+  <method class="org.byauth.data.VictoryEffect" name="java.util.List getLoreOwned()"/>
+  <class name="org.byauth.data.ShopItem"/>
+  <method class="org.byauth.data.ShopItem" name="org.bukkit.inventory.ItemStack getGiveItem()"/>
+  <method class="org.byauth.data.ShopItem" name="org.bukkit.inventory.ItemStack getDisplayItem()"/>
+  <method class="org.byauth.data.ShopItem" name="int getPrice()"/>
+  <method class="org.byauth.data.ShopItem" name="java.lang.String getId()"/>
+  <class name="org.byauth.data.PlayerStats"/>
+  <method class="org.byauth.data.PlayerStats" name="int getDeaths()"/>
+  <method class="org.byauth.data.PlayerStats" name="void addBCoin(int)"/>
+  <method class="org.byauth.data.PlayerStats" name="void setPoints(int)"/>
+  <method class="org.byauth.data.PlayerStats" name="java.lang.String getSelectedKillEffect()"/>
+  <method class="org.byauth.data.PlayerStats" name="void setSelectedCosmetic(java.lang.String)"/>
+  <method class="org.byauth.data.PlayerStats" name="void incrementDeaths()"/>
+  <method class="org.byauth.data.PlayerStats" name="void incrementKills()"/>
+  <method class="org.byauth.data.PlayerStats" name="int getLosses()"/>
+  <method class="org.byauth.data.PlayerStats" name="void setBCoin(int)"/>
+  <method class="org.byauth.data.PlayerStats" name="void setOwnedCosmetics(java.util.List)"/>
+  <method class="org.byauth.data.PlayerStats" name="int getBCoin()"/>
+  <method class="org.byauth.data.PlayerStats" name="void incrementLosses()"/>
+  <method class="org.byauth.data.PlayerStats" name="java.lang.String getSelectedCosmetic()"/>
+  <method class="org.byauth.data.PlayerStats" name="int getPoints()"/>
+  <method class="org.byauth.data.PlayerStats" name="void setSelectedArrowEffect(java.lang.String)"/>
+  <method class="org.byauth.data.PlayerStats" name="int getKills()"/>
+  <method class="org.byauth.data.PlayerStats" name="java.util.List getOwnedCosmetics()"/>
+  <method class="org.byauth.data.PlayerStats" name="java.lang.String getSelectedArrowEffect()"/>
+  <method class="org.byauth.data.PlayerStats" name="void setSelectedKillEffect(java.lang.String)"/>
+  <method class="org.byauth.data.PlayerStats" name="void addPoints(int)"/>
+  <method class="org.byauth.data.PlayerStats" name="int getWins()"/>
+  <method class="org.byauth.data.PlayerStats" name="void incrementWins()"/>
+  <class name="org.byauth.listener.PlayerMoveListener"/>
+  <method class="org.byauth.listener.PlayerMoveListener" name="void onPlayerMove(org.bukkit.event.player.PlayerMoveEvent)"/>
+  <class name="org.byauth.listener.CosmeticGuiListener"/>
+  <method class="org.byauth.listener.CosmeticGuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)"/>
+  <class name="org.byauth.listener.BlockPlaceListener"/>
+  <method class="org.byauth.listener.BlockPlaceListener" name="void onBlockPlace(org.bukkit.event.block.BlockPlaceEvent)"/>
+  <class name="org.byauth.listener.BlockFormListener"/>
+  <method class="org.byauth.listener.BlockFormListener" name="void onBlockForm(org.bukkit.event.block.BlockFromToEvent)"/>
+  <class name="org.byauth.listener.SupportGuiListener"/>
+  <method class="org.byauth.listener.SupportGuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)"/>
+  <class name="org.byauth.listener.PlayerGameModeChangeListener"/>
+  <method class="org.byauth.listener.PlayerGameModeChangeListener" name="void onGameModeChange(org.bukkit.event.player.PlayerGameModeChangeEvent)"/>
+  <class name="org.byauth.listener.WorldProtectionListener"/>
+  <method class="org.byauth.listener.WorldProtectionListener" name="void onEntityExplode(org.bukkit.event.entity.EntityExplodeEvent)"/>
+  <method class="org.byauth.listener.WorldProtectionListener" name="void onCreatureSpawn(org.bukkit.event.entity.CreatureSpawnEvent)"/>
+  <class name="org.byauth.listener.GuiListener"/>
+  <method class="org.byauth.listener.GuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)"/>
+  <class name="org.byauth.listener.BlockBreakListener"/>
+  <method class="org.byauth.listener.BlockBreakListener" name="void onBlockBreak(org.bukkit.event.block.BlockBreakEvent)"/>
+  <class name="org.byauth.listener.PlayerJoinListener"/>
+  <method class="org.byauth.listener.PlayerJoinListener" name="void onPlayerJoin(org.bukkit.event.player.PlayerJoinEvent)"/>
+  <class name="org.byauth.listener.GameDamageListener"/>
+  <method class="org.byauth.listener.GameDamageListener" name="void onEntityDamageByEntity(org.bukkit.event.entity.EntityDamageByEntityEvent)"/>
+  <method class="org.byauth.listener.GameDamageListener" name="void onEntityDamage(org.bukkit.event.entity.EntityDamageEvent)"/>
+  <class name="org.byauth.listener.PlayerQuitListener"/>
+  <method class="org.byauth.listener.PlayerQuitListener" name="void onPlayerQuit(org.bukkit.event.player.PlayerQuitEvent)"/>
+  <class name="org.byauth.listener.PlayerChatListener"/>
+  <method class="org.byauth.listener.PlayerChatListener" name="void onPlayerChat(org.bukkit.event.player.AsyncPlayerChatEvent)"/>
+  <class name="org.byauth.listener.LobbyProtectionListener"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onBlockBreak(org.bukkit.event.block.BlockBreakEvent)"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onEntityPickupItem(org.bukkit.event.entity.EntityPickupItemEvent)"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onBlockPlace(org.bukkit.event.block.BlockPlaceEvent)"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onPlayerDropItem(org.bukkit.event.player.PlayerDropItemEvent)"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onEntityDamage(org.bukkit.event.entity.EntityDamageEvent)"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onPlayerMove(org.bukkit.event.player.PlayerMoveEvent)"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onEntityDamageByEntity(org.bukkit.event.entity.EntityDamageByEntityEvent)"/>
+  <method class="org.byauth.listener.LobbyProtectionListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)"/>
+  <class name="org.byauth.listener.ProjectileHitListener"/>
+  <method class="org.byauth.listener.ProjectileHitListener" name="void onProjectileHit(org.bukkit.event.entity.ProjectileHitEvent)"/>
+  <class name="org.byauth.listener.PlayerItemConsumeListener"/>
+  <method class="org.byauth.listener.PlayerItemConsumeListener" name="void onItemConsume(org.bukkit.event.player.PlayerItemConsumeEvent)"/>
+  <class name="org.byauth.listener.PlayerDeathListener"/>
+  <method class="org.byauth.listener.PlayerDeathListener" name="void onPlayerDeath(org.bukkit.event.entity.PlayerDeathEvent)"/>
+  <class name="org.byauth.listener.LobbyListener"/>
+  <method class="org.byauth.listener.LobbyListener" name="void onPlayerInteract(org.bukkit.event.player.PlayerInteractEvent)"/>
+  <class name="org.byauth.listener.SpecialItemUseListener"/>
+  <method class="org.byauth.listener.SpecialItemUseListener" name="void onInteract(org.bukkit.event.player.PlayerInteractEvent)"/>
+  <class name="org.byauth.listener.LobbyGuiListener"/>
+  <method class="org.byauth.listener.LobbyGuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)"/>
+  <class name="org.byauth.listener.ArrowEffectListener"/>
+  <method class="org.byauth.listener.ArrowEffectListener" name="void onProjectileLaunch(org.bukkit.event.entity.ProjectileLaunchEvent)"/>
+  <class name="org.byauth.command.AdminCommand"/>
+  <method class="org.byauth.command.AdminCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])"/>
+  <class name="org.byauth.command.PlayerCommand"/>
+  <method class="org.byauth.command.PlayerCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])"/>
+  <class name="org.byauth.command.CosmeticCommand"/>
+  <method class="org.byauth.command.CosmeticCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])"/>
+  <class name="org.byauth.command.PlayerCommandTabCompleter"/>
+  <method class="org.byauth.command.PlayerCommandTabCompleter" name="java.util.List onTabComplete(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])"/>
+  <class name="org.byauth.command.SupportCommand"/>
+  <method class="org.byauth.command.SupportCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])"/>
+  <class name="org.byauth.command.AdminCommandTabCompleter"/>
+  <method class="org.byauth.command.AdminCommandTabCompleter" name="java.util.List onTabComplete(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])"/>
   <class name="org.byauth.ByCircleGame"/>
   <method class="org.byauth.ByCircleGame" name="void onEnable()"/>
   <method class="org.byauth.ByCircleGame" name="org.byauth.manager.LootManager getLootManager()"/>
@@ -25249,112 +25605,25 @@ to act on classes which have been obfuscated.
   <method class="org.apache.tools.bzip2.CBZip2InputStream" name="void setupNoRandPartC()" map="c"/>
   <method class="org.apache.tools.bzip2.CBZip2InputStream" name="void makeMaps()" map="d"/>
   <method class="org.apache.tools.bzip2.CBZip2InputStream" name="void setupRandPartA()" map="e"/>
-  <package name="org.byauth.utils" map="A"/>
-  <class name="org.byauth.utils.ItemBuilder" map="A"/>
   <field class="org.byauth.utils.ItemBuilder" name="item" map="A"/>
   <field class="org.byauth.utils.ItemBuilder" name="meta" map="B"/>
-  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setLore(java.lang.String[])" map="A"/>
   <method class="org.byauth.utils.ItemBuilder" name="java.lang.String lambda$setLore$0(java.lang.String)" map="A"/>
-  <method class="org.byauth.utils.ItemBuilder" name="org.bukkit.inventory.ItemStack build()" map="A"/>
-  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setName(java.lang.String)" map="B"/>
-  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setLore(java.util.List)" map="A"/>
-  <method class="org.byauth.utils.ItemBuilder" name="java.lang.String lambda$setLore$1(java.lang.String)" map="C"/>
-  <method class="org.byauth.utils.ItemBuilder" name="org.byauth.utils.ItemBuilder setSkullOwner(org.bukkit.entity.Player)" map="A"/>
-  <class name="org.byauth.utils.SettingsManager" map="B"/>
-  <field class="org.byauth.utils.SettingsManager" name="COIN_SYSTEM_NAME" map="A"/>
-  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_MATERIAL" map="B"/>
-  <field class="org.byauth.utils.SettingsManager" name="POINTS_ENABLED" map="C"/>
-  <field class="org.byauth.utils.SettingsManager" name="SUDDEN_DEATH_DURATION_SECONDS" map="D"/>
-  <field class="org.byauth.utils.SettingsManager" name="COBWEB_ELIMINATION_SECONDS" map="E"/>
-  <field class="org.byauth.utils.SettingsManager" name="ARENA_RADIUS" map="F"/>
-  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_LORE" map="G"/>
-  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_SLOT" map="H"/>
-  <field class="org.byauth.utils.SettingsManager" name="MAIN_SPAWN_PROTECTION_RADIUS" map="I"/>
-  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_NAME" map="J"/>
-  <field class="org.byauth.utils.SettingsManager" name="COUNTDOWN_TICK_VOLUME" map="K"/>
-  <field class="org.byauth.utils.SettingsManager" name="LOBBY_TEAM_ISLAND_RADIUS" map="L"/>
-  <field class="org.byauth.utils.SettingsManager" name="PLAYER_JOIN_VOLUME" map="M"/>
-  <field class="org.byauth.utils.SettingsManager" name="SNOWBALL_DAMAGE" map="N"/>
-  <field class="org.byauth.utils.SettingsManager" name="LOBBY_MAIN_ISLAND_RADIUS" map="O"/>
-  <field class="org.byauth.utils.SettingsManager" name="RESETTING_DURATION_SECONDS" map="P"/>
-  <field class="org.byauth.utils.SettingsManager" name="PREFIX" map="Q"/>
-  <field class="org.byauth.utils.SettingsManager" name="COINS_ON_ROUND_SURVIVE" map="R"/>
-  <field class="org.byauth.utils.SettingsManager" name="POINTS_ON_ROUND_SURVIVE" map="S"/>
-  <field class="org.byauth.utils.SettingsManager" name="GAME_START_VOLUME" map="T"/>
-  <field class="org.byauth.utils.SettingsManager" name="messages" map="U"/>
-  <field class="org.byauth.utils.SettingsManager" name="CELEBRATION_DURATION_SECONDS" map="V"/>
-  <field class="org.byauth.utils.SettingsManager" name="GAME_START_SOUND" map="W"/>
-  <field class="org.byauth.utils.SettingsManager" name="COINS_ON_WIN" map="X"/>
-  <field class="org.byauth.utils.SettingsManager" name="GAME_START_PITCH" map="Y"/>
-  <field class="org.byauth.utils.SettingsManager" name="COIN_SYSTEM_ENABLED" map="Z"/>
-  <field class="org.byauth.utils.SettingsManager" name="PLAYER_JOIN_SOUND" map="_"/>
-  <field class="org.byauth.utils.SettingsManager" name="PLAYER_JOIN_PITCH" map="a"/>
-  <field class="org.byauth.utils.SettingsManager" name="messagesFile" map="b"/>
-  <field class="org.byauth.utils.SettingsManager" name="worlds" map="c"/>
-  <field class="org.byauth.utils.SettingsManager" name="POD_RADIUS_OFFSET" map="d"/>
-  <field class="org.byauth.utils.SettingsManager" name="SLOW_FALL_DURATION_TICKS" map="e"/>
-  <field class="org.byauth.utils.SettingsManager" name="POINTS_ON_KILL" map="f"/>
-  <field class="org.byauth.utils.SettingsManager" name="TEAM_FULL_VOLUME" map="g"/>
-  <field class="org.byauth.utils.SettingsManager" name="COINS_ON_KILL" map="h"/>
-  <field class="org.byauth.utils.SettingsManager" name="worldsFile" map="i"/>
-  <field class="org.byauth.utils.SettingsManager" name="LOBBY_START_SOUND" map="j"/>
-  <field class="org.byauth.utils.SettingsManager" name="LOBBY_START_PITCH" map="k"/>
-  <field class="org.byauth.utils.SettingsManager" name="INSTANT_TNT_FUSE_TICKS" map="l"/>
-  <field class="org.byauth.utils.SettingsManager" name="PLAYER_LEAVE_SOUND" map="m"/>
-  <field class="org.byauth.utils.SettingsManager" name="ARENA_Y_LEVEL" map="n"/>
-  <field class="org.byauth.utils.SettingsManager" name="PLAYER_LEAVE_PITCH" map="o"/>
-  <field class="org.byauth.utils.SettingsManager" name="config" map="p"/>
-  <field class="org.byauth.utils.SettingsManager" name="MIN_TEAMS_TO_START" map="q"/>
-  <field class="org.byauth.utils.SettingsManager" name="INTER_ROUND_COUNTDOWN_SECONDS" map="r"/>
-  <field class="org.byauth.utils.SettingsManager" name="POD_Y_OFFSET" map="s"/>
-  <field class="org.byauth.utils.SettingsManager" name="LOBBY_START_VOLUME" map="t"/>
-  <field class="org.byauth.utils.SettingsManager" name="LAVA_Y_LEVEL" map="u"/>
-  <field class="org.byauth.utils.SettingsManager" name="LOBBY_COUNTDOWN_SECONDS" map="v"/>
-  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_LORE" map="w"/>
-  <field class="org.byauth.utils.SettingsManager" name="TEAM_FULL_SOUND" map="x"/>
-  <field class="org.byauth.utils.SettingsManager" name="MIN_PLAYERS_TO_START" map="y"/>
-  <field class="org.byauth.utils.SettingsManager" name="TEAM_SELECTOR_MATERIAL" map="z"/>
-  <field class="org.byauth.utils.SettingsManager" name="TEAM_FULL_PITCH" map="&#x00a2;"/>
-  <field class="org.byauth.utils.SettingsManager" name="ARENA_CENTER_RADIUS" map="&#x00a3;"/>
-  <field class="org.byauth.utils.SettingsManager" name="LOBBY_TEAM_ISLAND_DISTANCE" map="&#x00a4;"/>
-  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_SLOT" map="&#x00a5;"/>
-  <field class="org.byauth.utils.SettingsManager" name="LEAVE_LOBBY_NAME" map="&#x00aa;"/>
-  <field class="org.byauth.utils.SettingsManager" name="plugin" map="&#x00b5;"/>
-  <field class="org.byauth.utils.SettingsManager" name="POINTS_ON_WIN" map="&#x00ba;"/>
-  <field class="org.byauth.utils.SettingsManager" name="PLAYER_LEAVE_VOLUME" map="&#x00c0;"/>
-  <field class="org.byauth.utils.SettingsManager" name="COUNTDOWN_TICK_SOUND" map="&#x00c1;"/>
-  <field class="org.byauth.utils.SettingsManager" name="FALL_DAMAGE_IMMUNITY_SECONDS" map="&#x00c2;"/>
-  <field class="org.byauth.utils.SettingsManager" name="COUNTDOWN_TICK_PITCH" map="&#x00c3;"/>
-  <method class="org.byauth.utils.SettingsManager" name="void saveRoundDurations(java.lang.String, java.util.List)" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="void saveTeamSize(java.lang.String, int)" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="int getTeamSize(java.lang.String)" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="void saveShulkerDespawnTimers(java.lang.String, java.util.List)" map="B"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.util.List getMessageList(java.lang.String)" map="B"/>
+  <method class="org.byauth.utils.ItemBuilder" name="java.lang.String lambda$setLore$1(java.lang.String)" map="B"/>
+  <field class="org.byauth.utils.SettingsManager" name="messages" map="A"/>
+  <field class="org.byauth.utils.SettingsManager" name="messagesFile" map="B"/>
+  <field class="org.byauth.utils.SettingsManager" name="worlds" map="C"/>
+  <field class="org.byauth.utils.SettingsManager" name="worldsFile" map="D"/>
+  <field class="org.byauth.utils.SettingsManager" name="config" map="E"/>
+  <field class="org.byauth.utils.SettingsManager" name="plugin" map="F"/>
   <method class="org.byauth.utils.SettingsManager" name="void loadFiles()" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.util.Set getArenaNames()" map="B"/>
-  <method class="org.byauth.utils.SettingsManager" name="void saveMainSpawnLocation(org.bukkit.Location)" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="org.bukkit.Location getArenaLocation(java.lang.String, java.lang.String)" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.lang.String getDisplayName(java.lang.String)" map="C"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.util.List getRoundDurations(java.lang.String)" map="D"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.lang.String getArenaWorldName(java.lang.String)" map="E"/>
-  <method class="org.byauth.utils.SettingsManager" name="org.bukkit.Location getMainSpawnLocation()" map="C"/>
-  <method class="org.byauth.utils.SettingsManager" name="void saveArenaLocation(java.lang.String, java.lang.String, org.bukkit.Location)" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="void loadValues()" map="D"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.lang.String format(java.lang.String)" map="F"/>
-  <method class="org.byauth.utils.SettingsManager" name="void saveDisplayName(java.lang.String, java.lang.String)" map="B"/>
+  <method class="org.byauth.utils.SettingsManager" name="void loadValues()" map="B"/>
   <method class="org.byauth.utils.SettingsManager" name="void loadSound(java.lang.String, org.bukkit.Sound, float, float)" map="A"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.util.List getShulkerDespawnTimers(java.lang.String)" map="G"/>
-  <method class="org.byauth.utils.SettingsManager" name="void reload()" map="E"/>
-  <method class="org.byauth.utils.SettingsManager" name="java.lang.String getMessage(java.lang.String)" map="H"/>
-  <method class="org.byauth.utils.SettingsManager" name="void saveWorldsFile()" map="F"/>
-  <method class="org.byauth.utils.SettingsManager" name="void sendMessage(org.bukkit.entity.Player, java.lang.String)" map="A"/>
-  <package name="org.byauth.controller" map="B"/>
+  <method class="org.byauth.utils.SettingsManager" name="void saveWorldsFile()" map="C"/>
   <class name="org.byauth.controller.ArenaController$1" map="1"/>
   <field class="org.byauth.controller.ArenaController$1" name="this$0" map="this$0"/>
   <field class="org.byauth.controller.ArenaController$1" name="val$arena" map="val$arena"/>
   <field class="org.byauth.controller.ArenaController$1" name="countdown" map="countdown"/>
   <method class="org.byauth.controller.ArenaController$1" name="void run()" map="run"/>
-  <class name="org.byauth.controller.ArenaController" map="A"/>
   <field class="org.byauth.controller.ArenaController" name="playerArenas" map="A"/>
   <field class="org.byauth.controller.ArenaController" name="arenas" map="B"/>
   <field class="org.byauth.controller.ArenaController" name="spectators" map="C"/>
@@ -25362,39 +25631,11 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.controller.ArenaController" name="settings" map="E"/>
   <field class="org.byauth.controller.ArenaController" name="plugin" map="F"/>
   <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena lambda$getOrCreateArena$0(java.lang.String, java.lang.String)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="void openLobbyGui(org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="org.bukkit.entity.Player getSupportTarget(org.bukkit.entity.Player)" map="B"/>
-  <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena getOrCreateArena(java.lang.String)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="void loadArenas()" map="A"/>
   <method class="org.byauth.controller.ArenaController" name="void startLobbyCountdown(org.byauth.game.Arena)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="org.byauth.utils.SettingsManager getSettingsManager()" map="B"/>
-  <method class="org.byauth.controller.ArenaController" name="org.bukkit.Location getTeamPlatformLocation(org.byauth.game.Arena, org.byauth.game.Team)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="java.util.Map getPlayerArenasMap()" map="C"/>
-  <method class="org.byauth.controller.ArenaController" name="void openTeamSelectionGUI(org.bukkit.entity.Player)" map="C"/>
-  <method class="org.byauth.controller.ArenaController" name="void buildLobby(org.byauth.game.Arena)" map="B"/>
-  <method class="org.byauth.controller.ArenaController" name="void selectTeam(org.bukkit.entity.Player, org.byauth.game.Team)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="void shutdown()" map="D"/>
-  <method class="org.byauth.controller.ArenaController" name="void openTeammateSupportGui(org.bukkit.entity.Player)" map="D"/>
-  <method class="org.byauth.controller.ArenaController" name="void teleportToMainSpawn(org.bukkit.entity.Player)" map="E"/>
-  <method class="org.byauth.controller.ArenaController" name="void unselectTeam(org.bukkit.entity.Player)" map="F"/>
-  <method class="org.byauth.controller.ArenaController" name="void checkAndStartCountdown(org.byauth.game.Arena)" map="C"/>
-  <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena getArenaByPlayer(org.bukkit.entity.Player)" map="G"/>
-  <method class="org.byauth.controller.ArenaController" name="void removePlayer(org.bukkit.entity.Player)" map="H"/>
-  <method class="org.byauth.controller.ArenaController" name="boolean isSpectating(org.bukkit.entity.Player)" map="I"/>
-  <method class="org.byauth.controller.ArenaController" name="void spectateArena(org.bukkit.entity.Player, java.lang.String)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="java.util.Map getSpectatorsMap()" map="E"/>
-  <method class="org.byauth.controller.ArenaController" name="org.bukkit.Location getPrimaryLobbyLocation()" map="F"/>
+  <method class="org.byauth.controller.ArenaController" name="boolean isSpectating(org.bukkit.entity.Player)" map="A"/>
   <method class="org.byauth.controller.ArenaController" name="boolean lambda$openTeammateSupportGui$0(org.bukkit.entity.Player, org.byauth.game.Arena, org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena getArenaByPlayerIncludingSpectators(org.bukkit.entity.Player)" map="J"/>
-  <method class="org.byauth.controller.ArenaController" name="void updatePlayerVisibility(org.bukkit.entity.Player)" map="K"/>
-  <method class="org.byauth.controller.ArenaController" name="void giveLobbyItems(org.bukkit.entity.Player)" map="L"/>
-  <method class="org.byauth.controller.ArenaController" name="void addSpectator(org.bukkit.entity.Player, org.byauth.game.Arena)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="java.util.Map getArenas()" map="G"/>
-  <method class="org.byauth.controller.ArenaController" name="void broadcastArenaMessage(org.byauth.game.Arena, java.lang.String)" map="A"/>
-  <method class="org.byauth.controller.ArenaController" name="void addPlayer(org.bukkit.entity.Player, java.lang.String)" map="B"/>
-  <method class="org.byauth.controller.ArenaController" name="void openSupportShopGui(org.bukkit.entity.Player, org.bukkit.entity.Player)" map="A"/>
+  <method class="org.byauth.controller.ArenaController" name="void giveLobbyItems(org.bukkit.entity.Player)" map="B"/>
   <method class="org.byauth.controller.ArenaController" name="org.byauth.game.Arena lambda$loadArenas$0(org.bukkit.Location, org.bukkit.Location, java.lang.String)" map="A"/>
-  <package name="org.byauth.game" map="C"/>
   <class name="org.byauth.game.VictoryEffects$6" map="6"/>
   <field class="org.byauth.game.VictoryEffects$6" name="center" map="A"/>
   <field class="org.byauth.game.VictoryEffects$6" name="DURATION" map="B"/>
@@ -25452,61 +25693,24 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.game.VictoryEffects$1" name="val$plugin" map="val$plugin"/>
   <method class="org.byauth.game.VictoryEffects$1" name="void lambda$run$0(org.bukkit.entity.ArmorStand)" map="A"/>
   <method class="org.byauth.game.VictoryEffects$1" name="void run()" map="run"/>
-  <class name="org.byauth.game.VictoryEffects" map="A"/>
   <field class="org.byauth.game.VictoryEffects" name="random" map="A"/>
-  <method class="org.byauth.game.VictoryEffects" name="void playNetherLord(org.bukkit.entity.Player, org.byauth.ByCircleGame)" map="A"/>
-  <method class="org.byauth.game.VictoryEffects" name="void playWardensWrath(org.bukkit.entity.Player, org.byauth.ByCircleGame)" map="B"/>
-  <method class="org.byauth.game.VictoryEffects" name="void performStartupCleanup(org.byauth.ByCircleGame)" map="A"/>
-  <method class="org.byauth.game.VictoryEffects" name="void playLightningStorm(org.bukkit.entity.Player, org.byauth.ByCircleGame)" map="C"/>
   <method class="org.byauth.game.VictoryEffects" name="void clearCleanupData(org.byauth.ByCircleGame, org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.game.VictoryEffects" name="void playCosmicSovereign(org.bukkit.entity.Player, org.byauth.ByCircleGame)" map="D"/>
-  <method class="org.byauth.game.VictoryEffects" name="void playDragonRoar(org.bukkit.entity.Player, org.byauth.ByCircleGame)" map="E"/>
   <method class="org.byauth.game.VictoryEffects" name="void saveCleanupData(org.byauth.ByCircleGame, org.bukkit.entity.Player, java.util.Map, java.util.List)" map="A"/>
-  <method class="org.byauth.game.VictoryEffects" name="void playAngelicDescent(org.bukkit.entity.Player, org.byauth.ByCircleGame)" map="F"/>
-  <class name="org.byauth.game.Team" map="B"/>
-  <field class="org.byauth.game.Team" name="GREEN" map="A"/>
-  <field class="org.byauth.game.Team" name="glassMaterial" map="B"/>
-  <field class="org.byauth.game.Team" name="AQUA" map="C"/>
-  <field class="org.byauth.game.Team" name="bannerMaterial" map="D"/>
-  <field class="org.byauth.game.Team" name="$VALUES" map="E"/>
-  <field class="org.byauth.game.Team" name="chatColor" map="F"/>
-  <field class="org.byauth.game.Team" name="ORANGE" map="G"/>
-  <field class="org.byauth.game.Team" name="concreteMaterial" map="H"/>
-  <field class="org.byauth.game.Team" name="PINK" map="I"/>
-  <field class="org.byauth.game.Team" name="displayName" map="J"/>
-  <field class="org.byauth.game.Team" name="YELLOW" map="K"/>
-  <field class="org.byauth.game.Team" name="PURPLE" map="L"/>
-  <field class="org.byauth.game.Team" name="GRAY" map="M"/>
-  <field class="org.byauth.game.Team" name="terracottaMaterial" map="N"/>
+  <field class="org.byauth.game.Team" name="glassMaterial" map="A"/>
+  <field class="org.byauth.game.Team" name="bannerMaterial" map="B"/>
+  <field class="org.byauth.game.Team" name="$VALUES" map="C"/>
+  <field class="org.byauth.game.Team" name="chatColor" map="D"/>
+  <field class="org.byauth.game.Team" name="concreteMaterial" map="E"/>
+  <field class="org.byauth.game.Team" name="displayName" map="F"/>
+  <field class="org.byauth.game.Team" name="terracottaMaterial" map="G"/>
   <method class="org.byauth.game.Team" name="org.byauth.game.Team[] $values()" map="A"/>
-  <method class="org.byauth.game.Team" name="org.bukkit.ChatColor getChatColor()" map="B"/>
-  <method class="org.byauth.game.Team" name="org.bukkit.Material getBannerMaterial()" map="C"/>
-  <method class="org.byauth.game.Team" name="org.byauth.game.Team valueOf(java.lang.String)" map="valueOf"/>
-  <method class="org.byauth.game.Team" name="org.bukkit.Material getConcreteMaterial()" map="D"/>
-  <method class="org.byauth.game.Team" name="java.lang.String getDisplayName()" map="E"/>
-  <method class="org.byauth.game.Team" name="org.byauth.game.Team[] values()" map="values"/>
-  <method class="org.byauth.game.Team" name="org.bukkit.Material getTerracottaMaterial()" map="F"/>
-  <method class="org.byauth.game.Team" name="org.bukkit.Material getGlassMaterial()" map="G"/>
-  <class name="org.byauth.game.ArenaState" map="C"/>
-  <field class="org.byauth.game.ArenaState" name="COUNTDOWN" map="A"/>
-  <field class="org.byauth.game.ArenaState" name="$VALUES" map="B"/>
-  <field class="org.byauth.game.ArenaState" name="ACTIVE" map="C"/>
-  <field class="org.byauth.game.ArenaState" name="WAITING" map="D"/>
-  <field class="org.byauth.game.ArenaState" name="RESETTING" map="E"/>
-  <field class="org.byauth.game.ArenaState" name="STARTING" map="F"/>
-  <field class="org.byauth.game.ArenaState" name="ENDING" map="G"/>
-  <method class="org.byauth.game.ArenaState" name="org.byauth.game.ArenaState[] values()" map="values"/>
+  <field class="org.byauth.game.ArenaState" name="$VALUES" map="A"/>
   <method class="org.byauth.game.ArenaState" name="org.byauth.game.ArenaState[] $values()" map="A"/>
-  <method class="org.byauth.game.ArenaState" name="org.byauth.game.ArenaState valueOf(java.lang.String)" map="valueOf"/>
   <class name="org.byauth.game.EffectPlayer$1" map="1"/>
   <field class="org.byauth.game.EffectPlayer$1" name="val$effectId" map="val$effectId"/>
   <field class="org.byauth.game.EffectPlayer$1" name="val$arrow" map="val$arrow"/>
   <method class="org.byauth.game.EffectPlayer$1" name="void run()" map="run"/>
-  <class name="org.byauth.game.EffectPlayer" map="D"/>
   <field class="org.byauth.game.EffectPlayer" name="random" map="A"/>
-  <method class="org.byauth.game.EffectPlayer" name="void playArrowTrail(org.bukkit.entity.Arrow, java.lang.String, org.byauth.ByCircleGame)" map="A"/>
-  <method class="org.byauth.game.EffectPlayer" name="void playKillEffect(org.bukkit.Location, java.lang.String)" map="A"/>
-  <class name="org.byauth.game.Arena" map="E"/>
   <field class="org.byauth.game.Arena" name="state" map="A"/>
   <field class="org.byauth.game.Arena" name="name" map="B"/>
   <field class="org.byauth.game.Arena" name="players" map="C"/>
@@ -25521,86 +25725,35 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.game.Arena" name="lobbyLocation" map="L"/>
   <field class="org.byauth.game.Arena" name="gameManager" map="M"/>
   <field class="org.byauth.game.Arena" name="lastStateChangeTime" map="N"/>
-  <method class="org.byauth.game.Arena" name="long getLastStateChangeTime()" map="A"/>
-  <method class="org.byauth.game.Arena" name="void setTeamSize(int)" map="A"/>
-  <method class="org.byauth.game.Arena" name="org.bukkit.Location getLobbyLocation()" map="B"/>
-  <method class="org.byauth.game.Arena" name="int getTeamSize()" map="C"/>
-  <method class="org.byauth.game.Arena" name="org.byauth.game.ArenaState getState()" map="D"/>
-  <method class="org.byauth.game.Arena" name="org.byauth.manager.ArenaManager getArenaManager()" map="E"/>
-  <method class="org.byauth.game.Arena" name="void setDisplayName(java.lang.String)" map="A"/>
-  <method class="org.byauth.game.Arena" name="java.util.List getShulkerDespawnTimers()" map="F"/>
-  <method class="org.byauth.game.Arena" name="void setLobbyLocation(org.bukkit.Location)" map="A"/>
-  <method class="org.byauth.game.Arena" name="java.util.Set getPlayers()" map="G"/>
-  <method class="org.byauth.game.Arena" name="java.lang.String getName()" map="H"/>
-  <method class="org.byauth.game.Arena" name="void setState(org.byauth.game.ArenaState)" map="A"/>
-  <method class="org.byauth.game.Arena" name="java.util.Set getSpectators()" map="I"/>
-  <method class="org.byauth.game.Arena" name="org.byauth.manager.GameManager getGameManager()" map="J"/>
-  <method class="org.byauth.game.Arena" name="void setCenterLocation(org.bukkit.Location)" map="B"/>
-  <method class="org.byauth.game.Arena" name="void setShulkerDespawnTimers(java.util.List)" map="A"/>
-  <method class="org.byauth.game.Arena" name="java.util.List getRoundDurations()" map="K"/>
-  <method class="org.byauth.game.Arena" name="org.bukkit.Location getCenterLocation()" map="L"/>
-  <method class="org.byauth.game.Arena" name="void setRoundDurations(java.util.List)" map="B"/>
-  <method class="org.byauth.game.Arena" name="java.lang.String getDisplayName()" map="M"/>
-  <package name="org.byauth.manager" map="D"/>
-  <class name="org.byauth.manager.CosmeticManager" map="A"/>
   <field class="org.byauth.manager.CosmeticManager" name="killEffects" map="A"/>
-  <field class="org.byauth.manager.CosmeticManager" name="mainMenuTitle" map="B"/>
-  <field class="org.byauth.manager.CosmeticManager" name="arrowEffects" map="C"/>
-  <field class="org.byauth.manager.CosmeticManager" name="playerDataManager" map="D"/>
-  <field class="org.byauth.manager.CosmeticManager" name="settingsManager" map="E"/>
-  <field class="org.byauth.manager.CosmeticManager" name="plugin" map="F"/>
-  <field class="org.byauth.manager.CosmeticManager" name="arrowGuiTitle" map="G"/>
-  <field class="org.byauth.manager.CosmeticManager" name="victoryEffects" map="H"/>
-  <field class="org.byauth.manager.CosmeticManager" name="killGuiTitle" map="I"/>
-  <field class="org.byauth.manager.CosmeticManager" name="victoryGuiTitle" map="J"/>
+  <field class="org.byauth.manager.CosmeticManager" name="arrowEffects" map="B"/>
+  <field class="org.byauth.manager.CosmeticManager" name="playerDataManager" map="C"/>
+  <field class="org.byauth.manager.CosmeticManager" name="settingsManager" map="D"/>
+  <field class="org.byauth.manager.CosmeticManager" name="plugin" map="E"/>
+  <field class="org.byauth.manager.CosmeticManager" name="victoryEffects" map="F"/>
   <method class="org.byauth.manager.CosmeticManager" name="void loadEffectsFromConfig(org.bukkit.configuration.file.FileConfiguration, java.lang.String, java.util.List)" map="A"/>
   <method class="org.byauth.manager.CosmeticManager" name="boolean lambda$getEffectById$4(java.lang.String, org.byauth.data.VictoryEffect)" map="A"/>
   <method class="org.byauth.manager.CosmeticManager" name="boolean lambda$getEffectById$2(java.lang.String, org.byauth.data.VictoryEffect)" map="B"/>
   <method class="org.byauth.manager.CosmeticManager" name="java.util.Optional lambda$getEffectById$1(java.lang.String)" map="A"/>
-  <method class="org.byauth.manager.CosmeticManager" name="void openCosmeticGui(org.bukkit.entity.Player)" map="A"/>
   <method class="org.byauth.manager.CosmeticManager" name="java.lang.String lambda$openCategoryGui$0(org.byauth.data.VictoryEffect, java.lang.String)" map="A"/>
-  <method class="org.byauth.manager.CosmeticManager" name="java.util.List getVictoryEffects()" map="A"/>
   <method class="org.byauth.manager.CosmeticManager" name="boolean lambda$getEffectById$0(java.lang.String, org.byauth.data.VictoryEffect)" map="C"/>
-  <method class="org.byauth.manager.CosmeticManager" name="void openCategoryGui(org.bukkit.entity.Player, java.lang.String)" map="A"/>
-  <method class="org.byauth.manager.CosmeticManager" name="org.byauth.data.VictoryEffect getEffectById(java.lang.String)" map="B"/>
-  <method class="org.byauth.manager.CosmeticManager" name="void loadCosmetics()" map="B"/>
-  <method class="org.byauth.manager.CosmeticManager" name="java.util.Optional lambda$getEffectById$3(java.lang.String)" map="C"/>
-  <class name="org.byauth.manager.DatabaseManager" map="B"/>
+  <method class="org.byauth.manager.CosmeticManager" name="java.util.Optional lambda$getEffectById$3(java.lang.String)" map="B"/>
   <field class="org.byauth.manager.DatabaseManager" name="connection" map="A"/>
   <field class="org.byauth.manager.DatabaseManager" name="lock" map="B"/>
   <field class="org.byauth.manager.DatabaseManager" name="plugin" map="C"/>
   <field class="org.byauth.manager.DatabaseManager" name="dbUrl" map="D"/>
-  <method class="org.byauth.manager.DatabaseManager" name="void closeConnection()" map="A"/>
-  <method class="org.byauth.manager.DatabaseManager" name="void updateTable()" map="B"/>
-  <method class="org.byauth.manager.DatabaseManager" name="void connect()" map="C"/>
-  <method class="org.byauth.manager.DatabaseManager" name="void unlock()" map="D"/>
-  <method class="org.byauth.manager.DatabaseManager" name="void lock()" map="E"/>
-  <method class="org.byauth.manager.DatabaseManager" name="void createTable()" map="F"/>
-  <method class="org.byauth.manager.DatabaseManager" name="java.sql.Connection getConnection()" map="G"/>
+  <method class="org.byauth.manager.DatabaseManager" name="void updateTable()" map="A"/>
+  <method class="org.byauth.manager.DatabaseManager" name="void createTable()" map="B"/>
   <class name="org.byauth.manager.PlayerDataManager$1" map="1"/>
   <field class="org.byauth.manager.PlayerDataManager$1" name="this$0" map="D"/>
-  <class name="org.byauth.manager.PlayerDataManager" map="C"/>
   <field class="org.byauth.manager.PlayerDataManager" name="gson" map="A"/>
   <field class="org.byauth.manager.PlayerDataManager" name="statsCache" map="B"/>
   <field class="org.byauth.manager.PlayerDataManager" name="plugin" map="C"/>
   <field class="org.byauth.manager.PlayerDataManager" name="stringListType" map="D"/>
   <field class="org.byauth.manager.PlayerDataManager" name="databaseManager" map="E"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void addBCoin(org.bukkit.entity.Player, int)" map="A"/>
   <method class="org.byauth.manager.PlayerDataManager" name="void lambda$savePlayerData$0(java.util.UUID, org.bukkit.entity.Player, org.byauth.data.PlayerStats, boolean)" map="A"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="org.byauth.data.PlayerStats getStats(java.util.UUID)" map="A"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void addPoints(org.bukkit.entity.Player, int)" map="B"/>
   <method class="org.byauth.manager.PlayerDataManager" name="void saveOnChange(org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void processWinStats(org.bukkit.entity.Player, int, int)" map="A"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void incrementDeaths(org.bukkit.entity.Player)" map="B"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void setPoints(org.bukkit.entity.Player, int)" map="C"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void savePlayerData(org.bukkit.entity.Player, boolean)" map="A"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void processRoundSurvivedStats(org.bukkit.entity.Player, int, int)" map="B"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void processKillStats(org.bukkit.entity.Player, int, int)" map="C"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void lambda$loadPlayerData$0(java.util.UUID)" map="B"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void incrementLosses(org.bukkit.entity.Player)" map="C"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void setBCoin(org.bukkit.entity.Player, int)" map="D"/>
-  <method class="org.byauth.manager.PlayerDataManager" name="void loadPlayerData(org.bukkit.entity.Player)" map="D"/>
-  <class name="org.byauth.manager.ArenaManager" map="D"/>
+  <method class="org.byauth.manager.PlayerDataManager" name="void lambda$loadPlayerData$0(java.util.UUID)" map="A"/>
   <field class="org.byauth.manager.ArenaManager" name="center" map="A"/>
   <field class="org.byauth.manager.ArenaManager" name="settings" map="B"/>
   <field class="org.byauth.manager.ArenaManager" name="arena" map="C"/>
@@ -25613,24 +25766,9 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.manager.ArenaManager" name="borderBlockLocations" map="J"/>
   <field class="org.byauth.manager.ArenaManager" name="arenaY" map="K"/>
   <field class="org.byauth.manager.ArenaManager" name="centerRadius" map="L"/>
-  <method class="org.byauth.manager.ArenaManager" name="void clearWaitingPods()" map="A"/>
-  <method class="org.byauth.manager.ArenaManager" name="org.bukkit.Location getPodLocation(org.byauth.game.Team)" map="A"/>
-  <method class="org.byauth.manager.ArenaManager" name="void clearLootContainers()" map="B"/>
-  <method class="org.byauth.manager.ArenaManager" name="org.bukkit.Location getCenter()" map="C"/>
-  <method class="org.byauth.manager.ArenaManager" name="int getArenaY()" map="D"/>
-  <method class="org.byauth.manager.ArenaManager" name="void setAllSlicesToWhite()" map="E"/>
-  <method class="org.byauth.manager.ArenaManager" name="void placeCenterLootContainers()" map="F"/>
-  <method class="org.byauth.manager.ArenaManager" name="void resetArena(java.util.List)" map="A"/>
-  <method class="org.byauth.manager.ArenaManager" name="void generateBarrierWalls()" map="G"/>
-  <method class="org.byauth.manager.ArenaManager" name="void generateWaitingPods(java.util.List)" map="B"/>
-  <method class="org.byauth.manager.ArenaManager" name="void convertTeamSliceToWhite(org.byauth.game.Team)" map="B"/>
-  <method class="org.byauth.manager.ArenaManager" name="void fillLootContainers(int)" map="A"/>
-  <method class="org.byauth.manager.ArenaManager" name="int getLavaY()" map="H"/>
-  <method class="org.byauth.manager.ArenaManager" name="void destroyArena()" map="I"/>
-  <method class="org.byauth.manager.ArenaManager" name="org.byauth.game.Team getTeamFromLocation(org.bukkit.Location)" map="A"/>
-  <method class="org.byauth.manager.ArenaManager" name="void paintArenaFloor(java.util.List)" map="C"/>
-  <method class="org.byauth.manager.ArenaManager" name="void clearEntitiesInArena()" map="J"/>
-  <method class="org.byauth.manager.ArenaManager" name="void generateArena(org.bukkit.Location, java.util.List)" map="A"/>
+  <method class="org.byauth.manager.ArenaManager" name="void generateBarrierWalls()" map="A"/>
+  <method class="org.byauth.manager.ArenaManager" name="void paintArenaFloor(java.util.List)" map="A"/>
+  <method class="org.byauth.manager.ArenaManager" name="void clearEntitiesInArena()" map="B"/>
   <class name="org.byauth.manager.GameManager$9" map="9"/>
   <field class="org.byauth.manager.GameManager$9" name="this$0" map="this$0"/>
   <field class="org.byauth.manager.GameManager$9" name="note" map="note"/>
@@ -25673,7 +25811,6 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.manager.GameManager$1" name="this$0" map="this$0"/>
   <field class="org.byauth.manager.GameManager$1" name="countdown" map="countdown"/>
   <method class="org.byauth.manager.GameManager$1" name="void run()" map="run"/>
-  <class name="org.byauth.manager.GameManager" map="E"/>
   <field class="org.byauth.manager.GameManager" name="roundTimerTask" map="A"/>
   <field class="org.byauth.manager.GameManager" name="teamsInGame" map="B"/>
   <field class="org.byauth.manager.GameManager" name="playerPlacedBlocks" map="C"/>
@@ -25696,63 +25833,40 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.manager.GameManager" name="teams" map="T"/>
   <field class="org.byauth.manager.GameManager" name="playerDataManager" map="U"/>
   <field class="org.byauth.manager.GameManager" name="fallDamageImmunity" map="V"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.Map getActiveAoETraps()" map="A"/>
   <method class="org.byauth.manager.GameManager" name="void playWinMusic(org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="boolean isPlayerWaiting(org.bukkit.entity.Player)" map="B"/>
-  <method class="org.byauth.manager.GameManager" name="boolean lambda$startCelebration$0(org.bukkit.entity.Player)" map="C"/>
+  <method class="org.byauth.manager.GameManager" name="boolean lambda$startCelebration$0(org.bukkit.entity.Player)" map="B"/>
   <method class="org.byauth.manager.GameManager" name="java.util.List lambda$assignPlayersToTeams$0(org.byauth.game.Team)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="void unassignPlayerFromTeam(org.bukkit.entity.Player)" map="D"/>
-  <method class="org.byauth.manager.GameManager" name="boolean lambda$startInterRoundPhase$1(org.bukkit.entity.Player)" map="E"/>
-  <method class="org.byauth.manager.GameManager" name="void assignPlayerToTeam(org.bukkit.entity.Player, org.byauth.game.Team)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="void startCobwebTask()" map="B"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.Set getInvinciblePlayers()" map="C"/>
-  <method class="org.byauth.manager.GameManager" name="org.byauth.manager.SpecialItemManager getSpecialItemManager()" map="D"/>
-  <method class="org.byauth.manager.GameManager" name="void lambda$handleStaggeredSpawning$1(org.bukkit.entity.Player)" map="F"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.Map getPlayerPlacedBlocks()" map="E"/>
-  <method class="org.byauth.manager.GameManager" name="void resetArena()" map="F"/>
-  <method class="org.byauth.manager.GameManager" name="boolean lambda$startInterRoundPhase$0(org.bukkit.entity.Player)" map="G"/>
-  <method class="org.byauth.manager.GameManager" name="void handleStaggeredSpawning()" map="G"/>
-  <method class="org.byauth.manager.GameManager" name="boolean isTeamAlive(org.byauth.game.Team)" map="B"/>
-  <method class="org.byauth.manager.GameManager" name="boolean lambda$handleStaggeredSpawning$0(org.bukkit.entity.Player)" map="H"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.Map getTeams()" map="H"/>
+  <method class="org.byauth.manager.GameManager" name="boolean lambda$startInterRoundPhase$1(org.bukkit.entity.Player)" map="C"/>
+  <method class="org.byauth.manager.GameManager" name="void startCobwebTask()" map="A"/>
+  <method class="org.byauth.manager.GameManager" name="void lambda$handleStaggeredSpawning$1(org.bukkit.entity.Player)" map="D"/>
+  <method class="org.byauth.manager.GameManager" name="void resetArena()" map="B"/>
+  <method class="org.byauth.manager.GameManager" name="boolean lambda$startInterRoundPhase$0(org.bukkit.entity.Player)" map="E"/>
+  <method class="org.byauth.manager.GameManager" name="void handleStaggeredSpawning()" map="C"/>
+  <method class="org.byauth.manager.GameManager" name="boolean lambda$handleStaggeredSpawning$0(org.bukkit.entity.Player)" map="F"/>
   <method class="org.byauth.manager.GameManager" name="boolean lambda$checkWinCondition$0(java.util.UUID)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="org.byauth.game.Team getTeamOfPlayerByUUID(java.util.UUID)" map="B"/>
-  <method class="org.byauth.manager.GameManager" name="int lambda$assignPlayersToTeams$4(org.byauth.game.Team)" map="C"/>
-  <method class="org.byauth.manager.GameManager" name="void startNextRound()" map="I"/>
-  <method class="org.byauth.manager.GameManager" name="org.byauth.game.Arena getArena()" map="J"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.List lambda$assignPlayersToTeams$1(org.byauth.game.Team)" map="D"/>
-  <method class="org.byauth.manager.GameManager" name="void startRoundTimer()" map="K"/>
-  <method class="org.byauth.manager.GameManager" name="void stopGame(boolean)" map="A"/>
+  <method class="org.byauth.manager.GameManager" name="int lambda$assignPlayersToTeams$4(org.byauth.game.Team)" map="B"/>
+  <method class="org.byauth.manager.GameManager" name="void startNextRound()" map="D"/>
+  <method class="org.byauth.manager.GameManager" name="java.util.List lambda$assignPlayersToTeams$1(org.byauth.game.Team)" map="C"/>
+  <method class="org.byauth.manager.GameManager" name="void startRoundTimer()" map="E"/>
   <method class="org.byauth.manager.GameManager" name="void spawnPlayerAfterDelay(org.bukkit.entity.Player, long)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="boolean checkWinCondition()" map="L"/>
   <method class="org.byauth.manager.GameManager" name="void assignPlayersToTeams(java.util.List)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="void startInterRoundPhase(boolean)" map="B"/>
-  <method class="org.byauth.manager.GameManager" name="void cleanupBeforeGame()" map="M"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.Map getActiveGravityBombs()" map="N"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.Map getSnowballCooldown()" map="O"/>
-  <method class="org.byauth.manager.GameManager" name="void endRound()" map="P"/>
-  <method class="org.byauth.manager.GameManager" name="void startSuddenDeath()" map="Q"/>
-  <method class="org.byauth.manager.GameManager" name="int lambda$assignPlayersToTeams$3(org.byauth.game.Team)" map="E"/>
+  <method class="org.byauth.manager.GameManager" name="void startInterRoundPhase(boolean)" map="A"/>
+  <method class="org.byauth.manager.GameManager" name="void cleanupBeforeGame()" map="F"/>
+  <method class="org.byauth.manager.GameManager" name="void endRound()" map="G"/>
+  <method class="org.byauth.manager.GameManager" name="void startSuddenDeath()" map="H"/>
+  <method class="org.byauth.manager.GameManager" name="int lambda$assignPlayersToTeams$3(org.byauth.game.Team)" map="D"/>
   <method class="org.byauth.manager.GameManager" name="void teleportPlayerToPodWithOffset(org.bukkit.entity.Player, org.byauth.game.Team, int, int)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="void startCelebration(org.byauth.game.Team)" map="F"/>
-  <method class="org.byauth.manager.GameManager" name="boolean hasFallDamageImmunity(org.bukkit.entity.Player)" map="I"/>
-  <method class="org.byauth.manager.GameManager" name="org.byauth.game.Team getTeamOfPlayer(org.bukkit.entity.Player)" map="J"/>
-  <method class="org.byauth.manager.GameManager" name="boolean isSuddenDeath()" map="R"/>
-  <method class="org.byauth.manager.GameManager" name="boolean lambda$startSuddenDeath$0(org.bukkit.entity.Player)" map="K"/>
+  <method class="org.byauth.manager.GameManager" name="void startCelebration(org.byauth.game.Team)" map="E"/>
+  <method class="org.byauth.manager.GameManager" name="boolean lambda$startSuddenDeath$0(org.bukkit.entity.Player)" map="G"/>
   <method class="org.byauth.manager.GameManager" name="void spawnFireworks(org.bukkit.Location)" map="A"/>
-  <method class="org.byauth.manager.GameManager" name="boolean lambda$assignPlayersToTeams$2(org.byauth.game.Team)" map="G"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.Map getPlayerTeams()" map="S"/>
-  <method class="org.byauth.manager.GameManager" name="void removePlayerFromGame(org.bukkit.entity.Player)" map="L"/>
-  <method class="org.byauth.manager.GameManager" name="java.util.List getPlayersInTeam(org.byauth.game.Team)" map="H"/>
-  <method class="org.byauth.manager.GameManager" name="void startGame(org.bukkit.Location)" map="B"/>
-  <method class="org.byauth.manager.GameManager" name="void beginSuddenDeathFall()" map="T"/>
+  <method class="org.byauth.manager.GameManager" name="boolean lambda$assignPlayersToTeams$2(org.byauth.game.Team)" map="F"/>
+  <method class="org.byauth.manager.GameManager" name="void beginSuddenDeathFall()" map="I"/>
   <class name="org.byauth.manager.RankManager$Rank" map="_A"/>
   <field class="org.byauth.manager.RankManager$Rank" name="commands" map="A"/>
   <field class="org.byauth.manager.RankManager$Rank" name="name" map="B"/>
   <field class="org.byauth.manager.RankManager$Rank" name="points" map="C"/>
   <field class="org.byauth.manager.RankManager$Rank" name="group" map="D"/>
   <method class="org.byauth.manager.RankManager$Rank" name="java.lang.String findGroup(java.util.List)" map="A"/>
-  <class name="org.byauth.manager.RankManager" map="F"/>
   <field class="org.byauth.manager.RankManager" name="ranksFile" map="A"/>
   <field class="org.byauth.manager.RankManager" name="luckPerms" map="B"/>
   <field class="org.byauth.manager.RankManager" name="enabled" map="C"/>
@@ -25762,52 +25876,31 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.manager.RankManager" name="ranksConfig" map="G"/>
   <field class="org.byauth.manager.RankManager" name="playerDataManager" map="H"/>
   <method class="org.byauth.manager.RankManager" name="void lambda$checkAndPromote$0(org.byauth.manager.RankManager$Rank, org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.manager.RankManager" name="void reload()" map="A"/>
-  <method class="org.byauth.manager.RankManager" name="void checkAndPromote(org.bukkit.entity.Player)" map="A"/>
   <method class="org.byauth.manager.RankManager" name="int lambda$reload$0(org.byauth.manager.RankManager$Rank)" map="A"/>
-  <class name="org.byauth.manager.SpecialItemManager" map="G"/>
   <field class="org.byauth.manager.SpecialItemManager" name="gameManager" map="A"/>
   <field class="org.byauth.manager.SpecialItemManager" name="settings" map="B"/>
   <field class="org.byauth.manager.SpecialItemManager" name="plugin" map="C"/>
   <field class="org.byauth.manager.SpecialItemManager" name="activeEffects" map="D"/>
   <method class="org.byauth.manager.SpecialItemManager" name="void lambda$applyEffectToTeam$0(org.byauth.game.Team, java.lang.String)" map="A"/>
-  <method class="org.byauth.manager.SpecialItemManager" name="void cancelAllEffects()" map="A"/>
-  <method class="org.byauth.manager.SpecialItemManager" name="void handleCandlePlace(org.bukkit.entity.Player, org.byauth.game.Team, org.bukkit.Material)" map="A"/>
   <method class="org.byauth.manager.SpecialItemManager" name="void applyEffectToTeam(org.byauth.game.Team, org.bukkit.potion.PotionEffect, java.lang.String, int)" map="A"/>
-  <class name="org.byauth.manager.ShopManager" map="H"/>
   <field class="org.byauth.manager.ShopManager" name="shopFile" map="A"/>
   <field class="org.byauth.manager.ShopManager" name="shopConfig" map="B"/>
   <field class="org.byauth.manager.ShopManager" name="settings" map="C"/>
   <field class="org.byauth.manager.ShopManager" name="plugin" map="D"/>
   <field class="org.byauth.manager.ShopManager" name="shopItems" map="E"/>
-  <method class="org.byauth.manager.ShopManager" name="org.byauth.data.ShopItem getShopItemById(java.lang.String)" map="A"/>
-  <method class="org.byauth.manager.ShopManager" name="java.util.List getShopItems()" map="A"/>
   <method class="org.byauth.manager.ShopManager" name="java.lang.String lambda$loadShopItems$0(int, java.lang.String)" map="A"/>
-  <method class="org.byauth.manager.ShopManager" name="void loadShopItems()" map="B"/>
+  <method class="org.byauth.manager.ShopManager" name="void loadShopItems()" map="A"/>
   <class name="org.byauth.manager.LootManager$LootItem" map="_A"/>
   <field class="org.byauth.manager.LootManager$LootItem" name="item" map="A"/>
   <field class="org.byauth.manager.LootManager$LootItem" name="weight" map="B"/>
-  <class name="org.byauth.manager.LootManager" map="I"/>
   <field class="org.byauth.manager.LootManager" name="itemsConfig" map="A"/>
   <field class="org.byauth.manager.LootManager" name="lootTiers" map="B"/>
   <field class="org.byauth.manager.LootManager" name="plugin" map="C"/>
   <field class="org.byauth.manager.LootManager" name="itemsFile" map="D"/>
   <field class="org.byauth.manager.LootManager" name="specialItems" map="E"/>
-  <method class="org.byauth.manager.LootManager" name="void reload()" map="A"/>
-  <method class="org.byauth.manager.LootManager" name="org.bukkit.inventory.ItemStack getSpecialItem(java.lang.String)" map="A"/>
   <method class="org.byauth.manager.LootManager" name="int lambda$getLootForRound$0(org.byauth.manager.LootManager$LootItem)" map="A"/>
-  <method class="org.byauth.manager.LootManager" name="java.util.List getLootForRound(int)" map="A"/>
-  <method class="org.byauth.manager.LootManager" name="void loadLoot()" map="B"/>
-  <package name="org.byauth.hook" map="E"/>
-  <class name="org.byauth.hook.PlaceholderHook" map="A"/>
+  <method class="org.byauth.manager.LootManager" name="void loadLoot()" map="A"/>
   <field class="org.byauth.hook.PlaceholderHook" name="plugin" map="A"/>
-  <method class="org.byauth.hook.PlaceholderHook" name="boolean persist()" map="persist"/>
-  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String getAuthor()" map="getAuthor"/>
-  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String onPlaceholderRequest(org.bukkit.entity.Player, java.lang.String)" map="onPlaceholderRequest"/>
-  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String getVersion()" map="getVersion"/>
-  <method class="org.byauth.hook.PlaceholderHook" name="java.lang.String getIdentifier()" map="getIdentifier"/>
-  <package name="org.byauth.data" map="F"/>
-  <class name="org.byauth.data.VictoryEffect" map="A"/>
   <field class="org.byauth.data.VictoryEffect" name="displayName" map="A"/>
   <field class="org.byauth.data.VictoryEffect" name="loreAvailable" map="B"/>
   <field class="org.byauth.data.VictoryEffect" name="material" map="C"/>
@@ -25816,24 +25909,10 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.data.VictoryEffect" name="loreSelected" map="F"/>
   <field class="org.byauth.data.VictoryEffect" name="slot" map="G"/>
   <field class="org.byauth.data.VictoryEffect" name="id" map="H"/>
-  <method class="org.byauth.data.VictoryEffect" name="java.util.List getLoreSelected()" map="A"/>
-  <method class="org.byauth.data.VictoryEffect" name="int getSlot()" map="B"/>
-  <method class="org.byauth.data.VictoryEffect" name="int getPrice()" map="C"/>
-  <method class="org.byauth.data.VictoryEffect" name="org.bukkit.Material getMaterial()" map="D"/>
-  <method class="org.byauth.data.VictoryEffect" name="java.lang.String getDisplayName()" map="E"/>
-  <method class="org.byauth.data.VictoryEffect" name="java.lang.String getId()" map="F"/>
-  <method class="org.byauth.data.VictoryEffect" name="java.util.List getLoreAvailable()" map="G"/>
-  <method class="org.byauth.data.VictoryEffect" name="java.util.List getLoreOwned()" map="H"/>
-  <class name="org.byauth.data.ShopItem" map="B"/>
   <field class="org.byauth.data.ShopItem" name="giveItem" map="A"/>
   <field class="org.byauth.data.ShopItem" name="displayItem" map="B"/>
   <field class="org.byauth.data.ShopItem" name="price" map="C"/>
   <field class="org.byauth.data.ShopItem" name="id" map="D"/>
-  <method class="org.byauth.data.ShopItem" name="org.bukkit.inventory.ItemStack getGiveItem()" map="A"/>
-  <method class="org.byauth.data.ShopItem" name="org.bukkit.inventory.ItemStack getDisplayItem()" map="B"/>
-  <method class="org.byauth.data.ShopItem" name="int getPrice()" map="C"/>
-  <method class="org.byauth.data.ShopItem" name="java.lang.String getId()" map="D"/>
-  <class name="org.byauth.data.PlayerStats" map="C"/>
   <field class="org.byauth.data.PlayerStats" name="ownedCosmetics" map="A"/>
   <field class="org.byauth.data.PlayerStats" name="selectedKillEffect" map="B"/>
   <field class="org.byauth.data.PlayerStats" name="kills" map="C"/>
@@ -25844,149 +25923,73 @@ to act on classes which have been obfuscated.
   <field class="org.byauth.data.PlayerStats" name="deaths" map="H"/>
   <field class="org.byauth.data.PlayerStats" name="selectedArrowEffect" map="I"/>
   <field class="org.byauth.data.PlayerStats" name="points" map="J"/>
-  <method class="org.byauth.data.PlayerStats" name="int getDeaths()" map="A"/>
-  <method class="org.byauth.data.PlayerStats" name="void addBCoin(int)" map="A"/>
-  <method class="org.byauth.data.PlayerStats" name="void setPoints(int)" map="B"/>
-  <method class="org.byauth.data.PlayerStats" name="java.lang.String getSelectedKillEffect()" map="B"/>
-  <method class="org.byauth.data.PlayerStats" name="void setSelectedCosmetic(java.lang.String)" map="A"/>
-  <method class="org.byauth.data.PlayerStats" name="void incrementDeaths()" map="C"/>
-  <method class="org.byauth.data.PlayerStats" name="void incrementKills()" map="D"/>
-  <method class="org.byauth.data.PlayerStats" name="int getLosses()" map="E"/>
-  <method class="org.byauth.data.PlayerStats" name="void setBCoin(int)" map="C"/>
-  <method class="org.byauth.data.PlayerStats" name="void setOwnedCosmetics(java.util.List)" map="A"/>
-  <method class="org.byauth.data.PlayerStats" name="int getBCoin()" map="F"/>
-  <method class="org.byauth.data.PlayerStats" name="void incrementLosses()" map="G"/>
-  <method class="org.byauth.data.PlayerStats" name="java.lang.String getSelectedCosmetic()" map="H"/>
-  <method class="org.byauth.data.PlayerStats" name="int getPoints()" map="I"/>
-  <method class="org.byauth.data.PlayerStats" name="void setSelectedArrowEffect(java.lang.String)" map="B"/>
-  <method class="org.byauth.data.PlayerStats" name="int getKills()" map="J"/>
-  <method class="org.byauth.data.PlayerStats" name="java.util.List getOwnedCosmetics()" map="K"/>
-  <method class="org.byauth.data.PlayerStats" name="java.lang.String getSelectedArrowEffect()" map="L"/>
-  <method class="org.byauth.data.PlayerStats" name="void setSelectedKillEffect(java.lang.String)" map="C"/>
-  <method class="org.byauth.data.PlayerStats" name="void addPoints(int)" map="D"/>
-  <method class="org.byauth.data.PlayerStats" name="int getWins()" map="M"/>
-  <method class="org.byauth.data.PlayerStats" name="void incrementWins()" map="N"/>
-  <package name="org.byauth.listener" map="G"/>
-  <class name="org.byauth.listener.PlayerMoveListener" map="A"/>
   <field class="org.byauth.listener.PlayerMoveListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.PlayerMoveListener" name="plugin" map="B"/>
-  <method class="org.byauth.listener.PlayerMoveListener" name="void onPlayerMove(org.bukkit.event.player.PlayerMoveEvent)" map="onPlayerMove"/>
-  <class name="org.byauth.listener.CosmeticGuiListener" map="B"/>
   <field class="org.byauth.listener.CosmeticGuiListener" name="settingsManager" map="A"/>
   <field class="org.byauth.listener.CosmeticGuiListener" name="cosmeticManager" map="B"/>
   <field class="org.byauth.listener.CosmeticGuiListener" name="plugin" map="C"/>
   <field class="org.byauth.listener.CosmeticGuiListener" name="playerDataManager" map="D"/>
-  <method class="org.byauth.listener.CosmeticGuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)" map="onInventoryClick"/>
   <method class="org.byauth.listener.CosmeticGuiListener" name="void selectEffect(org.byauth.data.PlayerStats, java.lang.String, java.lang.String)" map="A"/>
   <method class="org.byauth.listener.CosmeticGuiListener" name="void handleEffectSelection(org.bukkit.entity.Player, org.bukkit.inventory.meta.ItemMeta)" map="A"/>
-  <class name="org.byauth.listener.BlockPlaceListener" map="C"/>
   <field class="org.byauth.listener.BlockPlaceListener" name="specialCandles" map="A"/>
   <field class="org.byauth.listener.BlockPlaceListener" name="settings" map="B"/>
   <field class="org.byauth.listener.BlockPlaceListener" name="arenaController" map="C"/>
   <field class="org.byauth.listener.BlockPlaceListener" name="plugin" map="D"/>
-  <method class="org.byauth.listener.BlockPlaceListener" name="void onBlockPlace(org.bukkit.event.block.BlockPlaceEvent)" map="onBlockPlace"/>
-  <class name="org.byauth.listener.BlockFormListener" map="D"/>
   <field class="org.byauth.listener.BlockFormListener" name="settings" map="A"/>
   <field class="org.byauth.listener.BlockFormListener" name="arenaController" map="B"/>
   <field class="org.byauth.listener.BlockFormListener" name="plugin" map="C"/>
   <method class="org.byauth.listener.BlockFormListener" name="boolean lambda$onBlockForm$0(org.bukkit.block.Block, org.byauth.game.Arena)" map="A"/>
-  <method class="org.byauth.listener.BlockFormListener" name="void onBlockForm(org.bukkit.event.block.BlockFromToEvent)" map="onBlockForm"/>
-  <class name="org.byauth.listener.SupportGuiListener" map="E"/>
   <field class="org.byauth.listener.SupportGuiListener" name="settings" map="A"/>
   <field class="org.byauth.listener.SupportGuiListener" name="arenaController" map="B"/>
   <field class="org.byauth.listener.SupportGuiListener" name="plugin" map="C"/>
   <field class="org.byauth.listener.SupportGuiListener" name="playerDataManager" map="D"/>
   <field class="org.byauth.listener.SupportGuiListener" name="shopManager" map="E"/>
-  <method class="org.byauth.listener.SupportGuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)" map="onInventoryClick"/>
   <method class="org.byauth.listener.SupportGuiListener" name="void handleShopPurchase(org.bukkit.event.inventory.InventoryClickEvent, org.bukkit.entity.Player)" map="A"/>
   <method class="org.byauth.listener.SupportGuiListener" name="void handleTeammateSelection(org.bukkit.event.inventory.InventoryClickEvent, org.bukkit.entity.Player)" map="B"/>
-  <class name="org.byauth.listener.PlayerGameModeChangeListener" map="F"/>
   <field class="org.byauth.listener.PlayerGameModeChangeListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.PlayerGameModeChangeListener" name="plugin" map="B"/>
-  <method class="org.byauth.listener.PlayerGameModeChangeListener" name="void onGameModeChange(org.bukkit.event.player.PlayerGameModeChangeEvent)" map="onGameModeChange"/>
-  <class name="org.byauth.listener.WorldProtectionListener" map="G"/>
   <field class="org.byauth.listener.WorldProtectionListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.WorldProtectionListener" name="plugin" map="B"/>
-  <method class="org.byauth.listener.WorldProtectionListener" name="void onEntityExplode(org.bukkit.event.entity.EntityExplodeEvent)" map="onEntityExplode"/>
-  <method class="org.byauth.listener.WorldProtectionListener" name="void onCreatureSpawn(org.bukkit.event.entity.CreatureSpawnEvent)" map="onCreatureSpawn"/>
-  <class name="org.byauth.listener.GuiListener" map="H"/>
   <field class="org.byauth.listener.GuiListener" name="settings" map="A"/>
   <field class="org.byauth.listener.GuiListener" name="arenaController" map="B"/>
-  <method class="org.byauth.listener.GuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)" map="onInventoryClick"/>
-  <class name="org.byauth.listener.BlockBreakListener" map="I"/>
   <field class="org.byauth.listener.BlockBreakListener" name="plugin" map="A"/>
-  <method class="org.byauth.listener.BlockBreakListener" name="void onBlockBreak(org.bukkit.event.block.BlockBreakEvent)" map="onBlockBreak"/>
-  <class name="org.byauth.listener.PlayerJoinListener" map="J"/>
   <field class="org.byauth.listener.PlayerJoinListener" name="settings" map="A"/>
   <field class="org.byauth.listener.PlayerJoinListener" name="arenaController" map="B"/>
   <field class="org.byauth.listener.PlayerJoinListener" name="plugin" map="C"/>
   <method class="org.byauth.listener.PlayerJoinListener" name="void lambda$onPlayerJoin$0(org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.listener.PlayerJoinListener" name="void onPlayerJoin(org.bukkit.event.player.PlayerJoinEvent)" map="onPlayerJoin"/>
-  <class name="org.byauth.listener.GameDamageListener" map="K"/>
   <field class="org.byauth.listener.GameDamageListener" name="plugin" map="A"/>
-  <method class="org.byauth.listener.GameDamageListener" name="void onEntityDamageByEntity(org.bukkit.event.entity.EntityDamageByEntityEvent)" map="onEntityDamageByEntity"/>
-  <method class="org.byauth.listener.GameDamageListener" name="void onEntityDamage(org.bukkit.event.entity.EntityDamageEvent)" map="onEntityDamage"/>
-  <class name="org.byauth.listener.PlayerQuitListener" map="L"/>
   <field class="org.byauth.listener.PlayerQuitListener" name="arenaController" map="A"/>
-  <method class="org.byauth.listener.PlayerQuitListener" name="void onPlayerQuit(org.bukkit.event.player.PlayerQuitEvent)" map="onPlayerQuit"/>
-  <class name="org.byauth.listener.PlayerChatListener" map="M"/>
   <field class="org.byauth.listener.PlayerChatListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.PlayerChatListener" name="plugin" map="B"/>
-  <method class="org.byauth.listener.PlayerChatListener" name="void onPlayerChat(org.bukkit.event.player.AsyncPlayerChatEvent)" map="onPlayerChat"/>
-  <class name="org.byauth.listener.LobbyProtectionListener" map="N"/>
   <field class="org.byauth.listener.LobbyProtectionListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.LobbyProtectionListener" name="plugin" map="B"/>
   <method class="org.byauth.listener.LobbyProtectionListener" name="boolean isNearMainSpawn(org.bukkit.Location)" map="A"/>
   <method class="org.byauth.listener.LobbyProtectionListener" name="boolean isInLobby(org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onBlockBreak(org.bukkit.event.block.BlockBreakEvent)" map="onBlockBreak"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onEntityPickupItem(org.bukkit.event.entity.EntityPickupItemEvent)" map="onEntityPickupItem"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onBlockPlace(org.bukkit.event.block.BlockPlaceEvent)" map="onBlockPlace"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onPlayerDropItem(org.bukkit.event.player.PlayerDropItemEvent)" map="onPlayerDropItem"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onEntityDamage(org.bukkit.event.entity.EntityDamageEvent)" map="onEntityDamage"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onPlayerMove(org.bukkit.event.player.PlayerMoveEvent)" map="onPlayerMove"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onEntityDamageByEntity(org.bukkit.event.entity.EntityDamageByEntityEvent)" map="onEntityDamageByEntity"/>
   <method class="org.byauth.listener.LobbyProtectionListener" name="boolean isPlayerInActiveGame(org.bukkit.entity.Player)" map="B"/>
-  <method class="org.byauth.listener.LobbyProtectionListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)" map="onInventoryClick"/>
-  <class name="org.byauth.listener.ProjectileHitListener" map="O"/>
   <field class="org.byauth.listener.ProjectileHitListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.ProjectileHitListener" name="plugin" map="B"/>
-  <method class="org.byauth.listener.ProjectileHitListener" name="void onProjectileHit(org.bukkit.event.entity.ProjectileHitEvent)" map="onProjectileHit"/>
   <method class="org.byauth.listener.ProjectileHitListener" name="void handleSpecialProjectileHit(org.bukkit.event.entity.ProjectileHitEvent, org.bukkit.entity.Player, org.byauth.manager.GameManager, org.byauth.game.Arena)" map="A"/>
-  <class name="org.byauth.listener.PlayerItemConsumeListener" map="P"/>
   <field class="org.byauth.listener.PlayerItemConsumeListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.PlayerItemConsumeListener" name="plugin" map="B"/>
   <method class="org.byauth.listener.PlayerItemConsumeListener" name="boolean lambda$onItemConsume$0(org.bukkit.entity.Player, org.bukkit.entity.Player)" map="A"/>
-  <method class="org.byauth.listener.PlayerItemConsumeListener" name="void onItemConsume(org.bukkit.event.player.PlayerItemConsumeEvent)" map="onItemConsume"/>
   <class name="org.byauth.listener.PlayerDeathListener$1" map="1"/>
   <field class="org.byauth.listener.PlayerDeathListener$1" name="this$0" map="this$0"/>
   <field class="org.byauth.listener.PlayerDeathListener$1" name="val$arena" map="val$arena"/>
   <field class="org.byauth.listener.PlayerDeathListener$1" name="val$player" map="val$player"/>
   <method class="org.byauth.listener.PlayerDeathListener$1" name="void run()" map="run"/>
-  <class name="org.byauth.listener.PlayerDeathListener" map="Q"/>
   <field class="org.byauth.listener.PlayerDeathListener" name="settings" map="A"/>
   <field class="org.byauth.listener.PlayerDeathListener" name="arenaController" map="B"/>
   <field class="org.byauth.listener.PlayerDeathListener" name="plugin" map="C"/>
   <field class="org.byauth.listener.PlayerDeathListener" name="playerDataManager" map="D"/>
-  <method class="org.byauth.listener.PlayerDeathListener" name="void onPlayerDeath(org.bukkit.event.entity.PlayerDeathEvent)" map="onPlayerDeath"/>
-  <class name="org.byauth.listener.LobbyListener" map="R"/>
   <field class="org.byauth.listener.LobbyListener" name="settings" map="A"/>
   <field class="org.byauth.listener.LobbyListener" name="arenaController" map="B"/>
   <field class="org.byauth.listener.LobbyListener" name="plugin" map="C"/>
-  <method class="org.byauth.listener.LobbyListener" name="void onPlayerInteract(org.bukkit.event.player.PlayerInteractEvent)" map="onPlayerInteract"/>
-  <class name="org.byauth.listener.SpecialItemUseListener" map="S"/>
   <field class="org.byauth.listener.SpecialItemUseListener" name="arenaController" map="A"/>
   <field class="org.byauth.listener.SpecialItemUseListener" name="plugin" map="B"/>
-  <method class="org.byauth.listener.SpecialItemUseListener" name="void onInteract(org.bukkit.event.player.PlayerInteractEvent)" map="onInteract"/>
-  <class name="org.byauth.listener.LobbyGuiListener" map="T"/>
   <field class="org.byauth.listener.LobbyGuiListener" name="settings" map="A"/>
   <field class="org.byauth.listener.LobbyGuiListener" name="arenaController" map="B"/>
   <field class="org.byauth.listener.LobbyGuiListener" name="plugin" map="C"/>
-  <method class="org.byauth.listener.LobbyGuiListener" name="void onInventoryClick(org.bukkit.event.inventory.InventoryClickEvent)" map="onInventoryClick"/>
-  <class name="org.byauth.listener.ArrowEffectListener" map="U"/>
   <field class="org.byauth.listener.ArrowEffectListener" name="plugin" map="A"/>
-  <method class="org.byauth.listener.ArrowEffectListener" name="void onProjectileLaunch(org.bukkit.event.entity.ProjectileLaunchEvent)" map="onProjectileLaunch"/>
-  <package name="org.byauth.command" map="H"/>
-  <class name="org.byauth.command.AdminCommand" map="A"/>
   <field class="org.byauth.command.AdminCommand" name="settings" map="A"/>
   <field class="org.byauth.command.AdminCommand" name="arenaController" map="B"/>
   <field class="org.byauth.command.AdminCommand" name="plugin" map="C"/>
@@ -25997,36 +26000,25 @@ to act on classes which have been obfuscated.
   <method class="org.byauth.command.AdminCommand" name="void handleTestEffectCommand(org.bukkit.command.CommandSender, java.lang.String[])" map="A"/>
   <method class="org.byauth.command.AdminCommand" name="void handlePointsCommand(org.bukkit.command.CommandSender, java.lang.String[])" map="B"/>
   <method class="org.byauth.command.AdminCommand" name="void handleGiveAllCommand(org.bukkit.command.CommandSender, java.lang.String[])" map="C"/>
-  <method class="org.byauth.command.AdminCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])" map="onCommand"/>
   <method class="org.byauth.command.AdminCommand" name="void handleCoinCommand(org.bukkit.command.CommandSender, java.lang.String[])" map="D"/>
-  <class name="org.byauth.command.PlayerCommand" map="B"/>
   <field class="org.byauth.command.PlayerCommand" name="settings" map="A"/>
   <field class="org.byauth.command.PlayerCommand" name="arenaController" map="B"/>
   <field class="org.byauth.command.PlayerCommand" name="plugin" map="C"/>
   <method class="org.byauth.command.PlayerCommand" name="void sendHelpMessage(org.bukkit.command.CommandSender)" map="A"/>
-  <method class="org.byauth.command.PlayerCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])" map="onCommand"/>
-  <class name="org.byauth.command.CosmeticCommand" map="C"/>
   <field class="org.byauth.command.CosmeticCommand" name="settingsManager" map="A"/>
   <field class="org.byauth.command.CosmeticCommand" name="arenaController" map="B"/>
   <field class="org.byauth.command.CosmeticCommand" name="cosmeticManager" map="C"/>
-  <method class="org.byauth.command.CosmeticCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])" map="onCommand"/>
-  <class name="org.byauth.command.PlayerCommandTabCompleter" map="D"/>
   <field class="org.byauth.command.PlayerCommandTabCompleter" name="subCommands" map="A"/>
   <field class="org.byauth.command.PlayerCommandTabCompleter" name="plugin" map="B"/>
   <method class="org.byauth.command.PlayerCommandTabCompleter" name="boolean lambda$onTabComplete$0(java.lang.String[], java.lang.String)" map="A"/>
-  <method class="org.byauth.command.PlayerCommandTabCompleter" name="java.util.List onTabComplete(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])" map="onTabComplete"/>
   <method class="org.byauth.command.PlayerCommandTabCompleter" name="boolean lambda$onTabComplete$1(java.lang.String[], java.lang.String)" map="B"/>
-  <class name="org.byauth.command.SupportCommand" map="E"/>
   <field class="org.byauth.command.SupportCommand" name="settings" map="A"/>
   <field class="org.byauth.command.SupportCommand" name="arenaController" map="B"/>
   <field class="org.byauth.command.SupportCommand" name="plugin" map="C"/>
-  <method class="org.byauth.command.SupportCommand" name="boolean onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])" map="onCommand"/>
-  <class name="org.byauth.command.AdminCommandTabCompleter" map="F"/>
   <field class="org.byauth.command.AdminCommandTabCompleter" name="subCommands" map="A"/>
   <field class="org.byauth.command.AdminCommandTabCompleter" name="plugin" map="B"/>
   <method class="org.byauth.command.AdminCommandTabCompleter" name="boolean lambda$onTabComplete$0(java.lang.String[], java.lang.String)" map="A"/>
   <method class="org.byauth.command.AdminCommandTabCompleter" name="boolean lambda$onTabComplete$4(java.lang.String[], java.lang.String)" map="B"/>
-  <method class="org.byauth.command.AdminCommandTabCompleter" name="java.util.List onTabComplete(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])" map="onTabComplete"/>
   <method class="org.byauth.command.AdminCommandTabCompleter" name="boolean lambda$onTabComplete$2(java.lang.String[], java.lang.String)" map="C"/>
   <method class="org.byauth.command.AdminCommandTabCompleter" name="boolean lambda$onTabComplete$3(java.lang.String[], java.lang.String)" map="D"/>
   <method class="org.byauth.command.AdminCommandTabCompleter" name="boolean lambda$onTabComplete$1(java.lang.String[], java.lang.String)" map="E"/>

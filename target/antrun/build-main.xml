@@ -11,11 +11,7 @@
               <include name="org.byauth.**" />
             </patternset>
           </class>
-          <annotation classes="friendly">
-            <patternset>
-              <include name="org.bukkit.event.EventHandler" />
-            </patternset>
-          </annotation>
+          <attribute name="RuntimeVisibleAnnotations,AnnotationDefault" />
         </keep>
       </rename>
     </yguard>
