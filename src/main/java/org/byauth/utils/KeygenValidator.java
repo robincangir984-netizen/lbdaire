@@ -16,7 +16,7 @@ public class KeygenValidator {
 
     private final JavaPlugin plugin;
     private final String ACCOUNT_ID = "d0ec9aa8-d84f-4574-be8d-323a36ec647c";
-    private final String PRODUCT_TOKEN = "prod-79703d9c32a5791b47e51d2e5670136c2a9c54a1d23527dfb42237d59e42496av3";
+    private final String PRODUCT_TOKEN = "prod-87cad9311ceeb7ba07e0e6c4306ac7d4ba261952557ce35140651b7bf7bde93cv3";
 
     public KeygenValidator(JavaPlugin plugin) {
         this.plugin = plugin;
