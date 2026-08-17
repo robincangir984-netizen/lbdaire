@@ -3,7 +3,7 @@
 <!--
   yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
 
-  Logfile created on Mon Aug 17 20:01:26 UTC 2026
+  Logfile created on Mon Aug 17 20:24:12 UTC 2026
 
   Jar file to be obfuscated:           LBDaire.jar
   Target Jar file for obfuscated code: LBDaire.jar
@@ -204,8 +204,8 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!--
-  Memory in use after class data structure built: 32748776 bytes
-  Total memory available                        : 109051904 bytes
+  Memory in use after class data structure built: 32695536 bytes
+  Total memory available                        : 112197632 bytes
 -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
@@ -2706,13 +2706,6 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
 <!-- WARNING: No mapping found: org.bukkit.plugin.java.JavaPlugin -->
 <!-- WARNING: No mapping found: org.bukkit.Bukkit -->
-<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.ServicesManager not found! -->
-<!-- WARNING: No mapping found: org.bukkit.plugin.ServicesManager -->
-<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.RegisteredServiceProvider not found! -->
-<!-- WARNING: No mapping found: org.bukkit.plugin.RegisteredServiceProvider -->
-<!-- WARNING: Unresolved external dependency: net.luckperms.api.LuckPerms not found! -->
-<!-- WARNING: Unresolved external dependency: net.luckperms.api.LuckPerms not found! -->
-<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
 <!-- WARNING: No mapping found: org.bukkit.plugin.PluginManager -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.Plugin not found! -->
@@ -2723,6 +2716,14 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.command.CommandExecutor not found! -->
 <!-- WARNING: No mapping found: org.bukkit.command.PluginCommand -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.command.TabCompleter not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.PluginManager -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.ServicesManager not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.ServicesManager -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.RegisteredServiceProvider not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.RegisteredServiceProvider -->
+<!-- WARNING: Unresolved external dependency: net.luckperms.api.LuckPerms not found! -->
+<!-- WARNING: Unresolved external dependency: net.luckperms.api.LuckPerms not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.Server not found! -->
 <!-- WARNING: No mapping found: org.bukkit.Server -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
@@ -2740,12 +2741,12 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.Bukkit not found! -->
-<!-- WARNING: Unresolved external dependency: net.luckperms.api.LuckPerms not found! -->
-<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.ServicesManager not found! -->
-<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.RegisteredServiceProvider not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.command.PluginCommand not found! -->
+<!-- WARNING: Unresolved external dependency: net.luckperms.api.LuckPerms not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.ServicesManager not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.RegisteredServiceProvider not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.Server not found! -->
 <!-- WARNING: No mapping found: org.bukkit.scheduler.BukkitRunnable -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
@@ -26046,7 +26047,8 @@ to act on classes which have been obfuscated.
   <method class="org.byauth.ByCircleGame" name="void initializePlugin()" map="A"/>
   <method class="org.byauth.ByCircleGame" name="void startArenaStuckCheckTask()" map="B"/>
   <method class="org.byauth.ByCircleGame" name="void registerListeners()" map="C"/>
-  <method class="org.byauth.ByCircleGame" name="void scheduleSequentialArenaReset()" map="D"/>
-  <method class="org.byauth.ByCircleGame" name="void startEmptyArenaCheckTask()" map="E"/>
+  <method class="org.byauth.ByCircleGame" name="void setupLuckPerms()" map="D"/>
+  <method class="org.byauth.ByCircleGame" name="void scheduleSequentialArenaReset()" map="E"/>
+  <method class="org.byauth.ByCircleGame" name="void startEmptyArenaCheckTask()" map="F"/>
 </map>
 </yguard>

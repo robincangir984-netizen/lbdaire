@@ -58,28 +58,23 @@ public final class ByCircleGame extends JavaPlugin {
         databaseManager.connect();
 
         this.playerDataManager = new PlayerDataManager(this, databaseManager);
+        
+        // ÖNEMLİ: LootManager, ShopManager'dan ÖNCE başlatılmalıdır.
+        this.lootManager = new LootManager(this);
         this.shopManager = new ShopManager(this);
         this.cosmeticManager = new CosmeticManager(this);
 
-        this.lootManager = new LootManager(this);
         this.arenaController = new ArenaController(this);
 
-        RegisteredServiceProvider<LuckPerms> provider = Bukkit.getServicesManager().getRegistration(LuckPerms.class);
-        if (provider != null) {
-            this.luckPerms = provider.getProvider();
-            this.rankManager = new RankManager(this, luckPerms);
-            getLogger().info("LuckPerms entegrasyonu başarılı, Rank Sistemi aktif.");
-        } else {
-            getLogger().warning("LuckPerms bulunamadı! Rank Sistemi devre dışı bırakılıyor.");
-        }
-
+        // LuckPerms bağımlılık kontrolü ve entegrasyonu
+        setupLuckPerms();
 
         if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
             new PlaceholderHook(this).register();
             getLogger().info("PlaceholderAPI entegrasyonu başarıyla sağlandı.");
         }
 
-        for(Player player : Bukkit.getOnlinePlayers()){
+        for (Player player : Bukkit.getOnlinePlayers()) {
             playerDataManager.loadPlayerData(player);
         }
 
@@ -99,6 +94,25 @@ public final class ByCircleGame extends JavaPlugin {
         getCommand("kozmetik").setExecutor(new CosmeticCommand(this));
 
         registerListeners();
+    }
+
+    private void setupLuckPerms() {
+        if (Bukkit.getPluginManager().isPluginEnabled("LuckPerms")) {
+            try {
+                RegisteredServiceProvider<LuckPerms> provider = Bukkit.getServicesManager().getRegistration(LuckPerms.class);
+                if (provider != null) {
+                    this.luckPerms = provider.getProvider();
+                    this.rankManager = new RankManager(this, luckPerms);
+                    getLogger().info("LuckPerms entegrasyonu başarılı, Rank Sistemi aktif.");
+                } else {
+                    getLogger().warning("LuckPerms servisi bulunamadı! Rank Sistemi devre dışı bırakılıyor.");
+                }
+            } catch (Exception e) {
+                getLogger().severe("LuckPerms bağlanırken hata oluştu: " + e.getMessage());
+            }
+        } else {
+            getLogger().warning("LuckPerms eklentisi sunucuda aktif değil! Rank Sistemi devre dışı bırakılıyor.");
+        }
     }
 
     private void registerListeners() {
@@ -182,7 +196,7 @@ public final class ByCircleGame extends JavaPlugin {
                         if ((currentTime - arena.getLastStateChangeTime()) > resetTimeout) {
                             getLogger().warning("Arena '" + arena.getName() + "' 'Yenileniyor' modunda takılı kaldı. Zorla sıfırlanıyor...");
                             try {
-                                if(arena.getCenterLocation() != null && arena.getCenterLocation().getWorld() != null) {
+                                if (arena.getCenterLocation() != null && arena.getCenterLocation().getWorld() != null) {
                                     arena.getCenterLocation().getWorld().getWorldBorder().reset();
                                 }
                                 Set<UUID> allInvolved = new HashSet<>(arena.getPlayers());
@@ -229,7 +243,6 @@ public final class ByCircleGame extends JavaPlugin {
         }.runTaskTimer(this, 20L * 30, 20L * 20);
     }
 
-
     public void reloadPlugin() {
         settingsManager.reload();
         lootManager.reload();
@@ -244,7 +257,7 @@ public final class ByCircleGame extends JavaPlugin {
     @Override
     public void onDisable() {
         if (playerDataManager != null) {
-            for(Player player : Bukkit.getOnlinePlayers()){
+            for (Player player : Bukkit.getOnlinePlayers()) {
                 playerDataManager.savePlayerData(player, false);
             }
         }
