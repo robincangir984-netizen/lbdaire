@@ -84,11 +84,12 @@ public final class ByCircleGame extends JavaPlugin {
         startArenaStuckCheckTask();
         startEmptyArenaCheckTask();
 
-        getCommand("circlegame").setExecutor(new PlayerCommand(this));
-        getCommand("circlegame").setTabCompleter(new PlayerCommandTabCompleter(this));
+        // Komut adları plugin.yml ile uyumlu olarak daire ve daireadmin yapıldı
+        getCommand("daire").setExecutor(new PlayerCommand(this));
+        getCommand("daire").setTabCompleter(new PlayerCommandTabCompleter(this));
 
-        getCommand("circlegameadmin").setExecutor(new AdminCommand(this));
-        getCommand("circlegameadmin").setTabCompleter(new AdminCommandTabCompleter(this));
+        getCommand("daireadmin").setExecutor(new AdminCommand(this));
+        getCommand("daireadmin").setTabCompleter(new AdminCommandTabCompleter(this));
 
         getCommand("destekle").setExecutor(new SupportCommand(this));
         getCommand("kozmetik").setExecutor(new CosmeticCommand(this));
@@ -270,7 +271,7 @@ public final class ByCircleGame extends JavaPlugin {
             arenaController.shutdown();
         }
 
-        getLogger().info("ByCircleGame eklentisi devre dışı bırakıldı.");
+        getLogger().info("LbDaire eklentisi devre dışı bırakıldı.");
     }
 
     public ArenaController getArenaController() {

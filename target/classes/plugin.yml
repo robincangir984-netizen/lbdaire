@@ -5,15 +5,15 @@ api-version: '1.18'
 softdepend: [PlaceholderAPI, LuckPerms]
 
 commands:
-  circlegame:
+  daire:
     description: Oyuncular için LbDaire komutları.
     usage: /<command>
-    aliases: [cg, lbdaire]
-  circlegameadmin:
+    aliases: [cg, lbdaire, circlegame]
+  daireadmin:
     description: Yöneticiler için LbDaire komutları.
     usage: /<command> <args>
     permission: bycirclegame.admin
-    aliases: [cga, lbdaireadmin]
+    aliases: [cga, lbdaireadmin, circlegameadmin]
   destekle:
     description: İzleyiciyken takım arkadaşlarına yardım etmeni sağlar.
     usage: /destekle

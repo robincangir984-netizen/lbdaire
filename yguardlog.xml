@@ -3,7 +3,7 @@
 <!--
   yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
 
-  Logfile created on Mon Aug 17 20:24:12 UTC 2026
+  Logfile created on Mon Aug 17 20:40:31 UTC 2026
 
   Jar file to be obfuscated:           LBDaire.jar
   Target Jar file for obfuscated code: LBDaire.jar
@@ -204,7 +204,7 @@ to act on classes which have been obfuscated.
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
 <!--
-  Memory in use after class data structure built: 32695536 bytes
+  Memory in use after class data structure built: 32798744 bytes
   Total memory available                        : 112197632 bytes
 -->
 <!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
