@@ -13,6 +13,7 @@
         <directory>src/main/resources</directory>
       </resource>
     </resources>
+    <finalName>LBDaire</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>

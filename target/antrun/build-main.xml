@@ -3,7 +3,7 @@
   <target name="main">
     <taskdef classname="com.yworks.yguard.YGuardTask" name="yguard" classpathref="maven.runtime.classpath" />
     <yguard>
-      <inoutpair in="/workspaces/lbdaire/target/ByCircleGame-1.0.jar" out="/workspaces/lbdaire/target/ByCircleGame-1.0.jar" />
+      <inoutpair in="/workspaces/lbdaire/target/LBDaire.jar" out="/workspaces/lbdaire/target/LBDaire.jar" />
       <rename mainclass="org.byauth.ByCircleGame">
         <keep>
           <class methods="public" classes="public" fields="public">

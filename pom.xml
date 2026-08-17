@@ -18,6 +18,7 @@
     </properties>
 
     <build>
+        <finalName>LBDaire</finalName>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
             <plugin>
